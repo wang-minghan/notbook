@@ -1,8 +1,22 @@
 # 项目状态
 
 - **skill_version:** 4.0
-- **phase:** setup
-- **current_volume:**
-- **current_chapter:**
-- **last_archived:**
-- **next_task:** 填写基础设定（世界观/角色/写作风格）
+- **phase:** outline
+- **current_volume:** 
+- **current_chapter:** 
+- **last_archived:** 
+- **next_task:** 设定已就绪，卷纲已就绪，可开始第一章正文创作
+
+## 已完成
+
+- [x] 项目初始化完成
+- [x] 世界观设定已写入
+- [x] 题材设定已写入
+- [x] 写作风格已写入
+- [x] 全部角色设定已写入（张野+5攻方）
+- [x] 故事索引已写入（story.md）
+- [x] 第一卷·初恋与破处（8章）已写入
+- [x] 第二卷·肉体征服（6章）已写入
+- [x] 第三卷·底线崩塌（6章）已写入
+- [x] 第四卷·嗨操派对（5章）已写入
+- [x] 第五卷·完全沉沦（5章+终章）已写入

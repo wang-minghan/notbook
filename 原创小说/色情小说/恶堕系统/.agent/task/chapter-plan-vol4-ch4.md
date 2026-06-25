@@ -1,4 +1,7 @@
-# Outline Order — 第四卷·第4章「双龙」
+# [COMPLETED] Outline Order — 第四卷·第4章「双龙」
+
+> ✅ 章纲已完成：chapters/vol-4-ch-4.md（202行，20409 bytes）
+> 完成时间：2026-06-25
 
 ## Target
 - **Volume:** 4

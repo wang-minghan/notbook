@@ -1,9 +1,9 @@
-# 高校教师岗位试讲：PPT大纲 + 逐字讲稿
+# 高校教师岗位试讲：PPT大纲 + 逐字讲稿（TED风格）
 
 > **选题**：大模型幻觉问题与知识增强技术——RAG + 本体约束实践
 > **时长**：10分钟
 > **岗位**：计算机/AI领域高校教师
-> **数据来源**：所有引用均替换为具体英文文献/课程来源
+> **风格**：TED演讲风格——口语化、讲故事、有节奏感、自然流畅
 
 ---
 
@@ -13,468 +13,430 @@
 
 ### 第1页 | 封面
 **标题**：大模型幻觉问题与知识增强技术
-——RAG + 本体约束推理实践
+——从检索到约束：让AI学会"守规矩"
 
-**副标题**：从标准检索增强到领域知识驱动的可信推理
+**副标题**：基于RAG + 本体的可信推理实践
 **姓名**：[你的名字]
 **日期**：[试讲日期]
 
-> 🎨 深蓝色科技风背景，放LLM架构图做水印
+> 🎨 深蓝色科技风背景 + 装饰性几何元素
 
 ---
 
-### 第2页 | 大模型的能力与困境
-**标题**：大模型很强大，但还不够可靠
+### 第2页 | 开场："你用过AI查资料吗？"
+**标题**：大模型很强大，但你真的能信它吗？
 
-**左半（能力）**：
-- 自然语言理解、代码生成、知识问答
-- ChatGPT/GPT-4 / Qwen 等模型影响各行各业
+**左侧（能力回顾）**：
+- 能聊天、能写代码、能帮你写论文提纲
+- GPT / Qwen 这些模型已经渗透到各个行业
 
-**右半（困境）**：
-- ⚠️ **Knowledge Cutoff**：训练数据截至某个时间点
-- ⚠️ **Hallucination**：模型可能编造事实
-- ⚠️ **No Private Data Access**：企业/机构内部知识无法获取
+**右侧（核心问题）**：
+- ⚠️ **知识截止**：模型学到的知识停在训练那天
+- ⚠️ **凭空编造**：它可能用极其自信的语气，说一件根本不存在的事（这就是所谓的"幻觉"）
+- ⚠️ **看不到你的数据**：企业内部的知识库，模型一无所知
 
-**底部：核心数据引用**
-> **BBC, 2025.** "Representation of BBC News Content in AI Assistants."
-> → 51% of AI answers had significant issues; 19% introduced factual errors; 13% of quotes were altered or fabricated.
-> — Cited in **Stanford CS224V Lecture 1** (Lam, 2025, slides 6-7)
-> [Source: https://web.stanford.edu/class/cs224v/lectures/l-introduction.pdf]
+**底部数据条**：
+> BBC 在 2025 年做了一次大规模测试：AI 生成的内容中，**51% 存在严重问题**；19% 的回答引用了错误信息；13% 的引用是编造的。
+> 来源：Stanford CS224V 课程
 
 ---
 
-### 第3页 | 一个典型场景：问答中的幻觉
-**标题**：LLM的本质是语言模型，不是知识库
+### 第3页 | 具体场景：它到底能多自信地胡说？
+**标题**：明明在胡说，语气却那么坚定
 
-**案例展示**（PPT左侧）：
+**对话展示**（左侧代码框）：
 ```
-Q: "What major AI products did AsiaInfo Technologies launch in 2025?"
-LLM: "AsiaInfo Technologies launched the AISWare AI Platform in 2025..."
-(But this may be fabricated — no such product exists.)
+问："亚信科技2025年发布了什么AI产品？"
+AI答："亚信科技在2025年推出了AISWare AI平台，
+该平台基于深度学习实现..."
+（实际上这个产品根本不存在）
 ```
 
-**右侧关键论点**：
-> LLMs are **next-token prediction models** (Bengio et al., 2003; Brown et al., 2020),
-> not fact-retrieval databases.
-> → Knowledge boundary is fuzzy → hallucination is inherent.
-
-**参考文献栏**：
-- Brown, T.B., et al. (2020). "Language Models are Few-Shot Learners." *NeurIPS 2020*. arXiv:2005.14165
-- **CS224V Lecture 1**: "LLMs trained on next-word prediction: not precise enough for research."
+**右侧解释**：
+> 问题出在底层机制：大模型本质上是一个"猜词游戏"——它根据上文预测下一个最可能的词，而不是从数据库里查事实。
+> ——Brown et al., 2020
 
 ---
 
-### 第4页 | RAG：检索增强生成的解决思路
-**标题**：RAG = Retrieval + Generation
+### 第4页 | RAG：给AI一本参考书
+**标题**：RAG的思路很简单——别让它裸考
 
-**核心图示**（标准RAG流程）：
-```
-User Query
-    │
-    ▼
-┌──────────────────┐
-│ Retriever Module  │ ← Knowledge Base / Document Store
-│ (BM25 / Dense Ret.)│
-└──────┬───────────┘
-       │ Retrieved passages
-       ▼
-┌──────────────────┐
-│ LLM Generator     │
-│ (context-grounded)│
-└──────┬───────────┘
-       │
-       ▼
-   Final Answer
-```
+**三步流程卡片**：
 
-**三行核心总结**：
-1. **Retrieve**：Find relevant content from knowledge base
-2. **Augment**：Inject retrieved passages into the prompt
-3. **Generate**：LLM answers grounded on retrieved context
+| 步骤 | 做什么 | 大白话 |
+|:----:|--------|--------|
+| 1️⃣ Retrieve | 从知识库找出相关文档 | 先翻书找答案 |
+| 2️⃣ Augment | 把搜到的内容塞进提示词 | 把翻到的内容摆在桌上 |
+| 3️⃣ Generate | 让LLM基于这些材料回答 | 看着材料回答问题 |
 
-**参考文献栏**：
-- **Lewis, P., Perez, E., Piktus, A., et al. (2020).** "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks." *NeurIPS 2020*. arXiv:2005.11401
-- **Neubig, G. (2024).** "CMU CS 11-711 Advanced NLP: Lecture 10 — Retrieval and RAG." Video: https://www.youtube.com/watch?v=KfQaYk4k9eM
-- **Andrew Ng et al. "Retrieval Augmented Generation (RAG)."** DeepLearning.AI. https://www.deeplearning.ai/courses/retrieval-augmented-generation
+> 这个方案由 Lewis 教授团队在 2020 年提出，成了今天所有企业级AI应用的标配架构。
 
 ---
 
-### 第5页 | 标准RAG的技术流程
-**标题**：Standard RAG Pipeline
+### 第5页 | RAG的技术细节
+**标题**：标准RAG是怎么工作的？
 
-**分步流程图**：
+**主流程（横向）**：
 ```
-Documents
- │
- ├─→ Chunking → Embedding → Vector Store (FAISS / ES)
- │
-Query ─┬─→ Dense Retrieval (BGE / DPR) ─┐
-       │                                  ├─→ RRF Fusion → Reranking → Generation
-       └─→ Sparse Retrieval (BM25 / ES) ─┘
+文档 → 切块 → 转向量 → 存进向量库
+                            ↑
+用户的提问 → 两种检索方式同时进行：
+            ① 语义检索（BGE等，找意思相近的）
+            ② 关键词检索（BM25，找字面匹配的）
+                      ↓
+         两种结果融合排序 → 精排 → 生成最终回答
 ```
 
-**技术点 + 英语引用**：
-
-| 技术组件 | 核心参考文献 |
-|----------|-------------|
-| **Dense Passage Retrieval (DPR)** | Karpukhin, V., et al. (2020). "Dense Passage Retrieval for Open-Domain Question Answering." *EMNLP 2020*. arXiv:2004.04906 |
-| **BGE Embedding** | Xiao, S., et al. (2023). "BGE: BAAI General Embedding." https://github.com/FlagOpen/FlagEmbedding |
-| **BM25 Sparse Retrieval** | Robertson, S. & Zaragoza, H. (2009). "The Probabilistic Relevance Framework: BM25 and Beyond." *Foundations and Trends in IR* |
-| **Chunking Strategy** | LangChain. "RecursiveCharacterTextSplitter." https://python.langchain.com |
-| **RRF (Reciprocal Rank Fusion)** | Cormack, G.V., et al. (2009). "Reciprocal Rank Fusion outperforms Condorcet and individual Rank Learning Methods." *SIGIR 2009* |
-| **Cross-Encoder Reranking** | Nogueira, R. & Cho, K. (2019). "Passage Re-ranking with BERT." arXiv:1901.04085 |
+**底部引用卡片**：
+| 技术 | 出处 |
+|------|------|
+| 语义检索（Dense Retrieval） | Karpukhin 团队，2020 |
+| 关键词检索（Sparse BM25） | Robertson & Zaragoza，2009 |
+| 融合排序（RRF） | Cormack 团队，2009 |
+| 精排（Cross-Encoder） | Nogueira & Cho，2019 |
 
 ---
 
-### 第6页 | 斯坦福观点：即使用了RAG，LLM仍然幻觉
-**标题**：Still Hallucinate With RAG (Stanford CS224V)
+### 第6页 | 转折：RAG不是银弹
+**标题**：等等——用了RAG还是不行？
 
-**精确引用Stanford CS224V引言课件（第6-7页）**：
-> **"Perplexity, Gemini, Copilot, ChatGPT Still Hallucinate With RAG"**
-> — BBC (2025): 51% of AI answers to news problems have significant issues.
-> 19% of AI answers which cited BBC content introduced factual errors.
-> 13% of the quotes sourced from BBC articles were either altered or didn't actually exist in that article.
->
-> — **Lam, M. (2025). CS224V Lecture 1, slides 6-7.**
->   https://web.stanford.edu/class/cs224v/lectures/l-introduction.pdf
+**三个血淋淋的数据（大字显示）**：
+| **51%** | **19%** | **13%** |
+|:-------:|:-------:|:-------:|
+| AI回答存在严重问题 | 引用的事实是错的 | 引文是编造的 |
 
-**问题分析（标准RAG的三大局限）**：
-1. **Retrieval Bias**：Retrieved content may be irrelevant, misleading the LLM
-2. **No Domain Constraint**：LLM's reasoning path is unconstrained
-3. **No Consistency Verification**：No mechanism validates answer against domain facts
+*——BBC, 2025；Stanford CS224V 课程数据*
 
-**同时引用企业AI部署的警示案例**：
-> "The Enterprise AI Paradox" — Air Canada forced to honor a fictitious refund policy generated by its chatbot; Lawyer sanctioned over ChatGPT-fabricated legal precedents (cited in CS224V Lecture 1, slide 8)
+**RAG的三个硬伤**：
+1. **搜错了跟着错**：召回内容本身就不相关，AI只会错得更离谱
+2. **没有"规矩"**：AI的推理路径完全不受控
+3. **没人查作业**：系统不会校验回答到底对不对
 
-**引出核心问题**：
-> How do we make LLM reasoning **controllable, interpretable, and verifiable**?
+💡 **引出核心问题**：怎么让大模型的推理变得**可控、可解释、可验证**？
 
 ---
 
-### 第7页 | 我的实践：本体驱动的约束推理
-**标题**：My Approach: Ontology-Constrained Reasoning
+### 第7页 | 我的方案：用"知识规则"约束AI
+**标题**：我的做法：给AI画一条"合理的路"
 
-**核心思路**：
+**架构图**（左侧）：
 ```
-LLM Candidate Reasoning
-    │
-    ▼
-┌──────────────────────────┐
-│ Ontology Validation Layer│
-│ (Neo4j Graph DB)         │
-│ • Entity Validity Check  │
-│ • Relation Path Pruning  │
-│ • Triple Whitelist Filter│
-└────────┬─────────────────┘
-    │ Pass / Prune
-    ▼
-  Trustworthy Output
+        LLM 原始输出
+              ↓
+    ┌─────────────────────┐
+    │  本体校验层（三层）       │
+    │  ① 实体校验——你说的东西存在吗？   │
+    │  ② 关系裁剪——这两个东西真有关系吗？│
+    │  ③ 白名单过滤——专家审核过的才能过│
+    └─────────────────────┘
+              ↓
+       可信输出
 ```
 
-**方法论 → 英文文献支撑**：
+**核心差异**（右侧）：
+> **RAG的做法**：给AI更多参考材料
+> **我们的做法**：给AI划好"能走的路"
 
-| 你的实践点 | 支撑文献 |
-|-----------|---------|
-| **本体（Ontology）**：用图结构定义"合法的事实关系" | Gruber, T.R. (1993). "A Translation Approach to Portable Ontology Specifications." *Knowledge Acquisition*, 5(2), 199-220. |
-| **路径裁剪（Path Pruning）**：基于领域本体的推理路径约束 | Guarino, N., et al. (2009). "What is an Ontology?" *Handbook on Ontologies*, Springer. |
-| **一致性校验（Consistency Verification）**：三元组白名单机制 | **Semnani, S.J., Yao, V.Z., Zhang, H.C., Lam, M.S. (2023).** "WikiChat: Stopping the Hallucination of Large Language Model Chatbots by Few-Shot Grounding on Wikipedia." *EMNLP 2023, Singapore.* — Achieves 97% accuracy via multi-step fact-checking. |
-
-**与CS224V的深层联系**：
-> This approach aligns with **"Computational Thinking + LLM"** advocated by CS224V (Lam, 2025):
-> — Augment LLMs with **algorithms, data representation, abstraction, and decomposition**
-> — Use **multiple, easy LLM steps to consult external data** rather than one free-form generation
-
-**本质区别总结**：
-> **RAG** gives LLMs more text context
-> **Ontology constraint** enforces LLMs to follow **validated reasoning paths**
+> 这个思路和Stanford CS224V倡导的"计算思维+大模型"完全一致：用精确的逻辑去约束AI的自由发挥。
+> 类似工作：WikiChat 通过多步校验达到了 **97% 准确率**（Semnani 团队，2023）
 
 ---
 
-### 第8页 | 系统架构
-**标题**：Multi-Agent System Architecture
+### 第8页 | 系统长什么样
+**标题**：多Agent协作的完整系统
 
-**多Agent编排图**（基于LangGraph思想）：
-
+**五步流水线（横向流程）**：
 ```
-User Query
-    │
-    ▼
-┌──────────────┐
-│ Query Parser  │
-│ Agent         │
-└──────┬───────┘
-       │
-       ▼
-┌──────────────┐    ┌──────────────┐
-│ Hybrid Retrieval│───▶│ Ontology      │
-│ Agent          │    │ Alignment     │
-│ BGE+BM25+RRF   │    │ Agent         │
-└──────┬───────┘    │ Neo4j Mapping │
-       │            └──────┬───────┘
-       │                    │
-       ▼                    ▼
-┌──────────────┐    ┌──────────────┐
-│ Constrained   │◀───│ Consistency   │
-│ Reasoning     │    │ Check Agent   │
-│ Agent         │    │ Triple Whitelst│
-│ Path Pruning  │    └──────────────┘
-└──────┬───────┘
-       │
-       ▼
-  Trustworthy Answer
+用户提问 → 解析意图 → 混合检索(BGE+BM25) → 本体对齐 → 约束推理 → 一致性校验 → 可信回答
 ```
 
-**技术栈 + 引用**：
-
-| 组件 | 参考文献 |
-|------|---------|
-| **LangGraph / LangChain** | LangChain. "LangGraph: Building Stateful Agents." https://www.langchain.com/langgraph |
-| **Qwen Series** | Bai, J., et al. (2023). "Qwen Technical Report." arXiv:2309.16609 |
-| **LoRA Fine-Tuning** | Hu, E.J., et al. (2021). "LoRA: Low-Rank Adaptation of Large Language Models." *ICLR 2022*. arXiv:2106.09685 |
-| **vLLM Inference** | Kwon, W., et al. (2023). "Efficient Memory Management for Large Language Model Serving with PagedAttention." *SOSP 2023*. arXiv:2309.06180 |
-| **Neo4j Graph DB** | Neo4j, Inc. https://neo4j.com/ |
-| **BGE Embedding** | Xiao, S., et al. (2023). https://github.com/FlagOpen/FlagEmbedding |
-| **Elasticsearch (BM25)** | Elasticsearch B.V. https://www.elastic.co/elasticsearch/ |
-| **Multi-Agent Design Pattern** | **CS224V (Lam, 2025, Lectures 3 & 6):** Genie Worksheet — task decomposition into specialized agents with verifiable execution |
+**底部技术栈**：
+> 基础模型：Qwen | 微调：LoRA | 推理加速：vLLM | 编排框架：LangGraph
+> 知识存储：Neo4j图数据库 | 向量检索：BGE + Elasticsearch
 
 ---
 
-### 第9页 | 效果数据与对比
-**标题**：Quantitative Results: Ontology-RAG vs. Standard RAG
+### 第9页 | 结果说话
+**标题**：效果对比——Ontology-RAG vs 标准RAG
 
-| Dimension | Standard RAG | Ontology-Constrained RAG |
-|-----------|:-----------:|:-----------------------:|
-| Retrieval Accuracy | Baseline | **Significantly improved** |
-| Reasoning Consistency | Unstable | **Explicitly traceable** |
-| Hallucination Suppression | Limited | **Systematically reduced** |
-| Interpretability | Black-box | **Chain-verified** |
-| Domain Adaptability | General-purpose | **Knowledge-customizable** |
+| 对比维度 | 标准RAG | 加了本体约束的RAG |
+|---------|:------:|:---------------:|
+| 检索准确率 | 基准水平 | **明显提升** |
+| 推理一致性 | 不稳定 | **清晰可追溯** |
+| 幻觉抑制 | 效果有限 | **系统性降低** |
+| 可解释性 | 黑盒 | **链式验证** |
+| 领域适配 | 通用 | **知识可定制** |
 
-**底部：你项目中的实际量化结果**：
-> ✅ **Prediction accuracy >95%** across multiple engineering datasets (from your project at 北京灵易数智)
-> ✅ **Clear advantage over standard RAG** in accuracy, reasoning consistency, and semantic generalization (from your project at AsiaInfo Technologies)
-> ✅ **Successfully delivered to production clients** — not just experimental (production-proven deployment)
+**底部高亮**：
+> ✅ 多个工程数据集上预测精度超 **95%**
+> ✅ 对比标准RAG在准确率、一致性上全面领先
+> ✅ 已交付到生产环境，不是实验室玩具
 
 ---
 
-### 第10页 | 核心总结
-**标题**：Key Takeaways
+### 第10页 | 一句话总结
+**标题**：记住这三句话就够了
 
-**一句话核心**：
-> LLMs are not inherently unreliable — they need **domain knowledge to constrain their reasoning**.
+**核心金句**：
+> 大模型本身并不可靠——给它正确的知识边界，它才可靠。
 
-**三个要点回顾**：
-1. **Hallucination is inherent** — LLMs are next-token predictors (Brown et al., 2020), not fact databases
-2. **RAG helps, but is insufficient** — Even with RAG, 51% error rate persists (BBC, 2025; CS224V)
-3. **Ontology constraint is the next step** — makes reasoning interpretable, prunable, and verifiable
+**三点回顾**：
+| # | 要点 | 一句话 |
+|:-:|------|--------|
+| 1 | 幻觉是基因里带的 | LLM是猜词游戏，不是查数据库（Brown, 2020） |
+| 2 | RAG有用，但不够 | 用了RAG仍有51%的错误率（BBC/Stanford, 2025） |
+| 3 | 本体约束是进阶 | 让推理变得可解释、可裁剪、可验证 |
 
-**一句话定位你自己的技术路线**：
-> "From using ML to replace physical simulation, to using ontologies to constrain LLM reasoning — the core never changed: **embedding domain knowledge into model inference**."
+**个人定位**：
+> 从"用AI替代物理仿真"到"用本体约束大模型"——核心始终没变：**把领域知识嵌入模型推理中**。
 
 ---
 
 ### 第11页 | 未来方向
-**标题**：Future Directions in Knowledge-Grounded LLMs
+**标题**：下一步往哪走？
 
-**三个方向 + 英文文献**：
+**三个方向**：
 
-| 方向 | 核心文献 |
-|------|---------|
-| **1. Self-RAG + Agents** — LLM decides when to retrieve | Asai, A., et al. (2023). "Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection." arXiv:2310.11511 + Harvard LLM Course (Protopapas, 2025) |
-| **2. Graph-RAG** — Fine-grained graph-based retrieval | Edge, D., et al. (2024). "Graph RAG: Unlocking LLM Discovery on Narrative Private Data." Microsoft Research. arXiv:2404.16130 |
-| **3. Explainable Reasoning Chains** — Every inference path is auditable | **CS224V (Lam, 2025):** Formal semantic representations (SMT, KG, Rule-based conversational policies) |
+| 方向 | 在做什么 | 出处 |
+|------|---------|------|
+| **Self-RAG** | 让AI自己判断"什么时候该去查资料" | Asai 团队，2023 |
+| **Graph-RAG** | 在知识图谱上做精准检索 | Microsoft Edge 团队，2024 |
+| **可解释推理链** | 每步推理都记录可查 | Stanford CS224V |
 
-**一句话收尾**：
-> From basic RAG to knowledge-constrained reasoning, the goal remains the same —
-> **making AI both knowledgeable and rule-abiding**.
+> 从"给AI材料"到"给AI规则"，目标不变：**让AI既"懂知识"，又"守规矩"**。
 
 ---
 
 ### 第12页 | 致谢 & Q&A
-**标题**：Thank You — Questions & Discussion
+**标题**：Thank You · 欢迎提问
 
-> "The best way to make LLMs reliable is not to make them larger — it's to give them the right knowledge and the right constraints."
-
-**完整参考文献列表（均可放在PPT最后一页或讲义中）**：
-
-1. Brown, T.B., et al. (2020). "Language Models are Few-Shot Learners." *NeurIPS 2020*. arXiv:2005.14165
-2. Lewis, P., et al. (2020). "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks." *NeurIPS 2020*. arXiv:2005.11401
-3. Lam, M. (2025). Stanford CS224V: Conversational Virtual Assistants. https://cs224v.stanford.edu/
-4. Semnani, S.J., et al. (2023). "WikiChat: Stopping Hallucination by Few-Shot Grounding on Wikipedia." *EMNLP 2023*.
-5. BBC (2025). "Representation of BBC News Content in AI Assistants." Cited in CS224V.
-6. Karpukhin, V., et al. (2020). "Dense Passage Retrieval for Open-Domain QA." *EMNLP 2020*.
-7. Robertson, S. & Zaragoza, H. (2009). "BM25 and Beyond." *Foundations and Trends in IR*.
-8. Hu, E.J., et al. (2021). "LoRA: Low-Rank Adaptation of LLMs." *ICLR 2022*.
-9. Kwon, W., et al. (2023). "PagedAttention for LLM Serving." *SOSP 2023*.
-10. Bai, J., et al. (2023). "Qwen Technical Report." arXiv:2309.16609
-11. Asai, A., et al. (2023). "Self-RAG." arXiv:2310.11511
-12. Edge, D., et al. (2024). "Graph RAG." Microsoft Research. arXiv:2404.16130
+> "让大模型变得可靠，关键不是把它做得更大——
+> 而是给它正确的知识和正确的边界。"
 
 ---
 
-## 二、逐字讲稿（约10分钟，语速中等）
+## 二、逐字讲稿（TED风格 · 约10分钟）
 
-> 括号内为PPT翻页或板书动作。英文术语直接按原文发音。
-> 以下是混合中英文的9.5分钟讲稿，约1700字。
-
----
-
-### 【第1页 · 封面】约20秒
-
-各位老师好。我今天试讲的题目是：**大模型幻觉问题与知识增强技术——RAG + 本体约束推理实践**。
+> 以下讲稿采用TED演讲风格：口语化、有节奏感、自然流畅。
+> 英文术语首次出现时带中文注解，之后单独使用英文术语。
+> 全程不需要说"翻页"——自然的停顿就够。
 
 ---
 
-### 【第2页 · 大模型的能力与困境】约55秒
+### 【开场 · 第1页】~15秒
 
-（翻页）过去两年，LLM的能力大家有目共睹——从文本理解到代码生成，从知识问答到推理分析。但这背后有一个结构性问题：LLM在本质上是一个 **next-token prediction model**。
+各位老师好。今天我分享的主题是——**大模型幻觉问题与知识增强技术**。
 
-这就带来了三个绕不开的局限：**Knowledge Cutoff**——模型训练结束时，知识就停止了更新；**Hallucination**——模型可能自信地编造事实；以及**No Private Data Access**——企业的内部知识，模型看不到有多强也没用。
-
-Stanford CS224V课程引用了一份2025年BBC报告，数据是这样的：**51% of AI answers had significant issues**；19%引用了BBC内容的回答引入了事实错误；13%的引文被改变或干脆不存在。这不是偶然，是LLM在知识密集型任务上的系统性难题。[Reference: Lam, 2025, CS224V Lecture 1, slides 6-7; BBC 2025]
+副标题是：从检索到约束——让AI学会"守规矩"。
 
 ---
 
-### 【第3页 · 一个典型场景】约40秒
+### 【第2页 · 能力与问题】~60秒
 
-（翻页）举个例子。假设我问LLM："What major AI products did AsiaInfo Technologies launch in 2025？"它的回答会很流畅，结构完整，但细节很可能经不起交叉验证。这不是模型"蠢"，这是它的底层机制决定的——它基于**概率生成下一个词**，不是基于数据库检索事实。[Brown et al., 2020]
+先问大家一个问题：**你们用AI查过资料吗？**
 
----
+用过的人都懂——它确实厉害。能聊天、能写代码、能帮你写论文提纲。GPT也好、Qwen也好，这些模型的能力确实让人惊叹。
 
-### 【第4页 · RAG作为解决方案】约55秒
+但问题来了：**你信它说的每一个字吗？**
 
-（翻页）所以学术界提出了RAG——**Retrieval-Augmented Generation**[Lewis et al., 2020]。工作流很直观：用户提问→从知识库检索相关文档→把检索结果作为上下文注入Prompt→LLM基于上下文生成回答。它等于给了LLM一本"参考书"，而不是让它凭记忆考试。
+事实上，大模型有三个绕不开的"天生缺陷"——
 
-CMU Advanced NLP Lecture 10（Graham Neubig, 2024）和DeepLearning.AI的RAG课程都把这个作为大模型应用架构的核心。
+第一，**知识截止**。它学到的知识停在训练那一天，今天发生的事情它不知道。
+第二，**凭空编造**。这个现象有个专门的词叫"**幻觉**"（Hallucination），指的就是模型用极其自信的语气，说一件根本不存在的事。
+第三，**看不到你的数据**。不管你们企业内部有多少知识库、数据库，模型一无所知。
 
----
+这几年的研究数据很说明问题。BBC在2025年做了一次大规模测试，发现：**AI生成的内容中，51%存在严重问题**；19%的回答引用了错误信息；13%的引用干脆就是编的。
 
-### 【第5页 · 标准RAG的技术细节】约65秒
-
-（翻页）标准RAG在工程上拆成几个关键模块。
-
-首先是**Dense Retrieval**——用BGE或DPR这类embedding model做语义匹配[Karpukhin et al., 2020; Xiao et al., 2023]。然后是**Sparse Retrieval**——用BM25做精确关键词匹配[Robertson & Zaragoza, 2009]。两条路线各有优劣，所以我们做**Hybrid Retrieval**，用**RRF算法**把两种检索结果按排名加权融合[Cormack et al., 2009]。最后用**Cross-Encoder**对召回片段做精细化重排序[Nogueira & Cho, 2019]，再送给LLM生成。
+这个数据来自Stanford的一门课程——CS224V，专门讲对话式AI的。我后面还会回来讲这个课。
 
 ---
 
-### 【第6页 · 标准RAG的局限】约60秒
+### 【第3页 · 具体案例】~45秒
 
-（翻页）但——标准RAG够用吗？不够。
+我给大家看一个具体的例子。
 
-Stanford CS224V的引言课件里用了一个很直白的标题：**"Still Hallucinate With RAG"**[Lam, 2025]。即使使用了检索增强技术，51%的AI回答仍有严重问题，其中13%的引文是编造的。
+假设我问AI："亚信科技2025年发布了什么AI产品？"——这是我之前工作的公司，我很清楚实际情况。
 
-问题在哪？我总结三点：**Retrieval Bias**——捡到不相关的内容反而把LLM带偏了；**No Domain Constraint**——推理路径完全不受控；**No Consistency Verification**——缺少机制去校验回答是否符合领域事实。CS224V引言课件更进一步，批评了航空公司的chatbot强迫公司兑现虚构退款政策、律师因ChatGPT编造判例被处罚等行业案例——这就是所谓的 **Enterprise AI Paradox**：企业急于部署AI，但LLM是不可靠的法律和财务地雷。
+AI的回答会怎么样？它会非常流畅、非常有条理地说："亚信科技在2025年推出了AISWare AI平台，基于深度学习实现……"——说得头头是道。
 
-所以我们在亚信科技的实战中，做了一件更重要的事——
+但问题在于：**这个产品根本不存在**。
 
----
+为什么会出现这种情况？因为大模型的底层机制，说白了就是一个"**猜词游戏**"——它根据已经写出来的词，去猜下一个词最可能是什么。它是语言模型（Language Model），不是数据库。这个结论来自Brown团队2020年那篇著名的GPT-3论文。
 
-### 【第7页 · 本体约束推理】约90秒
-
-（翻页）在标准RAG之上，我们引入了**Ontology-Constrained Reasoning**。核心思想是：不让LLM自由地推理，而是**用显式的领域知识给它划定合法的推理路径**。
-
-我们用Neo4j构建了一个**Ontology Knowledge Layer**，定义领域内的实体和实体间的合法关系。当LLM生成候选推理时，系统会执行三层校验：
-
-第一，**Entity Validity Check**——LLM提到的实体，在Ontology中是否存在？这对应Gruber（1993）关于本体定义的本质：存在一个共享概念的显式约定。第二，**Relation Path Pruning**——LLM推断"A causes B"，但Ontology中A和B之间没有声明这种关系，就裁剪掉。第三，**Triple Whitelist Filter**——只有白名单中经过领域专家确认的三元组才能通过。
-
-这个思路和Stanford CS224V所倡导的 **Computational Thinking + LLM** 完全一致——用精确的算法和显式的知识表示来约束LLM的行为，而不是让它自由发挥。CS224V做出了WikiChat，通过多步验证达到了**97% accuracy**[Semnani et al., 2023]。
+所以，幻觉（Hallucination）不是bug，是基因里带的。
 
 ---
 
-### ### 【第8页 · 系统架构】约55秒
+### 【第4页 · RAG的思路】~50秒
 
-（翻页）这是我们的系统架构。基于LangGraph构建的多Agent编排框架。
+那学术界怎么解决这个问题呢？
 
-我们拆成了五个协作Agent：Query Parser解析用户意图，Hybrid Retrieval Agent执行BGE+BM25混合检索，Ontology Alignment Agent做实体映射，Constrained Reasoning Agent负责在推理过程中执行路径裁剪，最后Consistency Check Agent核验三元组白名单。
+2017年之后出现了一个重要的思路，叫**检索增强生成**，简称RAG。
 
-每个Agent职责明确，整个推理链是**显式可追踪**的。技术栈方面：Qwen系列做基础模型[arXiv:2309.16609]，LoRA做领域微调[ICLR 2022]，vLLM做推理加速[SOSP 2023]，容器化部署在Kubernetes上。
+RAG的逻辑特别简单，我打个比方：**你不该让学生裸考**，你应该给他一本参考书，告诉他答案都在书里，你翻到相关内容再回答。
 
----
+技术上的RAG就是把这句话拆成三步——
 
-### 【第9页 · 效果数据】约45秒
+**第一步，检索**：用户提问后，先从知识库里找出相关的文档片段。
+**第二步，注入**：把这些片段塞进给AI的提示词里，相当于把书翻到相关页摆在它面前。
+**第三步，生成**：AI基于这些材料来回答问题，而不是凭记忆瞎编。
 
-（翻页）直接看对比数据。在检索准确率上，我们的方案相对传统RAG有显著提升。在推理一致性上，路径不再是黑盒。在幻觉抑制上，通过本体校验的多层过滤实现了系统性降低。
-
-量化结果：核心模型在多个工程数据集上的预测精度稳定在95%以上，并且成功交付到客户生产环境。
-
----
-
-### 【第10页 · 核心总结】约45秒
-
-（翻页）用一句话总结今天的分享——**LLMs are not inherently unreliable; they need domain knowledge to constrain their reasoning.**
-
-三个要点回顾：第一，hallucination是LLM底层机制的必然副产品[Brown et al., 2020]。第二，RAG是关键的第一步，让LLM看到了相关文档，但不足以消除幻觉[Lewis et al., 2020; BBC 2025]。第三，Ontology constraint是进阶方案，让推理路径可解释、可裁剪、可验证。
-
-我自己的技术路线：从"用ML替代物理仿真"到"用ontology约束大模型推理"，核心没有变——**把领域知识嵌入模型推理中**。
+这个概念来自Lewis团队2020年发表的一篇NeurIPS论文，现在已经成了所有企业级AI应用的标配。
 
 ---
 
-### 【第11页 · 展望】约40秒
+### 【第5页 · RAG的技术细节】~55秒
 
-（翻页）简单说几个方向。**Self-RAG**[Asai et al., 2023]让LLM自己判断何时需要检索，哈佛LLM课程覆盖了这一点。**Graph-RAG**[Edge et al., 2024]在知识图谱上做细粒度检索。**Explainable reasoning chains**让每条推理路径都可审计——这是CS224V后半程课程的核心主题。
+那RAG具体是怎么做到"找到相关材料"的呢？
 
-从标准RAG到知识约束推理，目标没有变——**让AI既"懂"知识，又"守规矩"**。
+这个过程分成两条平行的检索路线——
+
+**第一条叫语义检索**（Dense Retrieval）。说白了就是"找意思相近的"。你用BGE、DPR这类模型，把问题和文档都转成向量，通过计算相似度找到语义上相关的片段。这个技术来自Karpukhin团队2020年的研究。
+
+**第二条叫关键词检索**（Sparse BM25）。这是更传统的方式——"找字面匹配的"。就像你用百度搜索一样，匹配关键词。具体算法叫BM25，来自Robertson和Zaragoza 2009年的研究。
+
+两条路线各有优劣，所以我们把它们的结果做一个**融合排序**，用RRF算法，最终用一个**精排模型**把最相关的几个片段挑出来，送给AI去生成。
+
+大家可以看到，这里涉及的一系列技术——从向量化到检索、到融合、到排序——构成了今天标准RAG的完整Pipeline。
 
 ---
 
-### 【第12页 · 致谢】约10秒
+### 【第6页 · RAG不够用】~65秒
 
-（翻页）以上就是我的分享。感谢各位老师，欢迎提问交流。
+好，到这里你可能会想：有了RAG，是不是问题就解决了？
+
+**答案是——并没有。**
+
+回到我刚才提到的那份Stanford CS224V的报告。BBC的数据更让人清醒——即使主流产品都用上了RAG，**依然有51%的回答存在严重问题**。这个数据覆盖了Perplexity、Gemini、Copilot、ChatGPT四个系统，全部翻车。
+
+为什么会这样？我总结了三层原因——
+
+**第一，搜索方向就偏了**。如果召回的内容本身就不相关，AI只会错得更离谱。这叫"检索偏差"（Retrieval Bias）。
+
+**第二，AI的推理路径没有人管**。它拿到材料之后想怎么推就怎么推，没有任何约束。
+
+**第三，没有人校验它的答案。** 系统不会反过来检查："你这个回答对不对？和已知事实矛盾吗？"
+
+CS224V还举了更让人忧心的案例——有个航空公司因为聊天机器人承诺了一个根本不存在的退款政策，最后被强制要求兑付。还有律师因为ChatGPT编造了判例，被法庭处罚。
+
+这些都指向同一个问题：**怎么让大模型的推理变得可控、可解释、可验证？**
 
 ---
 
-## 三、完整的英文参考文献列表
+### 【第7页 · 我们的方案】~90秒
 
-> 按PPT出现顺序整理，可直接放入PPT最后一页或讲义末尾。
+这恰恰是我在之前工作中解决的核心问题——我们在标准RAG之上引入了**本体约束推理**（Ontology-Constrained Reasoning）。
 
-| # | 引用 |
-|---|------|
-| [1] | **BBC (2025).** "Representation of BBC News Content in AI Assistants." Cited in Stanford CS224V Lecture 1. |
-| [2] | **Lam, M. (2025).** Stanford CS224V: Conversational Virtual Assistants with Deep Learning. https://cs224v.stanford.edu/ |
-| [3] | **Brown, T.B., et al. (2020).** "Language Models are Few-Shot Learners." *NeurIPS 2020*. arXiv:2005.14165 |
-| [4] | **Lewis, P., et al. (2020).** "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks." *NeurIPS 2020*. arXiv:2005.11401 |
-| [5] | **Neubig, G. (2024).** "CMU CS 11-711 Advanced NLP: Lecture 10 — Retrieval and RAG." https://www.youtube.com/watch?v=KfQaYk4k9eM |
-| [6] | **Karpukhin, V., et al. (2020).** "Dense Passage Retrieval for Open-Domain Question Answering." *EMNLP 2020*. arXiv:2004.04906 |
-| [7] | **Xiao, S., et al. (2023).** "BGE: BAAI General Embedding." https://github.com/FlagOpen/FlagEmbedding |
-| [8] | **Robertson, S. & Zaragoza, H. (2009).** "The Probabilistic Relevance Framework: BM25 and Beyond." *Foundations and Trends in Information Retrieval*. |
-| [9] | **Cormack, G.V., et al. (2009).** "Reciprocal Rank Fusion outperforms Condorcet and Individual Rank Learning Methods." *SIGIR 2009*. |
-| [10] | **Nogueira, R. & Cho, K. (2019).** "Passage Re-ranking with BERT." arXiv:1901.04085 |
-| [11] | **Semnani, S.J., et al. (2023).** "WikiChat: Stopping the Hallucination of Large Language Model Chatbots by Few-Shot Grounding on Wikipedia." *EMNLP 2023*. |
-| [12] | **Gruber, T.R. (1993).** "A Translation Approach to Portable Ontology Specifications." *Knowledge Acquisition*, 5(2), 199-220. |
-| [13] | **Hu, E.J., et al. (2021).** "LoRA: Low-Rank Adaptation of Large Language Models." *ICLR 2022*. arXiv:2106.09685 |
-| [14] | **Kwon, W., et al. (2023).** "Efficient Memory Management for Large Language Model Serving with PagedAttention." *SOSP 2023*. arXiv:2309.06180 |
+这个词听起来有点学术，但思路很简单：**不是让AI自由发挥，而是用领域知识给它划定"合法的推理路径"**。
+
+具体怎么做？我们用**Neo4j图数据库**构建了一个"本体知识层"（Ontology Layer），里面有三个层次的校验——
+
+**第一层，实体校验**：AI提到的这个实体，在我们的知识库里到底存不存在？这来自Gruber 1993年关于本体定义的经典论文。
+
+**第二层，关系裁剪**：AI说"A导致了B"——但在我们的知识中，A和B根本就没有这种关系。那就直接裁剪掉。
+
+**第三层，白名单过滤**：只有经过领域专家确认的"实体-关系-实体"三重组合，才能作为最终输出。
+
+这三层加在一起的逻辑就是：**RAG给AI更多的材料，本体约束给AI画一条"能走的路"**。
+
+这个思路和Stanford CS224V倡导的"**计算思维+大模型**"理念完全一致——用精确的算法和显式的知识去约束AI，而不是让它自由发挥。类似的工作比如WikiChat，通过多步校验达到了**97%的准确率**。
+
+---
+
+### 【第8页 · 系统架构】~50秒
+
+整个系统在工程上分成了五个协作的Agent——
+
+用户提问后，先由**意图解析Agent**理解问题，然后**混合检索Agent**同时执行语义和关键词两条检索，接着**本体对齐Agent**把检索结果映射到我们的知识结构上，**约束推理Agent**负责在推理过程中做路径裁剪，最后**一致性校验Agent**核验三元组白名单。
+
+每个Agent各司其职，整个推理链条是**完全可追踪的**。
+
+技术栈方面：基础模型用Qwen系列，LoRA做领域微调，vLLM做推理加速，LangGraph做多Agent编排，Neo4j存本体知识，BGE和Elasticsearch做双路检索。
+
+---
+
+### 【第9页 · 效果数据】~40秒
+
+直接看对比数据，会更直观——
+
+在检索准确率上，我们的方案对比标准RAG明显提升。推理一致性从"不稳定"变成了"清晰可追溯"。幻觉抑制能力实现了系统性改善。可解释性从黑盒变成链式验证。
+
+量化的结果：**在多个工程数据集上预测精度稳定超过95%**，而且不是实验室里的实验数据——已经交付到客户的生产环境了。
+
+---
+
+### 【第10页 · 核心总结】~40秒
+
+好，总结一下今天的分享，其实就三句话——
+
+**第一，幻觉是基因里带的**。大模型是猜词游戏，不是查数据库。这是底层机制决定的，不是后天能改的。
+
+**第二，RAG有用，但不够**。用了RAG，错误率仍然超过50%。检索增强是第一步，不是终点。
+
+**第三，本体约束是进阶方案**。它让AI的推理变得可解释、可裁剪、可验证。
+
+我个人认为，从"用AI替代物理仿真"到"用本体约束大模型"，**核心始终没变——就是把领域知识嵌入到模型推理中**。
+
+---
+
+### 【第11页 · 未来方向】~35秒
+
+最后，简单看几个方向——
+
+**Self-RAG**：让AI自己判断"什么时候该去查资料"，而不是每次都检索。
+**Graph-RAG**：微软提出的思路，在知识图谱上做更精准的检索。
+**可解释推理链**：让每步推理都记录下来，可以追溯、可以审计。
+
+**一句话收尾**：从"给AI材料"到"给AI规则"，目的始终不变——**让AI既"懂知识"，又"守规矩"**。
+
+---
+
+### 【第12页 · 致谢 & Q&A】~10秒
+
+以上就是我的分享。感谢各位老师——欢迎提问交流。
+
+---
+
+## 三、参考文献（完整列表）
+
+| # | 引用信息 |
+|:--:|---------|
+| [1] | **BBC (2025).** "Representation of BBC News Content in AI Assistants." Stanford CS224V引用。 |
+| [2] | **Lam, M. (2025).** Stanford CS224V: Conversational Virtual Assistants. https://cs224v.stanford.edu/ |
+| [3] | **Brown, T.B., et al. (2020).** "Language Models are Few-Shot Learners." *NeurIPS 2020*. |
+| [4] | **Lewis, P., et al. (2020).** "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks." *NeurIPS 2020*. |
+| [5] | **Karpukhin, V., et al. (2020).** "Dense Passage Retrieval for Open-Domain Question Answering." *EMNLP 2020*. |
+| [6] | **Robertson, S. & Zaragoza, H. (2009).** "The Probabilistic Relevance Framework: BM25 and Beyond." |
+| [7] | **Cormack, G.V., et al. (2009).** "Reciprocal Rank Fusion outperforms Condorcet and Individual Rank Learning Methods." *SIGIR 2009*. |
+| [8] | **Nogueira, R. & Cho, K. (2019).** "Passage Re-ranking with BERT." arXiv:1901.04085 |
+| [9] | **Semnani, S.J., et al. (2023).** "WikiChat: Stopping Hallucination by Few-Shot Grounding on Wikipedia." *EMNLP 2023*. |
+| [10] | **Gruber, T.R. (1993).** "A Translation Approach to Portable Ontology Specifications." *Knowledge Acquisition*. |
+| [11] | **Hu, E.J., et al. (2021).** "LoRA: Low-Rank Adaptation of LLMs." *ICLR 2022*. |
+| [12] | **Kwon, W., et al. (2023).** "PagedAttention for LLM Serving." *SOSP 2023*. |
+| [13] | **Asai, A., et al. (2023).** "Self-RAG." arXiv:2310.11511 |
+| [14] | **Edge, D., et al. (2024).** "Graph RAG." Microsoft Research. arXiv:2404.16130 |
 | [15] | **Bai, J., et al. (2023).** "Qwen Technical Report." arXiv:2309.16609 |
-| [16] | **Asai, A., et al. (2023).** "Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection." arXiv:2310.11511 |
-| [17] | **Edge, D., et al. (2024).** "Graph RAG: Unlocking LLM Discovery on Narrative Private Data." Microsoft Research. arXiv:2404.16130 |
 
 ---
 
-## 四、演讲实用贴士
+## 四、TED风格演讲贴士
 
-### 关于PPT引用标注
-- 每页底部右下角加小字标注引用编号，如 `[2][4]`
-- 最后一页放完整参考文献列表（如上表），面试官追问来源时可以快速指到
-- **第2页和第6页的BBC数据**建议直接从CS224V引言PDF截图[pdf link]，用红色框标注"51%"和"Still Hallucinate With RAG"，视觉效果极强
+### 语速与节奏
+| 阶段 | 对应页码 | 时间 | 节奏 |
+|:----:|:------:|:----:|------|
+| 开场引题 | 2-3 | ~1分45秒 | 中等偏慢，目光扫全场，建立对话感 |
+| 讲RAG共识 | 4-5 | ~1分45秒 | 正常语速，展示技术但不说教 |
+| **转折+亮点** | **6-7** | **~2分35秒** | **放慢，加重语气，这是你最有价值的部分** |
+| 系统与结果 | 8-9 | ~1分30秒 | 自信坚定，数据部分字字清晰 |
+| 总结展望 | 10-12 | ~1分25秒 | 收束有力，结尾谦虚 |
 
-### 关于演讲节奏
-| 阶段 | PPT页码 | 时间 | 节奏提示 |
-|------|:-------:|:----:|---------|
-| 提出问题 | 2-3 | ~1.5min | 稍慢，目光扫全场建立问题感 |
-| 讲共识（RAG） | 4-5 | ~2min | 中等语速，展示技术深度 |
-| **转折（CS224V->你的创新）** | **6-7** | **~2.5min** | **慢下来，手势强调，这是亮点** |
-| 系统与结果 | 8-9 | ~1.5min | 自信坚定，数据放慢读 |
-| 总结展望 | 10-12 | ~1.5min | 收束有力，谦虚结尾 |
+### 发音提示
+- **Hallucination** → 读英语，说完立刻接"幻觉"
+- **Ontology** → 读英语，说完立刻接"本体知识"
+- **RAG** → 读"R-A-G"或"瑞艾格"，中文说"检索增强生成"
+- 英语术语第一次出现必带中文解释，之后可以单独用
 
-### 引用英语术语时的注意事项
-- **Ontology** /ˈɒntɒlədʒi/ — 重音在第二个音节
-- **Hallucination** — 自然发音
-- **Knowledge Cutoff** / Cutoff date — 常见表达
-- 英文术语后面可以紧接中文解释，如："Ontology，也就是用图结构明确定义领域内哪些实体和关系是合法的"
-
-### QA预判（第二轮专业面试用）
-| 可能的提问 | 建议回答 |
-|-----------|---------|
-| **"Ontology构建成本高吗？"** | 初期构建确实需要domain expert参与（Gruber, 1993已有讨论），但本体是图结构，增量更新。一旦建好，推理阶段的收益是全局性的。 |
-| **"知识频繁更新怎么办？"** | 图结构支持增量节点和关系添加，不需要重新训练模型。这与Graph RAG[Edge et al., 2024]的增量更新思路一致。 |
-| **"和Graph-RAG的区别？"** | Graph-RAG从文本抽取图结构来增强检索；我们的ontology侧重**用已有的领域知识约束推理路径**——一个是检索增强，一个是推理约束。 |
-| **"Cite 51%那个数据的来源是什么？"** | 来自BBC 2025年研究报告，由Stanford CS224V Monica Lam引用于Lectures 1 & 6，slides明确展示Perplexity/Gemini/Copilot/ChatGPT四个系统的评估结果。 |
+### 肢体语言
+- 第6页大数字（51%/19%/13%）用手势强调
+- 第7页说"三层校验"时，用手指数着说
+- 全程不要读稿，偶尔看PPT大纲提示即可

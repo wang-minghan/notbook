@@ -116,7 +116,41 @@ Do not force generated images when:
 Completion criterion:
 - You have explicitly decided whether the deck needs generated visuals, diagrams, or neither.
 
-### Step 3: If visuals are needed, enhance prompts before generation
+### Step 3: Classify the visual asset type before prompting
+
+If visuals are needed, do **not** jump straight to one generic prompt style. First classify the asset into one of these four types:
+
+1. **Cover hero visual**
+   - strongest atmosphere and opening impact
+   - supports title overlay
+   - allowed to be the most stylistically expressive
+
+2. **Section opener visual**
+   - transitional visual between sections
+   - should feel branded and consistent, but lighter than a cover
+   - should not look like a standalone poster
+
+3. **Content-slide illustration**
+   - supports a specific concept or message on a content page
+   - should have one clear focal idea
+   - must coexist well with headings, bullets, charts, or paragraphs
+
+4. **Background / atmosphere asset**
+   - primarily supports layout and tone
+   - should stay quiet, crop-tolerant, and text-friendly
+   - should not dominate the slide
+
+Asset-specific guidance:
+
+- **Cover hero visual** → prioritize mood, title-safe space, bold material quality, strong composition.
+- **Section opener visual** → prioritize transition, consistency, moderate emphasis, clean rhythm.
+- **Content-slide illustration** → prioritize concept clarity, single focal subject, lower noise, less poster feel.
+- **Background / atmosphere asset** → prioritize simplicity, soft texture, crop tolerance, low distraction.
+
+Completion criterion:
+- You can name the exact visual asset type and explain why it fits the slide's role.
+
+### Step 4: If visuals are needed, enhance prompts before generation
 
 Never jump straight from "make PPT" to image generation.
 
@@ -129,7 +163,7 @@ If a slide needs a visual asset:
 Completion criterion:
 - The image prompt includes slide-specific constraints, not just subject matter.
 
-### Step 4: Keep PPT placement logic separate from image generation logic
+### Step 5: Keep PPT placement logic separate from image generation logic
 
 Generated images should be treated as **presentation assets**, not final slides.
 
@@ -148,7 +182,7 @@ Generated images should be treated as **presentation assets**, not final slides.
 Completion criterion:
 - The workflow clearly separates asset creation from slide assembly.
 
-### Step 5: Run visual QA from a presentation perspective
+### Step 6: Run visual QA from a presentation perspective
 
 A beautiful image can still be bad for slides.
 
@@ -177,10 +211,12 @@ When doing visual PPT work, prioritize:
 ### Common failure modes
 
 - Calling only `powerpoint` and forgetting prompt/image/design support skills
+- Using one generic 'cover-style' prompt for all asset types
 - Making visually impressive images that leave no room for titles
 - Letting every slide use a different visual language
 - Treating ComfyUI output as final without slide-specific QA
 - Over-focusing on images while neglecting message hierarchy
+- Generating poster-like art when the slide actually needs a quiet content illustration or background asset
 
 ## Recommended Combinations
 

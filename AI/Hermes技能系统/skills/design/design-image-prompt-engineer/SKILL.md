@@ -193,11 +193,13 @@ metadata:
 - **降低文本区复杂度**：文字区域不要堆满粒子、城市细节、人物、强高光
 - **禁止伪文字**：强力压制 text, letters, words, watermark, logo, signage 等伪文字/水印元素
 - **优先版式适配**：评估图像时先看是否适合放字，再看是否“好看”
+- **联动意识**：如果最终用途是 PPT，而不是单独出图，要主动考虑 `ppt-visual-system`、`powerpoint`、`comfyui` 的协同关系
 
 默认流程：
 1. 一次生成多张候选，不要只看单张
 2. 按“能不能安全放标题”筛掉不合格图
 3. 再从合格图里选审美最强的一张
+4. 如果图会被放进 PPT 页面，进一步考虑与版式和叙事是否一致
 
 参考文件：`references/ppt-cover-image-guidelines.md`
 

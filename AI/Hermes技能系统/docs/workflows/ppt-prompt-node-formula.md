@@ -110,6 +110,7 @@ text, letters, words, typography, watermark, logo, signage, poster layout, magaz
 - 但仍要避免文字污染
 - 更强调单一视觉中心
 - 更像“可放进页面的资产”，而不是“完成排版的海报”
+- 可以借用海报感的构图节奏和电影感氛围，但不能带出标题、字幕、演职员表、标语等文字内容
 
 ---
 

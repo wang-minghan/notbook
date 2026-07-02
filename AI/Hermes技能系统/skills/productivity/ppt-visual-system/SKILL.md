@@ -140,6 +140,11 @@ If visuals are needed, do **not** jump straight to one generic prompt style. Fir
    - should stay quiet, crop-tolerant, and text-friendly
    - should not dominate the slide
 
+Important nuance:
+- A PPT visual asset may still use **poster-like composition rhythm** or **cinematic atmosphere**.
+- What must be avoided is not all poster influence, but **baked-in text content**: titles, subtitles, credits, slogans, or promotional typography.
+- In other words: poster-grade mood is allowed; poster-grade lettering is not.
+
 Asset-specific guidance:
 
 - **Cover hero visual** → prioritize mood, title-safe space, bold material quality, strong composition.

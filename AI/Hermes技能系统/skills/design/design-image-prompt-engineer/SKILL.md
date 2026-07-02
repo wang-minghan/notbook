@@ -1,12 +1,13 @@
 ﻿---
 name: design-image-prompt-engineer
-description: 精通摄影美学和 AI 图像生成的提示词专家，擅长把视觉概念转化为精准的文字描述，生成专业级摄影作品。
+description: Use when an image task needs stronger aesthetics, prompt quality, photography-aware prompting, PPT cover constraints, or text-overlay-safe composition.
 version: 1.0.0
 author: agency-agents-zh
 license: MIT
 metadata:
   hermes:
-    tags: [design]
+    tags: [design, image-prompting, aesthetics, photography, ppt, cover]
+    related_skills: [ppt-visual-system, powerpoint, comfyui, design-ui-designer, design-visual-storyteller]
 ---
 
 # 图像提示词工程师

@@ -77,7 +77,7 @@
 
 ### Positive Prompt
 ```text
-premium presentation cover for [主题/主体], [场景/关系], [风格/媒介], [艺术形式], [光影氛围], [画质描述], [构图视角：强调大面积留白与标题安全区], [风格指向], refined, minimal, sophisticated, no text in image
+editorial presentation title-slide background asset for [主题/主体], [场景/关系], [风格/媒介], [艺术形式], [光影氛围], [画质描述], [构图视角：强调大面积留白与标题安全区], [风格指向], clean, restrained, spacious, calm, contemporary, no text in image
 ```
 
 ### Negative Prompt
@@ -97,7 +97,7 @@ text, letters, words, typography, caption, subtitle, watermark, logo, signage, l
 
 ### Positive Prompt
 ```text
-premium presentation illustration for [主题/主体], [场景/关系], [风格/媒介], [艺术形式], [光影氛围], [画质描述], [构图视角：强调单一焦点和页面嵌入适配], [风格指向], refined, clean, presentation-friendly, no text in image
+editorial presentation illustration asset for [主题/主体], [场景/关系], [风格/媒介], [艺术形式], [光影氛围], [画质描述], [构图视角：强调单一焦点和页面嵌入适配], [风格指向], clean, restrained, page-embed-friendly, low-distraction, no text in image
 ```
 
 ### Negative Prompt
@@ -123,9 +123,10 @@ text, letters, words, typography, watermark, logo, signage, poster layout, magaz
 - scheduler: karras
 
 适合目标：
-- 高级
-- 简洁
-- 留白清晰
+- clean editorial look
+- restrained modern PPT aesthetics
+- generous white space
+- clear title-safe or page-friendly composition
 - 用于 PPT 封面或插图
 
 ---

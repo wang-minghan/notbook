@@ -187,6 +187,20 @@ metadata:
 
 当图像最终要进入 PPT、Keynote、演示封面、章节页或插图时，不要把提示词当成普通海报文案去写。
 
+一个重要原则：**不要把“高级”当作默认核心词。** 在图像生成语境里，`高级 / luxury / premium` 很容易把结果推向黑金、香槟金、奢华材质、海报化成品，而这并不等于 2024 之后的现代 PPT 审美。
+
+更推荐的默认目标词是：
+- `editorial`
+- `clean`
+- `restrained`
+- `spacious`
+- `calm`
+- `contemporary`
+- `title-safe`
+- `page-embed-friendly`
+- `low-distraction`
+- `single focal point`
+
 推荐使用这条统一公式：
 
 `[基础设定（画什么）] + [核心5维（怎么画）]`

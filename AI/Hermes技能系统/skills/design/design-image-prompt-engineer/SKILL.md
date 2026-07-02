@@ -183,6 +183,28 @@ metadata:
 - 测试不同侧重点的变体版本
 - 把好用的模式记录下来，下次复用
 
+### PPT / 演示生图核心公式
+
+当图像最终要进入 PPT、Keynote、演示封面、章节页或插图时，不要把提示词当成普通海报文案去写。
+
+推荐使用这条统一公式：
+
+`[基础设定（画什么）] + [核心5维（怎么画）]`
+
+#### 基础设定（画什么）
+1. **载体**：最关键。先声明这是 `presentation cover`、`PPT illustration`、`section opener visual`、`slide background`、`editorial presentation asset` 之类的东西。
+2. **主体**：核心对象是谁 / 什么。
+3. **场景 / 关系**：主体在什么环境中、与什么发生关系。
+4. **风格 / 媒介**：如 3D render、editorial illustration、cinematic abstract visual、minimal material composition。
+5. **约束**：做减法。比如留白、配色克制、单一焦点、不要文字、不要海报感、适合叠标题。
+
+#### 核心5维（怎么画）
+1. **艺术形式**：界定大基调，如 UI/UX design language、3D render、glass / brushed metal / editorial abstraction。
+2. **光影氛围**：决定质感命脉，如 cinematic lighting、soft studio light、volumetric glow、subtle contrast。
+3. **画质描述**：拉高渲染精度，如 highly detailed、premium quality、8k、masterpiece、refined material rendering。
+4. **构图视角**：控制排版空间，如 clean negative space、asymmetrical balance、isometric view、off-center focal point、title-safe layout。
+5. **风格指向**：借成熟视觉语言，如 Apple-like minimalism、Dribbble-grade polish、luxury editorial、corporate keynote aesthetic。
+
 ### PPT 封面配图专项规则
 
 当图像是给 PowerPoint / Keynote 封面或标题页使用时，不要把目标当成普通壁纸或海报图。
@@ -195,10 +217,19 @@ metadata:
 - **优先版式适配**：评估图像时先看是否适合放字，再看是否“好看”
 - **联动意识**：如果最终用途是 PPT，而不是单独出图，要主动考虑 `ppt-visual-system`、`powerpoint`、`comfyui` 的协同关系
 
+### PPT 插图 / 配图专项规则
+
+当图像是给内容页、章节页、说明页、概念插图使用时：
+- 不必像封面那样保��超大标题区
+- 但仍要避免伪文字、假 UI、假海报排版
+- 主体可以更明确，但仍应保持单一视觉中心
+- 优先生成“可嵌入页面的视觉资产”，而不是自带大字与版式的成品海报
+- 如果是概念插图，允许更强叙事性；如果是背景插图，优先降低复杂度
+
 默认流程：
-1. 一次生成多张候选，不要只看单张
-2. 按“能不能安全放标题”筛掉不合格图
-3. 再从合格图里选审美最强的一张
+1. 先判定这张图属于“封面 / 章节页 / 内容插图 / 背景图”哪一类
+2. 再按“基础设定 + 核心5维”组装正向提示词
+3. 用负向提示词压掉文字污染、海报感、拼贴感、UI截图感
 4. 如果图会被放进 PPT 页面，进一步考虑与版式和叙事是否一致
 
 参考文件：`references/ppt-cover-image-guidelines.md`

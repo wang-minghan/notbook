@@ -1,6 +1,6 @@
 ---
 name: ppt-visual-system
-description: "Use when a PPT task needs visual quality, cover images, layout polish, image generation, or style consistency across slides. Orchestrates powerpoint with design and image skills instead of treating PPT work as plain slide editing."
+description: "Use when a PPT task needs visual quality, cover images, layout polish, image generation, or style consistency across slides. For real deck production, route through ppt-master first and use this skill as a supplemental visual orchestration layer."
 version: 1.0.0
 author: Hermes Agent
 license: MIT
@@ -14,14 +14,15 @@ metadata:
 
 ## Overview
 
-This skill is the **visual orchestration layer** for PPT work. It does not replace `powerpoint`; it sits above it.
+This skill is the **visual orchestration layer** for PPT work. It does not replace `ppt-master`; it sits above or beside it.
 
 Use this skill when the user is not merely asking to edit a `.pptx`, but is implicitly asking for a **better-looking presentation**: stronger cover slides, higher-quality images, better style consistency, more intentional layout, or a more premium feel.
 
 The core idea is simple:
 
-- `powerpoint` handles the deck mechanics and `.pptx` execution.
-- `ppt-visual-system` decides **which other skills must be brought in** so PPT work does not become a plain text-and-bullets task.
+- `ppt-master` owns the primary deck-generation workflow and real PPT production.
+- `powerpoint` handles compatibility / mechanical `.pptx` operations when needed.
+- `ppt-visual-system` decides which additional design or image skills should be brought in so PPT work does not become a plain text-and-bullets task.
 
 ## When to Use
 
@@ -45,7 +46,7 @@ This skill exists to prevent `powerpoint` from working in isolation.
 
 ### Base skill
 
-Always treat `powerpoint` as the base execution skill when the deliverable is a `.pptx` deck.
+Always treat `ppt-master` as the base execution workflow when the deliverable is a real `.pptx` deck. Use `powerpoint` only as a secondary compatibility/mechanical skill when small `.pptx` inspection or edits are needed outside the main PPT Master flow.
 
 ### Bring in additional skills based on task shape
 
@@ -227,7 +228,7 @@ When doing visual PPT work, prioritize:
 
 ### Combination A — Cover upgrade
 Use:
-- `powerpoint`
+- `ppt-master`
 - `design-image-prompt-engineer`
 - `comfyui`
 
@@ -238,7 +239,7 @@ For:
 
 ### Combination B — Premium full-deck polish
 Use:
-- `powerpoint`
+- `ppt-master`
 - `design-ui-designer`
 - `design-visual-storyteller`
 - `design-image-prompt-engineer`
@@ -252,7 +253,7 @@ For:
 ### Combination C — Content-first but not ugly
 Use:
 - `presentation-script-writing`
-- `powerpoint`
+- `ppt-master`
 - optionally `design-ui-designer`
 
 For:
@@ -278,7 +279,8 @@ For:
 ## Verification Checklist
 
 - [ ] I identified whether the task is structure-first, visual-first, mixed, or asset-first.
-- [ ] I used `powerpoint` as the base skill for actual deck execution.
+- [ ] I used `ppt-master` as the base workflow for real deck execution.
+- [ ] I used `powerpoint` only when compatibility or small mechanical `.pptx` work was actually needed.
 - [ ] If visuals mattered, I considered `design-image-prompt-engineer` before image generation.
 - [ ] If visuals were generated, I treated them as slide assets rather than final slides.
 - [ ] I checked title space, contrast, clutter, and style consistency.

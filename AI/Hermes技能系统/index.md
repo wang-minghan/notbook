@@ -1,0 +1,39 @@
+# Hermes 技能系统 索引
+
+> 子库总入口。先看这里，再进具体文档、概念页、查询页或技能页。
+> Last updated: 2026-07-08
+
+## 总览
+- [[docs/README]] — Hermes 技能系统总说明
+- [[SCHEMA]] — 结构规则与页面约定
+- [[log]] — 变更记录
+- [[queries/migration-retrospective]] — 迁移回顾
+
+## 文档
+- [[docs/ARCHITECTURE]] — 运行层、配置层、管理层
+- [[docs/USAGE_AND_SYNC]] — 日常维护与同步流程
+
+## 编译知识
+- [[concepts/architecture]] — Hermes 技能系统架构（compiled concept）
+- [[concepts/sync-and-maintenance]] — 同步与维护（compiled workflow）
+- [[queries/migration-retrospective]] — 迁移回顾（compiled query）
+
+## 报告
+- [[reports/migration-report]] — 技能迁移报告
+
+## 核心技能
+- [[skills/interview-master/SKILL]] — 面试准备主技能
+- [[skills/awesome-novel/SKILL]] — 小说工作流主技能
+- [[skills/autonomous-ai-agents/periodic-self-improvement/SKILL]] — 周期性自我升级循环
+- [[skills/autonomous-ai-agents/hermes-plugin-ecosystem/SKILL]] — 插件生态与管理
+- [[skills/autonomous-ai-agents/hermes-memory-provider/SKILL]] — 记忆提供器管理
+- [[skills/software-development/hermes-skills-management/SKILL]] — skills 管理
+- [[skills/productivity/ppt-visual-system/SKILL]] — PPT 视觉系统
+- [[skills/productivity/document-conversion/SKILL]] — 文档转换
+
+## 待补充
+- [[skills/design/design-image-prompt-engineer/SKILL]]
+- [[skills/design/design-visual-storyteller/SKILL]]
+- [[skills/design/design-ui-designer/SKILL]]
+- [[skills/engineering/engineering-vps-diagnosis/SKILL]]
+- [[skills/testing/testing-workflow-optimizer/SKILL]]

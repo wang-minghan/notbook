@@ -1,10 +1,24 @@
+---
+title: AI 知识库索引
+created: 2026-06-27
+updated: 2026-07-10
+type: overview
+tags: [ai, knowledge-base, index]
+sources:
+  - [[SCHEMA]]
+  - [[log]]
+confidence: high
+contested: false
+---
+
 # AI 知识库索引
 
 > 总入口。先看这里，再进入具体页面。
-> Last updated: 2026-07-08
+> 目标不是“保守维护”，而是把库重构成 Karpathy 式 compounding wiki。
 
 ## 总览
 - [[AI知识体系概览]] — 现有 AI 技术栈与能力地图总览
+- [[karpathy-llm-wiki-spec]] — Karpathy 式知识库的目标规范
 - [[SCHEMA]] — 知识库结构、标签、页面类型与协作规则
 - [[knowledge-base-lifecycle]] — Karpathy 式知识库生命周期与维护机制
 - [[karpathy-wiki-vs-traditional-notes]] — Karpathy 式知识库 vs 传统笔记

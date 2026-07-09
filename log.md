@@ -48,7 +48,13 @@
 - Rewrote the related-page blocks on core AI concept pages (`RAG`, `混合检索`, `BM25`, `RRF`, `Cross Encoder`, `本体约束`, `Agent编排`) to use explicit canonical links.
 - This pass focused on true concept nodes, not skills/references leaf assets.
 
-## 相关页面
-- [[index]]
-- [[SCHEMA]]
-- [[AI/Hermes技能系统/index]]
+## [2026-07-10] refine | Karpathy-style wiki optimization pass
+- Reframed the AI wiki toward Karpathy-style compounding wiki goals: persistent compilation, explicit schema, overview/comparison/query pages, and bidirectional hubs.
+- Added and normalized the Karpathy target/spec page plus the comparison page so the knowledge base points at a clearer end state.
+- Upgraded core concept pages into canonical nodes with typed frontmatter and backlinks so they can function as reusable graph anchors.
+- This pass intentionally optimized the end-state graph, not the edit count.
+
+## [2026-07-10] refine | management-workflow graph cleanup
+- Promoted `个人提升/管理岗转型-4周实操计划.md` into a typed workflow page and linked it from the weekly/daily planning stack.
+- Normalized `时间计划日程.md` plus the weekly and daily templates to use the same canonical management-workflow name.
+- Added explicit links between the planning templates and the management workflow so the personal planning stack behaves like a reusable graph instead of isolated forms.

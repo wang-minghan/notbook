@@ -1,3 +1,17 @@
+---
+title: AI 知识库 Schema
+created: 2026-06-27
+updated: 2026-07-10
+type: schema
+tags: [ai, knowledge-base, schema]
+sources:
+  - [[index]]
+  - [[log]]
+  - [[karpathy-llm-wiki-spec]]
+confidence: high
+contested: false
+---
+
 # AI 知识库 Schema
 
 ## 领域
@@ -5,6 +19,12 @@
 - Hermes + Obsidian 的知识管理
 - AI / 技术 / 工作 / 个人成长 / 读书 / 面试准备
 - 可持续累积的知识图谱，而不是一次性笔记堆
+
+## Karpathy 目标
+- 把库从“能找”优化成“会长”
+- 让 wiki 成为 raw source 和 query 之间的编译层
+- 把 index / schema / log 作为真正的系统骨架
+- 鼓励重构，只要它让知识网络更强
 
 ## 结构原则
 - 文件夹负责粗分类，wiki 链接负责语义关系
@@ -29,36 +49,27 @@
 - 重要结论不要只停留在聊天中
 - 出现冲突时保留并标记 `contested`
 
-## 目录分层
-- `raw/`：原始资料、摘录、截图、导入内容，不轻易改写
-- `entities/`：实体页，记录人、组织、项目、工具、技能、作品
-- `concepts/`：概念页，记录方法、框架、机制、原则
-- `comparisons/`：比较页，记录 A vs B、方案对比、选型分析
-- `queries/`：查询页，记录一次问题的高质量答案
-- `indexes/`：索引页、总览页、导航页
-- `logs/`：变更记录、迁移记录、审计记录
-
 ## 页面类型
 ### entity
-适合：
-- 公司、项目、岗位、工具、模型、产品、课程、书籍、人物
+适合：公司、项目、岗位、工具、模型、产品、课程、书籍、人物
 
 ### concept
-适合：
-- RAG、Agent、知识图谱、LoRA、POD、KAN、图谱维护、面试策略
+适合：RAG、Agent、知识图谱、LoRA、POD、KAN、图谱维护、面试策略
 
 ### comparison
-适合：
-- Karpathy wiki vs 传统笔记
-- Hermes vs 其他 agent
-- 不同模型 / 工具 / 工作流的取舍
+适合：Karpathy wiki vs 传统笔记、Hermes vs 其他 agent、不同模型 / 工具 / 工作流的取舍
+
+### query
+适合：高质量问答、面试答题、迁移回顾、问题诊断
+
+### overview
+适合：总索引、体系总览、主题地图
 
 ### workflow
-适合：
-- 持续改进流程
-- 可重复执行的训练路径
-- 每日/每周行动模板
+适合：持续改进流程、可重复执行的训练路径、每日/每周行动模板
 
+### report / log / schema
+适合：审计、迁移、规范、结构说明
 
 ## Frontmatter
 每个核心页都建议使用：
@@ -67,7 +78,7 @@
 title: 页面标题
 created: YYYY-MM-DD
 updated: YYYY-MM-DD
-type: entity | concept | comparison | query | overview | log | schema
+type: entity | concept | comparison | query | overview | log | schema | report | workflow
 tags: [ai, knowledge-base]
 sources: []
 confidence: high | medium | low
@@ -106,15 +117,14 @@ contested: false
 - 重要结论尽量写进 `query` 或 `comparison`，不要只留在聊天记录里
 
 ## Hermes 协作规则
-Hermes 负责：
-- 阅读、归类、提炼、交叉链接、更新索引、维护日志
+Hermes 负责：阅读、归类、提炼、交叉链接、更新索引、维护日志
 
-Obsidian 负责：
-- 人工浏览、图谱查看、手工修订、长期沉淀
+Obsidian 负责：人工浏览、图谱查看、手工修订、长期沉淀
 
 ## 相关页面
 - [[index]]
 - [[AI/Hermes技能系统/index]]
 - [[log]]
 - [[knowledge-base-lifecycle]]
+- [[karpathy-llm-wiki-spec]]
 - [[vault-classification-2026-07-08]]

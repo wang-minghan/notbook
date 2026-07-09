@@ -37,3 +37,18 @@
 - Switched the Hermes subwiki index and migration query to explicit `AI/Hermes技能系统/...` links to remove path ambiguity around `SCHEMA` and `log`.
 - Added the PPT prompt workflow into the Hermes subindex and the top-level AI index so it sits back under the main navigation instead of floating off alone.
 - Recorded the maintenance path in the Hermes subwiki docs and kept the change scope intentionally tiny: no raw sources rewritten, no large refactor.
+
+## [2026-07-10] refine | graph hub back-links
+- Grouped the obvious hub pages into `AI/index`, `AI/Hermes技能系统/index`, `AI/SCHEMA`, and `AI/log`.
+- Added explicit related-page back-links on the schema and log pages so they stop reading like isolated rule stubs.
+- Kept the pass minimal: hub links first, leaf pages later.
+
+## [2026-07-10] refine | AI concept relink pass
+- Tightened `AI/AI知识体系概览.md` so it explicitly links back to `AI/index`, `AI/SCHEMA`, `AI/log`, and the Hermes sub-wiki.
+- Rewrote the related-page blocks on core AI concept pages (`RAG`, `混合检索`, `BM25`, `RRF`, `Cross Encoder`, `本体约束`, `Agent编排`) to use explicit canonical links.
+- This pass focused on true concept nodes, not skills/references leaf assets.
+
+## 相关页面
+- [[index]]
+- [[SCHEMA]]
+- [[AI/Hermes技能系统/index]]

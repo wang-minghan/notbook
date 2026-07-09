@@ -39,6 +39,6 @@ contested: false
 ## 相关页面
 - [[AI/concepts/knowledge-base-lifecycle]]
 - [[AI/comparisons/karpathy-wiki-vs-traditional-notes]]
-- [[AI/SCHEMA]]
-- [[AI/index]]
-- [[AI/log]]
+- [[SCHEMA]]
+- [[index]]
+- [[log]]

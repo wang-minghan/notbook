@@ -35,9 +35,9 @@ contested: false
 - 未来自动化维护的入口
 
 ## 相关页面
-- [[AI/SCHEMA]]
-- [[AI/index]]
-- [[AI/log]]
+- [[SCHEMA]]
+- [[index]]
+- [[log]]
 - [[AI知识体系概览]]
 - [[AI/Hermes技能系统/concepts/architecture]]
 - [[AI/Hermes技能系统/concepts/sync-and-maintenance]]

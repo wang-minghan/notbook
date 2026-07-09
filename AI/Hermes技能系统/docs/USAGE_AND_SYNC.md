@@ -43,3 +43,10 @@ git pull --ff-only
 - 避免与 builtin skill 同名
 - skill 不只是 `SKILL.md`，相关 `references/`、`templates/`、`scripts/` 也要一起提交
 - 如果从远端拉取大改动，建议先 `git status` 检查工作区是否干净
+
+## 相关页面
+- [[AI/Hermes技能系统/index]]
+- [[AI/Hermes技能系统/docs/ARCHITECTURE]]
+- [[AI/Hermes技能系统/docs/README]]
+- [[AI/Hermes技能系统/reports/MIGRATION_REPORT]]
+- [[AI/Hermes技能系统/log]]

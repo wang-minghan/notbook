@@ -24,3 +24,10 @@
 - 使用 Git 提交变更
 - 通过 cron 定期 `git pull` 保持同步
 - 如需在聊天会话中立即生效，建议开启新会话或使用 `/reload-skills`
+
+## 相关页面
+- [[AI/Hermes技能系统/index]]
+- [[AI/Hermes技能系统/docs/README]]
+- [[AI/Hermes技能系统/docs/ARCHITECTURE]]
+- [[AI/Hermes技能系统/docs/USAGE_AND_SYNC]]
+- [[AI/Hermes技能系统/log]]

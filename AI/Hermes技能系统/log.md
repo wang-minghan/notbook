@@ -18,3 +18,9 @@
 - Added the PPT 生图 prompt formula page to the subwiki index and docs README.
 - Converted ambiguous local links to explicit `AI/Hermes技能系统/...` targets so `SCHEMA` and `log` stop behaving like orphaned strays.
 - Kept the cleanup minimal: only navigation, metadata, and one workflow page.
+
+## 相关页面
+- [[AI/Hermes技能系统/index]]
+- [[AI/Hermes技能系统/SCHEMA]]
+- [[AI/Hermes技能系统/docs/README]]
+- [[log]]

@@ -24,6 +24,12 @@
 ## 报告
 - [[reports/migration-report]] — 技能迁移报告
 
+## 回到主库
+- [[index]] — AI 知识库总入口
+- [[SCHEMA]] — 主库结构规则
+- [[log]] — 主库变更日志
+- [[AI知识体系概览]] — AI 技术栈总览
+
 ## 核心技能
 - [[skills/interview-master/SKILL]] — 面试准备主技能
 - [[skills/awesome-novel/SKILL]] — 小说工作流主技能

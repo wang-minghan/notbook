@@ -44,3 +44,10 @@
 2. 高价值 skills
 3. references 与 templates
 4. 迁移报告与审计结果
+
+## 相关页面
+- [[AI/Hermes技能系统/index]]
+- [[AI/Hermes技能系统/docs/README]]
+- [[AI/Hermes技能系统/log]]
+- [[index]]
+- [[SCHEMA]]

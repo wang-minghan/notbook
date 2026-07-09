@@ -55,7 +55,6 @@
 
 ### workflow
 适合：
-- 4 周实操计划
 - 持续改进流程
 - 可重复执行的训练路径
 - 每日/每周行动模板
@@ -113,10 +112,9 @@ Hermes 负责：
 Obsidian 负责：
 - 人工浏览、图谱查看、手工修订、长期沉淀
 
-## 迁移优先级
-1. 顶层总览与导航
-2. AI / Hermes / 工具链
-3. 工作经历与面试材料
-4. 读书与概念沉淀
-5. 其余内容逐步结构化
-6. workflow / 个人成长行动模板
+## 相关页面
+- [[index]]
+- [[AI/Hermes技能系统/index]]
+- [[log]]
+- [[knowledge-base-lifecycle]]
+- [[vault-classification-2026-07-08]]

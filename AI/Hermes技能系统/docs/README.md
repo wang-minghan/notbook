@@ -19,6 +19,7 @@ contested: false
 - `reports/`：迁移报告、清单、审计结果
 - `concepts/`：编译后的概念页
 - `queries/`：可复用的迁移问答与回顾
+- `workflows/`：可复用的 prompt / 维护流程
 
 ## 运行方式
 - 官方 bundled skills 保留在 `C:\Users\32027\AppData\Local\hermes\skills`
@@ -41,4 +42,5 @@ contested: false
 - [[AI/Hermes技能系统/concepts/architecture]]
 - [[AI/Hermes技能系统/concepts/sync-and-maintenance]]
 - [[AI/Hermes技能系统/queries/migration-retrospective]]
+- [[AI/Hermes技能系统/docs/workflows/ppt-prompt-node-formula]]
 - [[AI/Hermes技能系统/reports/migration-report]]

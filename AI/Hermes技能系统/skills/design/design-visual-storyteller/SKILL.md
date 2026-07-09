@@ -1,4 +1,4 @@
-﻿---
+---
 name: design-visual-storyteller
 description: Use when a task needs stronger visual narrative, message flow, emotional sequencing, or story-aware composition across slides, images, or multimedia presentation assets.
 version: 1.0.0

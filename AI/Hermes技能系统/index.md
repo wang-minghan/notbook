@@ -4,14 +4,17 @@
 > Last updated: 2026-07-08
 
 ## 总览
-- [[docs/README]] — Hermes 技能系统总说明
-- [[SCHEMA]] — 结构规则与页面约定
-- [[log]] — 变更记录
-- [[queries/migration-retrospective]] — 迁移回顾
+- [[AI/Hermes技能系统/docs/README]] — Hermes 技能系统总说明
+- [[AI/Hermes技能系统/SCHEMA]] — 结构规则与页面约定
+- [[AI/Hermes技能系统/log]] — 变更记录
+- [[AI/Hermes技能系统/queries/migration-retrospective]] — 迁移回顾
 
 ## 文档
+- [[docs/README]] — Hermes 技能系统总说明
 - [[docs/ARCHITECTURE]] — 运行层、配置层、管理层
 - [[docs/USAGE_AND_SYNC]] — 日常维护与同步流程
+- [[docs/workflows/ppt-prompt-node-formula]] — PPT 生图 Prompt 节点公式
+
 
 ## 编译知识
 - [[concepts/architecture]] — Hermes 技能系统架构（compiled concept）

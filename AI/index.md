@@ -24,6 +24,7 @@
 - [[AI/Hermes技能系统/concepts/architecture]] — 技能系统架构
 - [[AI/Hermes技能系统/concepts/sync-and-maintenance]] — 技能系统同步与维护
 - [[AI/Hermes技能系统/reports/migration-report]] — 迁移报告
+- [[AI/Hermes技能系统/docs/workflows/ppt-prompt-node-formula]] — PPT 生图 Prompt 节点公式
 - [[AI/concepts/pod-reduction]] — POD 降维
 - [[AI/concepts/small-sample-surrogate]] — 小样本代理建模
 - [[AI/concepts/model-serving]] — 模型服务化

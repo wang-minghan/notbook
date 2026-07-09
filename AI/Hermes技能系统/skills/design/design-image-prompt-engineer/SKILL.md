@@ -1,4 +1,4 @@
-﻿---
+---
 name: design-image-prompt-engineer
 description: Use when an image task needs stronger aesthetics, prompt quality, photography-aware prompting, PPT cover constraints, or text-overlay-safe composition.
 version: 1.0.0

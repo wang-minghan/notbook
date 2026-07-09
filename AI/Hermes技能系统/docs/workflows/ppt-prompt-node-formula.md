@@ -1,4 +1,22 @@
+---
+title: PPT 生图 Prompt 节点公式
+created: 2026-07-10
+updated: 2026-07-10
+type: concept
+tags: [hermes, skill, workflow, prompt, image]
+sources:
+  - [[AI/Hermes技能系统/docs/README]]
+  - [[AI/Hermes技能系统/skills/design/design-image-prompt-engineer/references/ppt-cover-image-guidelines]]
+  - [[AI/Hermes技能系统/index]]
+  - [[AI/index]]
+  - [[AI/Hermes技能系统/skills/productivity/ppt-visual-system/SKILL]]
+confidence: medium
+contested: false
+---
+
 # PPT 生图 Prompt 节点公式
+
+> 适用于 PPT 封面、章节页和内容配图的统一 prompt 组装公式。
 
 适用范围：
 - PPT 封面图
@@ -138,3 +156,8 @@ text, letters, words, typography, watermark, logo, signage, poster layout, magaz
 2. 先做减法，再加细节
 3. 先保证页面适配，再追求单图炫技
 4. 封面图和插图要分开写 prompt，不要混用
+
+## 相关页面
+- [[AI/Hermes技能系统/docs/README]]
+- [[AI/Hermes技能系统/index]]
+- [[AI/Hermes技能系统/skills/design/design-image-prompt-engineer/references/ppt-cover-image-guidelines]]

@@ -37,8 +37,8 @@ contested: false
 这不是“换了一个存放位置”这么简单，而是把 Hermes 的技能维护升级成了一个**可持续治理系统**。
 
 ## 相关页面
-- [[docs/README]]
-- [[docs/ARCHITECTURE]]
-- [[sync-and-maintenance]]
-- [[index]]
-- [[log]]
+- [[AI/Hermes技能系统/docs/README]]
+- [[AI/Hermes技能系统/docs/ARCHITECTURE]]
+- [[AI/Hermes技能系统/concepts/sync-and-maintenance]]
+- [[AI/Hermes技能系统/index]]
+- [[AI/Hermes技能系统/log]]

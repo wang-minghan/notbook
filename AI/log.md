@@ -25,3 +25,15 @@
 - Added a direct mapping from weekdays to training splits and recovery days.
 - Tightened the output to微信-friendly training + meal + checklist format.
 - Added a default common-food pantry plus purchase-backlog handoff into the weekly plan template.
+
+## [2026-07-10] refine | Hermes skill-system graph cleanup
+- Added `AI/Hermes技能系统/docs/workflows/ppt-prompt-node-formula.md` to the main AI index.
+- Added the same page to the Hermes sub-wiki index so it has a natural hub.
+- Upgraded the note to typed `concept` frontmatter and linked it back to `AI/index` and the Hermes sub-wiki.
+- This was a minimal graph fix: no content rewrite, just structure and bidirectional links.
+
+## [2026-07-10] refine | Hermes skills subwiki relink
+- Added frontmatter and explicit cross-links to `AI/Hermes技能系统/docs/workflows/ppt-prompt-node-formula.md` so it reads as a reusable workflow instead of a dangling note.
+- Switched the Hermes subwiki index and migration query to explicit `AI/Hermes技能系统/...` links to remove path ambiguity around `SCHEMA` and `log`.
+- Added the PPT prompt workflow into the Hermes subindex and the top-level AI index so it sits back under the main navigation instead of floating off alone.
+- Recorded the maintenance path in the Hermes subwiki docs and kept the change scope intentionally tiny: no raw sources rewritten, no large refactor.

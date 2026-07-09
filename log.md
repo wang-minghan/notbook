@@ -1,3 +1,16 @@
+---
+title: AI 知识库日志
+created: 2026-07-10
+updated: 2026-07-10
+type: log
+tags: [ai, knowledge-base, log]
+sources:
+  - [[SCHEMA]]
+  - [[index]]
+confidence: high
+contested: false
+---
+
 # AI 知识库日志
 
 > 记录知识库的结构迁移、索引维护与重要重构。

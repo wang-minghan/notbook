@@ -71,3 +71,8 @@ contested: false
 - Promoted `个人提升/管理岗转型-4周实操计划.md` into a typed workflow page and linked it from the weekly/daily planning stack.
 - Normalized `时间计划日程.md` plus the weekly and daily templates to use the same canonical management-workflow name.
 - Added explicit links between the planning templates and the management workflow so the personal planning stack behaves like a reusable graph instead of isolated forms.
+
+## [2026-07-10] refine | interview KB relink + Hermes skills path update
+- Repointed Hermes `skills.external_dirs` from the old `AI/Hermes技能系统/skills` location to the current `AI助理/Hermes技能系统/skills` repo path.
+- Removed dead interview links to missing notes such as `教育经历`, `资格证书与技能`, `RAG`, `Agent`, and `AI知识体系概览`.
+- Canonicalized the interview answer bank note name to `面试提问内容整理` and re-linked the interview overview pages around existing notes only.

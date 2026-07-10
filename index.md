@@ -22,10 +22,12 @@ contested: false
 - [[SCHEMA]] — 知识库结构、标签、页面类型与协作规则
 - [[log]] — 变更与迁移记录
 ## AI 助理
-- [[sync-and-maintenance]] — 技能系统同步与维护
-- [[migration-report]] — 迁移报告
+AI助理/Hermes技能系统/skills/技能总览-
 ## 个人提升
 - [[个人提升/计划系统总览]] — 个人计划系统总览
+工作任务
+
+个人信息
 
 ## 治理入口
 - [[SCHEMA]] — 知识库结构、页面类型与协作规则

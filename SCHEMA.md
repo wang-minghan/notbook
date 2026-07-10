@@ -17,7 +17,7 @@ contested: false
 ## 领域
 这个库是用户的主知识库，服务于：
 - Hermes + Obsidian 的知识管理
-- AI / 技术 / 工作 / 个人成长 / 读书 / 面试准备
+- AI助理 / 工作 / 个人成长 
 - 可持续累积的知识图谱，而不是一次性笔记堆
 
 ## Karpathy 目标
@@ -48,29 +48,9 @@ contested: false
 - 原始资料和编译结果分层存放
 - 重要结论不要只停留在聊天中
 - 出现冲突时保留并标记 `contested`
+- 避免或者减少信息孤岛
 
 ## 页面类型
-### entity
-适合：公司、项目、岗位、工具、模型、产品、课程、书籍、人物
-
-### concept
-适合：RAG、Agent、知识图谱、LoRA、POD、KAN、图谱维护、面试策略
-
-### comparison
-适合：Karpathy wiki vs 传统笔记、Hermes vs 其他 agent、不同模型 / 工具 / 工作流的取舍
-
-### query
-适合：高质量问答、面试答题、迁移回顾、问题诊断
-
-### overview
-适合：总索引、体系总览、主题地图
-
-### workflow
-适合：持续改进流程、可重复执行的训练路径、每日/每周行动模板
-
-### report / log / schema
-适合：审计、迁移、规范、结构说明
-
 ## Frontmatter
 每个核心页都建议使用：
 ```yaml
@@ -78,7 +58,7 @@ contested: false
 title: 页面标题
 created: YYYY-MM-DD
 updated: YYYY-MM-DD
-type: entity | concept | comparison | query | overview | log | schema | report | workflow
+type: entity | concept | query | overview | log | schema | report | workflow
 tags: [ai, knowledge-base]
 sources: []
 confidence: high | medium | low
@@ -88,7 +68,6 @@ contested: false
 
 ## 标签约定
 先控制在少量稳定标签，避免 tag 爆炸：
-
 
 ## 链接规则
 - 每个新页面尽量至少链接 2 个相关页
@@ -108,4 +87,3 @@ Obsidian 负责：人工浏览、图谱查看、手工修订、长期沉淀
 ## 相关页面
 - [[index]]
 - [[log]]
-- [[vault-classification-2026-07-08]]

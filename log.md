@@ -76,3 +76,8 @@ contested: false
 - Created `个人提升/周计划/2026-W28-个人周计划.md` and `个人提升/日计划/2026-07-10.md` as the first concrete execution pages copied from the templates.
 - Reframed the planning flow so cron jobs should write to running pages under `周计划/` and `日计划/`, not overwrite the templates.
 - Kept the templates as canonical blueprints and the dated pages as the live working copies.
+
+## [2026-07-10] weekly plan | 2026-W28 personal planning
+- Wrote back `个人提升/周计划/2026-W28-个人周计划.md` from the weekly template, health profile, and current plan shell.
+- Filled training, work, reading, and diet sections; added next-week menu and a de-duplicated shopping list.
+- Kept the existing page structure intact and only completed the empty sections.

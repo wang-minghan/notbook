@@ -1,7 +1,7 @@
 ---
 title: AI 知识库索引
 created: 2026-06-27
-updated: 2026-07-10
+updated: 2026-07-11
 type: overview
 tags:
   - knowledge-base
@@ -36,6 +36,3 @@ contested: false
 ## 个人信息
 - [[个人信息/基本信息]] — 个人基础信息
 
-## 治理入口
-- [[SCHEMA]] — 知识库结构、页面类型与协作规则
-- [[log]] — 结构迁移与整理记录

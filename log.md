@@ -1,7 +1,7 @@
 ---
 title: AI 知识库日志
 created: 2026-07-10
-updated: 2026-07-10
+updated: 2026-07-11
 type: log
 tags: [ai, knowledge-base, log]
 sources:
@@ -81,3 +81,5 @@ contested: false
 - Wrote back `个人提升/周计划/2026-W28-个人周计划.md` from the weekly template, health profile, and current plan shell.
 - Filled training, work, reading, and diet sections; added next-week menu and a de-duplicated shopping list.
 - Kept the existing page structure intact and only completed the empty sections.
+
+2026-07-11 / notebook graph cleanup / index, 个人计划总览, 周计划, 日计划, 运动身体信息, 精英的傲慢-笔记, 被讨厌的勇气-笔记, log / 串起个人计划、健康和阅读页，压掉重复入口并补回主入口链接。

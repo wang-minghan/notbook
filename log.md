@@ -83,3 +83,5 @@ contested: false
 - Kept the existing page structure intact and only completed the empty sections.
 
 2026-07-11 / notebook graph cleanup / index, 个人计划总览, 周计划, 日计划, 运动身体信息, 精英的傲慢-笔记, 被讨厌的勇气-笔记, log / 串起个人计划、健康和阅读页，压掉重复入口并补回主入口链接。
+
+2026-07-10 / 每日健康做菜提醒 / 个人提升/日计划/2026-07-10.md, log.md / 按周计划写入今天的上肢容量训练、增肌饮食、采购提醒和复盘框架。

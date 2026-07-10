@@ -72,7 +72,7 @@ contested: false
 - Normalized `时间计划日程.md` plus the weekly and daily templates to use the same canonical management-workflow name.
 - Added explicit links between the planning templates and the management workflow so the personal planning stack behaves like a reusable graph instead of isolated forms.
 
-## [2026-07-10] refine | interview KB relink + Hermes skills path update
-- Removed the old `AI助理` skill-system directory from the knowledge-base tree after it was deleted from the repo layout.
-- Removed dead interview links to missing notes such as `教育经历`, `资格证书与技能`, `RAG`, `Agent`, and `AI知识体系概览`.
-- Canonicalized the interview answer bank note name to `面试提问内容整理` and re-linked the interview overview pages around existing notes only.
+## [2026-07-10] refine | personal planning loop wiring
+- Created `个人提升/周计划/2026-W28-个人周计划.md` and `个人提升/日计划/2026-07-10.md` as the first concrete execution pages copied from the templates.
+- Reframed the planning flow so cron jobs should write to running pages under `周计划/` and `日计划/`, not overwrite the templates.
+- Kept the templates as canonical blueprints and the dated pages as the live working copies.

@@ -32,6 +32,7 @@
 
 ## 核心技能
 - [[skills/interview-master/SKILL]] — 面试准备主技能
+- [[skills/awesome-novel/README]] — 小说技能总览
 - [[skills/awesome-novel/SKILL]] — 小说工作流主技能
 - [[skills/autonomous-ai-agents/periodic-self-improvement/SKILL]] — 周期性自我升级循环
 - [[skills/autonomous-ai-agents/hermes-plugin-ecosystem/SKILL]] — 插件生态与管理

@@ -48,5 +48,5 @@ git pull --ff-only
 - [[AI/Hermes技能系统/index]]
 - [[AI/Hermes技能系统/docs/ARCHITECTURE]]
 - [[AI/Hermes技能系统/docs/README]]
-- [[AI/Hermes技能系统/reports/MIGRATION_REPORT]]
+- [[MIGRATION_REPORT]]
 - [[AI/Hermes技能系统/log]]

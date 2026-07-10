@@ -39,6 +39,6 @@ contested: false
 ## 相关页面
 - [[AI/Hermes技能系统/docs/README]]
 - [[AI/Hermes技能系统/docs/ARCHITECTURE]]
-- [[AI/Hermes技能系统/concepts/sync-and-maintenance]]
+- [[sync-and-maintenance]]
 - [[AI/Hermes技能系统/index]]
 - [[AI/Hermes技能系统/log]]

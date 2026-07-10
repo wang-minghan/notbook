@@ -43,4 +43,4 @@ contested: false
 - [[knowledge-base-lifecycle]]
 - [[karpathy-wiki-vs-traditional-notes]]
 - [[AI/Hermes技能系统/index]]
-- [[AI/reports/vault-classification-2026-07-08]]
+- [[vault-classification-2026-07-08]]

@@ -160,4 +160,4 @@ text, letters, words, typography, watermark, logo, signage, poster layout, magaz
 ## 相关页面
 - [[AI/Hermes技能系统/docs/README]]
 - [[AI/Hermes技能系统/index]]
-- [[AI/Hermes技能系统/skills/design/design-image-prompt-engineer/references/ppt-cover-image-guidelines]]
+- [[ppt-cover-image-guidelines]]

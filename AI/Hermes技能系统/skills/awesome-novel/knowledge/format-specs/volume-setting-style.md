@@ -8,18 +8,18 @@
 
 **目录**
 
-- [核心原则](#核心原则卷纲服务于写作循环)
-- [一、卷方向确定](#一卷方向确定)
-- [二、核心冲突](#二核心冲突)
-- [三、情绪走向](#三情绪走向)
-- [四、冲突阶梯](#四冲突阶梯)
-- [五、信息差](#五信息差)
-- [六、场景卡](#六场景卡)
-- [七、章节列表](#七章节列表chapters_summary)
-- [八、新角色与设定追加](#八新角色与设定追加)
-- [产出模板](#产出模板)
-- [各字段怎么被下游使用](#各字段怎么被下游使用)
-- [验收](#验收)
+- [核心原则](volume-setting-style.md#核心原则卷纲服务于写作循环)
+- [一、卷方向确定](volume-setting-style.md#一卷方向确定)
+- [二、核心冲突](volume-setting-style.md#二核心冲突)
+- [三、情绪走向](volume-setting-style.md#三情绪走向)
+- [四、冲突阶梯](volume-setting-style.md#四冲突阶梯)
+- [五、信息差](volume-setting-style.md#五信息差)
+- [六、场景卡](volume-setting-style.md#六场景卡)
+- [七、章节列表](volume-setting-style.md#七章节列表chapters_summary)
+- [八、新角色与设定追加](volume-setting-style.md#八新角色与设定追加)
+- [产出模板](volume-setting-style.md#产出模板)
+- [各字段怎么被下游使用](volume-setting-style.md#各字段怎么被下游使用)
+- [验收](volume-setting-style.md#验收)
 
 ---
 

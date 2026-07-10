@@ -15,21 +15,21 @@ contested: false
 这是 `awesome-novel` 写作技能的总入口，用来把写作流程、知识库、代理角色和模板统一成一张可维护的图。
 
 ## 结构骨架
-- [[SKILL]] — 主技能说明
-- [[knowledge/README]] — 知识库索引
-- [[knowledge/anti-ai/README]] — 反 AI 规则库
-- [[knowledge/scene-craft/README]] — 场景写作方法论
-- [[knowledge/plot-craft/README]] — 剧情设计方法论
-- [[knowledge/genre-example/index]] — 题材案例索引
-- [[knowledge/title-craft/index]] — 书名方法论
+- [[AI/Hermes技能系统/skills/awesome-novel/SKILL]] — 主技能说明
+- [[AI/Hermes技能系统/skills/awesome-novel/knowledge/README]] — 知识库索引
+- [[AI/Hermes技能系统/skills/awesome-novel/knowledge/anti-ai/README]] — 反 AI 规则库
+- [[AI/Hermes技能系统/skills/awesome-novel/knowledge/scene-craft/README]] — 场景写作方法论
+- [[AI/Hermes技能系统/skills/awesome-novel/knowledge/plot-craft/README]] — 剧情设计方法论
+- [[AI/Hermes技能系统/skills/awesome-novel/knowledge/genre-example/index]] — 题材案例索引
+- [[AI/Hermes技能系统/skills/awesome-novel/knowledge/title-craft/index]] — 书名方法论
 
 ## 关键执行角色
-- [[agents/novel-agent]] — 调度与总控
-- [[agents/writer]] — 初稿生成
-- [[agents/reader]] — 苛刻读者反馈
-- [[agents/updater]] — 设定/归档更新
-- [[agents/anti-ai]] — 去 AI 味处理
-- [[agents/prompt-crafter]] — 提示词构造
+- [[novel-agent]] — 调度与总控
+- [[writer]] — 初稿生成
+- [[reader]] — 苛刻读者反馈
+- [[updater]] — 设定/归档更新
+- [[AI/Hermes技能系统/skills/awesome-novel/agents/anti-ai]] — 去 AI 味处理
+- [[prompt-crafter]] — 提示词构造
 
 ## 可复用资产
 - `templates/` — 迁移与设定模板

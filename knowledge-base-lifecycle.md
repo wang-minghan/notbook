@@ -34,4 +34,4 @@ contested: false
 - [[SCHEMA]]
 - [[AI知识体系概览]]
 - [[karpathy-wiki-vs-traditional-notes]]
-- [[AI/reports/vault-classification-2026-07-08]]
+- [[vault-classification-2026-07-08]]

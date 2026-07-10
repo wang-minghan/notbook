@@ -46,7 +46,7 @@ skills:
 
 ## 相关页面
 - [[AI/Hermes技能系统/docs/README]]
-- [[AI/Hermes技能系统/docs/USAGE_AND_SYNC]]
-- [[AI/Hermes技能系统/reports/MIGRATION_REPORT]]
+- [[USAGE_AND_SYNC]]
+- [[MIGRATION_REPORT]]
 - [[AI/Hermes技能系统/index]]
 - [[AI/index]]

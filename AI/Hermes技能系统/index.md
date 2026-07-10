@@ -7,22 +7,22 @@
 - [[AI/Hermes技能系统/docs/README]] — Hermes 技能系统总说明
 - [[AI/Hermes技能系统/SCHEMA]] — 结构规则与页面约定
 - [[AI/Hermes技能系统/log]] — 变更记录
-- [[AI/Hermes技能系统/queries/migration-retrospective]] — 迁移回顾
+- [[migration-retrospective]] — 迁移回顾
 
 ## 文档
-- [[docs/README]] — Hermes 技能系统总说明
-- [[docs/ARCHITECTURE]] — 运行层、配置层、管理层
-- [[docs/USAGE_AND_SYNC]] — 日常维护与同步流程
-- [[docs/workflows/ppt-prompt-node-formula]] — PPT 生图 Prompt 节点公式
+- [[AI/Hermes技能系统/docs/README]] — Hermes 技能系统总说明
+- [[AI/Hermes技能系统/docs/ARCHITECTURE]] — 运行层、配置层、管理层
+- [[USAGE_AND_SYNC]] — 日常维护与同步流程
+- [[ppt-prompt-node-formula]] — PPT 生图 Prompt 节点公式
 
 
 ## 编译知识
-- [[concepts/architecture]] — Hermes 技能系统架构（compiled concept）
-- [[concepts/sync-and-maintenance]] — 同步与维护（compiled workflow）
-- [[queries/migration-retrospective]] — 迁移回顾（compiled query）
+- [[AI/Hermes技能系统/concepts/architecture]] — Hermes 技能系统架构（compiled concept）
+- [[sync-and-maintenance]] — 同步与维护（compiled workflow）
+- [[migration-retrospective]] — 迁移回顾（compiled query）
 
 ## 报告
-- [[reports/migration-report]] — 技能迁移报告
+- [[migration-report]] — 技能迁移报告
 
 ## 回到主库
 - [[index]] — AI 知识库总入口
@@ -31,19 +31,20 @@
 - [[AI知识体系概览]] — AI 技术栈总览
 
 ## 核心技能
-- [[skills/interview-master/SKILL]] — 面试准备主技能
-- [[skills/awesome-novel/README]] — 小说技能总览
-- [[skills/awesome-novel/SKILL]] — 小说工作流主技能
-- [[skills/autonomous-ai-agents/periodic-self-improvement/SKILL]] — 周期性自我升级循环
-- [[skills/autonomous-ai-agents/hermes-plugin-ecosystem/SKILL]] — 插件生态与管理
-- [[skills/autonomous-ai-agents/hermes-memory-provider/SKILL]] — 记忆提供器管理
-- [[skills/software-development/hermes-skills-management/SKILL]] — skills 管理
-- [[skills/productivity/ppt-visual-system/SKILL]] — PPT 视觉系统
-- [[skills/productivity/document-conversion/SKILL]] — 文档转换
+- [[AI/Hermes技能系统/skills/interview-master/README]] — 面试技能总览
+- [[AI/Hermes技能系统/skills/interview-master/SKILL]] — 面试准备主技能
+- [[AI/Hermes技能系统/skills/awesome-novel/README]] — 小说技能总览
+- [[AI/Hermes技能系统/skills/awesome-novel/SKILL]] — 小说工作流主技能
+- [[AI/Hermes技能系统/skills/autonomous-ai-agents/periodic-self-improvement/SKILL]] — 周期性自我升级循环
+- [[AI/Hermes技能系统/skills/autonomous-ai-agents/hermes-plugin-ecosystem/SKILL]] — 插件生态与管理
+- [[AI/Hermes技能系统/skills/autonomous-ai-agents/hermes-memory-provider/SKILL]] — 记忆提供器管理
+- [[AI/Hermes技能系统/skills/software-development/hermes-skills-management/SKILL]] — skills 管理
+- [[AI/Hermes技能系统/skills/productivity/ppt-visual-system/SKILL]] — PPT 视觉系统
+- [[AI/Hermes技能系统/skills/productivity/document-conversion/SKILL]] — 文档转换
 
 ## 待补充
-- [[skills/design/design-image-prompt-engineer/SKILL]]
-- [[skills/design/design-visual-storyteller/SKILL]]
-- [[skills/design/design-ui-designer/SKILL]]
+- [[AI/Hermes技能系统/skills/design/design-image-prompt-engineer/SKILL]]
+- [[AI/Hermes技能系统/skills/design/design-visual-storyteller/SKILL]]
+- [[AI/Hermes技能系统/skills/design/design-ui-designer/SKILL]]
 - [[skills/engineering/engineering-vps-diagnosis/SKILL]]
 - [[skills/testing/testing-workflow-optimizer/SKILL]]

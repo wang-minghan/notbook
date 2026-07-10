@@ -40,5 +40,5 @@ contested: false
 
 ## 相关页面
 - [[AI/Hermes技能系统/docs/ARCHITECTURE]]
-- [[AI/Hermes技能系统/docs/USAGE_AND_SYNC]]
+- [[USAGE_AND_SYNC]]
 - [[AI/Hermes技能系统/index]]

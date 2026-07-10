@@ -88,23 +88,7 @@ contested: false
 
 ## 标签约定
 先控制在少量稳定标签，避免 tag 爆炸：
-- `ai`
-- `knowledge-base`
-- `hermes`
-- `obsidian`
-- `workflow`
-- `entity`
-- `concept`
-- `comparison`
-- `query`
-- `index`
-- `log`
-- `work`
-- `personal`
-- `study`
-- `interview`
-- `research`
-- `skill`
+
 
 ## 链接规则
 - 每个新页面尽量至少链接 2 个相关页
@@ -123,8 +107,5 @@ Obsidian 负责：人工浏览、图谱查看、手工修订、长期沉淀
 
 ## 相关页面
 - [[index]]
-- [[AI/Hermes技能系统/index]]
 - [[log]]
-- [[knowledge-base-lifecycle]]
-- [[karpathy-llm-wiki-spec]]
 - [[vault-classification-2026-07-08]]

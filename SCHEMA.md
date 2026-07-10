@@ -16,8 +16,8 @@ contested: false
 
 ## 领域
 这个库是用户的主知识库，服务于：
-- Hermes + Obsidian 的知识管理
-- AI助理 / 工作 / 个人成长 
+- Obsidian 的知识管理与长期沉淀
+- 工作 / 个人成长 / 面试准备 / 个人信息
 - 可持续累积的知识图谱，而不是一次性笔记堆
 
 ## Karpathy 目标
@@ -25,6 +25,18 @@ contested: false
 - 让 wiki 成为 raw source 和 query 之间的编译层
 - 把 index / schema / log 作为真正的系统骨架
 - 鼓励重构，只要它让知识网络更强
+
+## 当前主干
+- `工作任务/`：工作经历、面试准备与工作相关知识
+- `个人信息/`：稳定个人资料与基础背景
+- `个人提升/`：长期成长、计划、读书与方法论
+
+## 处理原则
+- 默认建立引用，只有在语义足够强时，才升级为组合
+- 只有在严格满足 "is-a" 时，才允许继承
+- 删除了的页面，不再继续在总目录里挂死链
+- 目录只做粗分类，入口页负责把最常用的内容串起来
+- 参考层、技能层、实现层如果不是知识内容本身，就不要塞进主目录索引
 
 ## 结构原则
 - 文件夹负责粗分类，wiki 链接负责语义关系
@@ -51,6 +63,27 @@ contested: false
 - 避免或者减少信息孤岛
 
 ## 页面类型
+### entity
+适合：公司、项目、岗位、工具、人物、经历承载页
+
+### concept
+适合：方法、机制、模型、策略、流程、原则
+
+### comparison
+适合：取舍、对照、优缺点分析
+
+### query
+适合：高质量问答、面试答题、迁移回顾、问题诊断
+
+### overview
+适合：总索引、体系总览、主题地图
+
+### workflow
+适合：持续改进流程、可重复执行的训练路径、行动模板
+
+### report / log / schema
+适合：审计、迁移、规范、结构说明
+
 ## Frontmatter
 每个核心页都建议使用：
 ```yaml
@@ -58,7 +91,7 @@ contested: false
 title: 页面标题
 created: YYYY-MM-DD
 updated: YYYY-MM-DD
-type: entity | concept | query | overview | log | schema | report | workflow
+type: entity | concept | comparison | query | overview | log | schema | report | workflow
 tags: [ai, knowledge-base]
 sources: []
 confidence: high | medium | low

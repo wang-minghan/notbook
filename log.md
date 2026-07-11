@@ -85,3 +85,8 @@ contested: false
 2026-07-11 / notebook graph cleanup / index, 个人计划总览, 周计划, 日计划, 运动身体信息, 精英的傲慢-笔记, 被讨厌的勇气-笔记, log / 串起个人计划、健康和阅读页，压掉重复入口并补回主入口链接。
 
 2026-07-10 / 每日健康做菜提醒 / 个人提升/日计划/2026-07-10.md, log.md / 按周计划写入今天的上肢容量训练、增肌饮食、采购提醒和复盘框架。
+
+## [2026-07-12] daily plan | 2026-07-12 personal planning
+- Created `个人提升/日计划/2026-07-12.md` from the weekly plan.
+- Interpreted today as a recovery / flexible / optional single-move补练 day, not a fixed hard training day.
+- Wrote the Sunday meal reminders and the recovery checklist back into the daily plan.

@@ -86,9 +86,9 @@ contested: false
 
 2026-07-10 / 每日健康做菜提醒 / 个人提升/日计划/2026-07-10.md, log.md / 按周计划写入今天的上肢容量训练、增肌饮食、采购提醒和复盘框架。
 
-## [2026-07-12] daily plan | 2026-07-12 personal planning
-- Created `个人提升/日计划/2026-07-12.md` from the weekly plan.
-- Interpreted today as a recovery / flexible / optional single-move补练 day, not a fixed hard training day.
-- Wrote the Sunday meal reminders and the recovery checklist back into the daily plan.
+## [2026-07-11] refine | knowledge-base governance spec
+- Added `个人提升/知识库治理规范.md` to define the maintenance order, lint flow, and output standards.
+- Linked the governance page from `index.md` so it sits in the main navigation.
+- This adds the missing governance layer between schema and weekly maintenance.
 
 2026-07-13 / notebook graph cleanup / 个人提升/计划系统总览.md, 个人提升/周计划/2026-W28-个人周计划.md, log.md / 补上 7/11、7/12 日计划的主入口引用，收紧周计划回写入口。

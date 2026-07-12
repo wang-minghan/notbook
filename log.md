@@ -1,7 +1,7 @@
 ---
 title: AI 知识库日志
 created: 2026-07-10
-updated: 2026-07-11
+updated: 2026-07-13
 type: log
 tags: [ai, knowledge-base, log]
 sources:
@@ -85,9 +85,15 @@ contested: false
 2026-07-11 / notebook graph cleanup / index, 个人计划总览, 周计划, 日计划, 运动身体信息, 精英的傲慢-笔记, 被讨厌的勇气-笔记, log / 串起个人计划、健康和阅读页，压掉重复入口并补回主入口链接。
 
 2026-07-10 / 每日健康做菜提醒 / 个人提升/日计划/2026-07-10.md, log.md / 按周计划写入今天的上肢容量训练、增肌饮食、采购提醒和复盘框架。
+
 2026-07-10 / 每日健康做菜提醒 / 个人提升/日计划/2026-07-10.md, log.md / 按周计划写入今天的上肢容量训练、增肌饮食、采购提醒和复盘框架。
+
 ## [2026-07-11] refine | knowledge-base governance spec
 - Added `个人提升/知识库治理规范.md` to define the maintenance order, lint flow, and output standards.
 - Linked the governance page from `index.md` so it sits in the main navigation.
 - This adds the missing governance layer between schema and weekly maintenance.
-2026-07-13 / 每周计划+采购清单 / 个人提升/周计划/2026-W28-个人周计划.md, log.md / 按健康档案重校训练重点，压缩采购重复并补齐本周周计划。
+2026-07-13 / 每周计划+采购清单 / 个人提升/周计划/2026-W28-个人周计划.md, log.md / ��健康档案重校训练重点，压缩采购重复并补齐本周周计划。
+## [2026-07-13] weekly plan + shopping list | 2026-W29 personal planning
+- Wrote the next-week page `个人提升/周计划/2026-W29-个人周计划.md` instead of extending W28.
+- Rebased the week on current fitness baselines, kept the 4–5 training cadence, and compressed the shopping list to reduce duplicates.
+- Kept the output focused on next week’s training, food, recovery, and purchase planning.

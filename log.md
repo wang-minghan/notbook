@@ -92,7 +92,7 @@ contested: false
 - Added `个人提升/知识库治理规范.md` to define the maintenance order, lint flow, and output standards.
 - Linked the governance page from `index.md` so it sits in the main navigation.
 - This adds the missing governance layer between schema and weekly maintenance.
-2026-07-13 / 每周计划+采购清单 / 个人提升/周计划/2026-W28-个人周计划.md, log.md / ��健康档案重校训练重点，压缩采购重复并补齐本周周计划。
+2026-07-13 / 每日健康做菜提醒 / 个人提升/日计划/2026-07-13.md, log.md / 按周计划写入今天的 Push 训练、当天菜单、采购提醒和复盘框架。
 ## [2026-07-13] weekly plan + shopping list | 2026-W29 personal planning
 - Wrote the next-week page `个人提升/周计划/2026-W29-个人周计划.md` instead of extending W28.
 - Rebased the week on current fitness baselines, kept the 4–5 training cadence, and compressed the shopping list to reduce duplicates.

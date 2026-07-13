@@ -97,3 +97,8 @@ contested: false
 - Wrote the next-week page `个人提升/周计划/2026-W29-个人周计划.md` instead of extending W28.
 - Rebased the week on current fitness baselines, kept the 4–5 training cadence, and compressed the shopping list to reduce duplicates.
 - Kept the output focused on next week’s training, food, recovery, and purchase planning.
+
+## [2026-07-14] daily health reminder | 个人提升/日计划/2026-07-14.md, log.md
+- Based on `2026-W28` weekly plan, today is Pull 背部二头 day.
+- Wrote the daily page with the pull session, the划船 progression note, and today’s meal menu.
+- Kept the reminder aligned to the weekly menu: 黑椒牛肉饭 + 生菜 / 鸡蛋豆腐盖饭 + 青菜.

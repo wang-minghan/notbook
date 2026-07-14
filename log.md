@@ -1,7 +1,7 @@
 ---
 title: AI 知识库日志
 created: 2026-07-10
-updated: 2026-07-13
+updated: 2026-07-15
 type: log
 tags: [ai, knowledge-base, log]
 sources:
@@ -103,3 +103,4 @@ contested: false
 - Wrote the daily page with the pull session, the划船 progression note, and today’s meal menu.
 - Kept the reminder aligned to the weekly menu: 黑椒牛肉饭 + 生菜 / 鸡蛋豆腐盖饭 + 青菜.
 2026-07-15 / notebook graph cleanup / index.md, 个人提升/计划系统总览.md, 个人提升/周计划/2026-W29-个人周计划.md, 个人提升/日计划/2026-07-13.md, 个人提升/日计划/2026-07-14.md, log.md / 串起当前周计划和两天日计划，补回主入口并压掉半孤岛。
+2026-07-15 / notebook graph cleanup / index.md, 个人提升/计划系统总览.md, log.md / 合并个人计划主入口，补回索引与计划总览的双向链接。

@@ -122,7 +122,6 @@ contested: false
 
 ## Hermes 协作规则
 Hermes 负责：阅读、归类、提炼、交叉链接、更新索引、维护日志
-
 Obsidian 负责：人工浏览、图谱查看、手工修订、长期沉淀
 
 ## 相关页面

@@ -3,6 +3,7 @@ title: AI 知识库 Schema
 created: 2026-06-27
 updated: 2026-07-10
 type: schema
+scope: global
 tags: [ai, knowledge-base, schema]
 sources:
   - [[index]]
@@ -37,6 +38,9 @@ contested: false
 - 删除了的页面，不再继续在总目录里挂死链
 - 目录只做粗分类，入口页负责把最常用的内容串起来
 - 参考层、技能层、实现层如果不是知识内容本身，就不要塞进主目录索引
+- `index.md` 只收长期稳定的 **global** 页面；时间页只进子目录索引，不进全局索引
+- 父目录和子目录是存储结构，不自动等于语义结构；是否进入总入口，要看页面类型和可复用性
+- 自动任务只做增量压缩，不重写全库总结
 
 ## 结构原则
 - 文件夹负责粗分类，wiki 链接负责语义关系
@@ -89,6 +93,12 @@ contested: false
 ### workflow
 适合：持续改进流程、可重复执行的训练路径、行动模板
 
+### time
+适合：日计划、周计划、阶段计划、会议纪要、临时执行页
+
+### generated
+适合：自动任务产物、增量摘要、lint 结果
+
 ### report / log / schema
 适合：审计、迁移、规范、结构说明
 
@@ -99,7 +109,8 @@ contested: false
 title: 页面标题
 created: YYYY-MM-DD
 updated: YYYY-MM-DD
-type: entity | concept | comparison | query | overview | log | schema | report | workflow
+type: entity | concept | comparison | query | overview | log | schema | report | workflow | time | generated
+scope: global | section | local
 tags: [ai, knowledge-base]
 sources: []
 confidence: high | medium | low
@@ -127,3 +138,4 @@ Obsidian 负责：人工浏览、图谱查看、手工修订、长期沉淀
 ## 相关页面
 - [[index]]
 - [[log]]
+- [[知识库治理规范]]

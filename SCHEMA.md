@@ -23,7 +23,7 @@ contested: false
 ## Karpathy 目标
 - 把库从“能找”优化成“会长”
 - 让 wiki 成为 raw source 和 query 之间的编译层
-- 把 index / schema / log 作为真正的系统骨架
+- 把 index / schema / log 作为真正的系统骨架（只应该是目录规范而不是具体实现）
 - 鼓励重构，只要它让知识网络更强
 
 ## 当前主干

@@ -110,3 +110,4 @@ contested: false
 2026-07-15 / time-page retype / @模板/个人计划模板（日）.md, @模板/个人计划模板（周）.md, 个人提升/周计划/2026-W28-个人周计划.md, 个人提升/周计划/2026-W29-个人周计划.md, 个人提升/日计划/2026-07-10.md, 个人提升/日计划/2026-07-11.md, 个人提升/日计划/2026-07-12.md, 个人提升/日计划/2026-07-13.md, 个人提升/日计划/2026-07-14.md / 把日周计划从 workflow 改成 time，并补齐 scope: local，避免自动任务再把时间页当成全局知识页。
 2026-07-15 / local section hubs / 个人提升/周计划/index.md, 个人提升/日计划/index.md, 个人提升/计划系统总览.md / 新增周计划与日计划的局部入口，避免时间页继续混进全局索引。
 2026-07-15 / module entry pages / 个人信息/index.md, 个人提升/index.md, 个人提升/健康/index.md, 个人提升/周计划/index.md, 个人提升/日计划/index.md, 工作任务/index.md, 工作任务/工作经历/index.md, 工作任务/面试准备/index.md, @模板/index.md / 给每个稳定模块补了自己的入口页，并把全局索引改成只挂模块入口。
+2026-07-15 / personal growth index merge / index.md, 个人提升/计划系统总览.md, 个人提升/健康/index.md, log.md / 合并个人提升的 index 与计划系统总览，保留计划系统总览为唯一入口并更新相关链接。

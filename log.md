@@ -1,7 +1,7 @@
 ---
 title: AI 知识库日志
 created: 2026-07-10
-updated: 2026-07-15
+updated: 2026-07-17
 type: log
 scope: global
 tags: [ai, knowledge-base, log]
@@ -103,11 +103,17 @@ contested: false
 - Based on `2026-W28` weekly plan, today is Pull 背部二头 day.
 - Wrote the daily page with the pull session, the划船 progression note, and today’s meal menu.
 - Kept the reminder aligned to the weekly menu: 黑椒牛肉饭 + 生菜 / 鸡蛋豆腐盖饭 + 青菜.
+
 2026-07-15 / notebook graph cleanup / index.md, 个人提升/index-计划.md, 个人提升/周计划/2026-W29-个人周计划.md, 个人提升/日计划/2026-07-13.md, 个人提升/日计划/2026-07-14.md, log.md / 串起当前周计划和两天日计划，补回主入口并压掉半孤岛。
 2026-07-15 / notebook graph cleanup / index.md, 个人提升/index-计划.md, log.md / 合并个人计划主入口，补回索引与计划总览的双向链接。
+
 2026-07-15 / knowledge-base governance split / SCHEMA.md, index.md, 知识库治理规范.md, 知识库增量摘要.md / 把时间页从全局索引里剥离，新增增量压缩摘要页，明确目录只是存储结构不是语义结构。
 2026-07-15 / scope backfill + template hardening / @模板/个人计划模板（日）.md, @模板/个人计划模板（周）.md, 工作任务/工作经历/北京灵易数智科技有限公司.md, 工作任务/工作经历/亚信科技（中国）有限公司.md, 工作任务/面试准备/面试提问内容整理.md, 工作任务/面试准备/面试应答策略.md, 工作任务/面试准备/面试叙事主线.md, 工作任务/面试准备/面试知识点.md, 个人信息/基本信息.md, 个人提升/健康/运动身体信息.md, 个人提升/index-计划.md, 个人提升/周计划/2026-W29-个人周计划.md, 个人提升/日计划/2026-07-14.md / 给关键页补上 scope，模板默认 local，避免自动任务继续把时间页抬进全局索引。
 2026-07-15 / time-page retype / @模板/个人计划模板（日）.md, @模板/个人计划模板（周）.md, 个人提升/周计划/2026-W28-个人周计划.md, 个人提升/周计划/2026-W29-个人周计划.md, 个人提升/日计划/2026-07-10.md, 个人提升/日计划/2026-07-11.md, 个人提升/日计划/2026-07-12.md, 个人提升/日计划/2026-07-13.md, 个人提升/日计划/2026-07-14.md / 把日周计划从 workflow 改成 time，并补齐 scope: local，避免自动任务再把时间页当成全局知识页。
 2026-07-15 / local section hubs / 个人提升/周计划/index-周计划.md, 个人提升/日计划/index-日计划.md, 个人提升/index-计划.md / 新增周计划与日计划的局部入口，避免时间页继续混进全局索引。
 2026-07-15 / module entry pages / 个人信息/index-个人信息.md, 个人提升/index-计划.md, 个人提升/健康/index-健康.md, 个人提升/周计划/index-周计划.md, 个人提升/日计划/index-日计划.md, 工作任务/index-工作任务.md, 工作任务/工作经历/index-工作经历.md, 工作任务/面试准备/index-面试准备.md, @模板/index-模板.md / 给每个稳定模块补了自己的入口页，并把全局索引改成只挂模块入口。
 2026-07-15 / personal growth index merge / index.md, 个人提升/index-计划.md, 个人提升/健康/index-健康.md, log.md / 合并个人提升的入口页，保留 index-计划 为唯一入口并更新相关链接。
+
+## [2026-07-17] relink | 2026-07-16 daily plan
+- Added `个人提升/日计划/2026-07-16.md` to `个人提升/日计划/index-日计划.md` so the new time page is no longer semi-connected.
+- Kept the fix local to the day-plan section index; no global index reshuffle was needed.

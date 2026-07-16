@@ -6,7 +6,7 @@ type: overview
 scope: section
 tags: [personal, reading, overview]
 sources:
-  - [[个人提升/计划系统总览]]
+  - [[个人提升/index-计划]]
 confidence: high
 contested: false
 ---
@@ -20,5 +20,5 @@ contested: false
 - [[个人提升/读书/读书笔记/被讨厌的勇气-笔记]] — 关于主观世界、自卑感与自我决定的心理学阅读
 
 ## 相关页面
-- [[个人提升/计划系统总览]]
+- [[个人提升/index-计划]]
 - [[index]]

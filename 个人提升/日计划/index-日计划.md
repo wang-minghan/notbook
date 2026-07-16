@@ -6,7 +6,7 @@ type: overview
 scope: section
 tags: [personal, planning, daily, overview]
 sources:
-  - [[个人提升/计划系统总览]]
+  - [[个人提升/index-计划]]
 confidence: high
 contested: false
 ---
@@ -24,5 +24,5 @@ contested: false
 - [[个人提升/日计划/2026-07-15]]
 
 ## 相关页面
-- [[个人提升/计划系统总览]]
-- [[个人提升/周计划/index]]
+- [[个人提升/index-计划]]
+- [[个人提升/周计划/index-周计划]]

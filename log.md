@@ -117,3 +117,8 @@ contested: false
 ## [2026-07-17] relink | 2026-07-16 daily plan
 - Added `个人提升/日计划/2026-07-16.md` to `个人提升/日计划/index-日计划.md` so the new time page is no longer semi-connected.
 - Kept the fix local to the day-plan section index; no global index reshuffle was needed.
+
+## [2026-07-17] weekly plan | 2026-W30 personal planning
+- Wrote the next-week page `个人提升/周计划/2026-W30-个人周计划.md` from the current week plan, today’s daily plan, the body baseline note, and the weekly template.
+- Kept the focus on training cadence, reading continuity, food / purchase planning, and recovery rhythm.
+- Recommended `龙族Ⅲ：黑月之潮（下）` so next week can continue the current reading thread without switching books.

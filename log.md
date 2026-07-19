@@ -1,7 +1,7 @@
 ---
 title: AI 知识库日志
 created: 2026-07-10
-updated: 2026-07-17
+updated: 2026-07-19
 type: log
 scope: global
 tags: [ai, knowledge-base, log]
@@ -122,3 +122,8 @@ contested: false
 - Wrote the next-week page `个人提升/周计划/2026-W30-个人周计划.md` from the current week plan, today’s daily plan, the body baseline note, and the weekly template.
 - Kept the focus on training cadence, reading continuity, food / purchase planning, and recovery rhythm.
 - Recommended `龙族Ⅲ：黑月之潮（下）` so next week can continue the current reading thread without switching books.
+
+## [2026-07-19] relink | 2026-W30 personal weekly plan
+- Added `个人提升/周计划/2026-W30-个人周计划.md` to the weekly plan section index so the new time page is no longer semi-connected.
+- Added the weekly section index back-link on the W30 page to keep the local graph bidirectional.
+- This was a local graph repair only; `index.md` stayed untouched because time pages still do not belong in the global index.

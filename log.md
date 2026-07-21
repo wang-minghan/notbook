@@ -7,6 +7,7 @@ scope: global
 tags: [ai, knowledge-base, log]
 sources:
   - [[index]]
+  - [[知识库增量摘要]]
 confidence: high
 contested: false
 ---
@@ -23,6 +24,21 @@ contested: false
 - 自动任务只做增量压缩：只写新增 / 修改 / 删除，不重写全库总结。
 - 出现冲突保留并标记 `contested`，不覆盖。
 - 优先效果最优（effect-first），不追求最小改动；但"如无必要不增加实体"。
+
+## [2026-07-19] refactor | 面试准备收编为单页主库
+
+- 删除 `面试叙事主线.md`、`面试应答策略.md`、`面试知识点.md`：三者均为 `面试提问内容整理` 的摘要版，主库已覆盖全部实质内容。
+- 唯一增量「运营岗补充视角」已并入 `面试提问内容整理` 第 11 节。
+- 删除 `index-面试准备.md`：收编后面试准备仅 1 个真页，违反「单子页模块不建索引桩」规则。
+- `工作任务/index-工作任务.md` 改为直接引 `面试提问内容整理`，sources 同改。
+- 全库 7 处引用统一改指主库，无断链。
+- 面试准备模块从 4 页收敛为 1 页；全库 .md 文件 33 → 29。
+
+## [2026-07-19] fix | inbox 预留位转为真链接
+
+- `index.md` 的 `_inbox` 预留位从纯文本改为 `[[_inbox/README]]` 真链接，补上唯一真孤岛的入链。
+- `个人提升/index-计划.md` 删除已失效的 `[[SCHEMA]]` 反向引用，避免继续挂着已删除元文件。
+- 新增 `知识库增量摘要.md`，把本次增量压缩成独立摘要，后续继续只做增量追加。
 
 ## [2026-07-19] refactor | 融合元文件 + 删桩索引
 
@@ -45,3 +61,4 @@ contested: false
 - Split governance spec out of SCHEMA; added `知识库增量摘要.md`; clarified directory ≠ semantic structure.
 - Backfilled `scope` on key pages; time pages typed `time`, `scope: local`.
 - Added module entry pages (`index-<module>.md`) so global index only links module hubs.
+2026-07-19 / personal improvement correction / 个人提升/读书/index.md, 个人提升/index-计划.md, 个人提升/周计划/2026-W28-个人周计划.md, 个人提升/周计划/2026-W29-个人周计划.md, 个人提升/周计划/2026-W30-个人周计划.md / 把读书入口改成非虚构阅读索引，清掉龙族类网络小说推荐，并给训练计划加上加重、体重和补卡路里规则。

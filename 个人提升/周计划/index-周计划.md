@@ -22,4 +22,4 @@ contested: false
 
 ## 相关页面
 - [[个人提升/index-计划]]
-- [[个人提升/日计划/index-日计划]]
+- [[index-日计划]]

@@ -9,6 +9,7 @@ week: "{{date:YYYY-WW}}"
 
 > **数据源**：训记(训练/身体/饮食) + 微信读书 + 飞书日历 → Obsidian → 飞书云文档 → 微信推送
 > **产出**：`reviews/weekly/{{date:YYYY-WW}}.md` + 飞书云文档 + 微信深度报告
+> **存储位置**：`reviews/weekly/YYYY-WW.md`
 
 ---
 
@@ -80,8 +81,8 @@ week: "{{date:YYYY-WW}}"
 | 腿围(右) | | | | | | | | | | |
 
 **解读**：
-- 
-- 
+-
+-
 
 ---
 
@@ -107,8 +108,8 @@ week: "{{date:YYYY-WW}}"
 | 加餐 | | | | | |
 
 **模式洞察**：
-- 
-- 
+-
+-
 
 ---
 
@@ -165,7 +166,7 @@ week: "{{date:YYYY-WW}}"
 | Obsidian 周复盘 | `reviews/weekly/{{date:YYYY-WW}}.md` | ✅ 本地 |
 | 飞书云文档 | `lark-cli docs +create ...` | ⏳ 待生成 |
 | 微信深度报告 | 推送到 Home | ⏳ 待推送 |
-| 周计划 | `plans/weekly/{{date:YYYY-WW}}.md` | ⏳ 周日生成 |
+| 周计划 | `plans/weekly/{{date:YYYY-WW}}/个人周计划.md` | ⏳ 周日生成 |
 
 ---
 

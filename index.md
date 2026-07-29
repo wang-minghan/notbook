@@ -26,6 +26,7 @@ contested: false
 - [[03_Resources/index]] — 资料层：书、工具、方法、参考
 - [[04_Permanent/index]] — 永久笔记层：原子化 evergreen notes
 - [[05_MOC/index]] — 导航层：主题地图 / 入口页
+- [[06_Systems/index]] — 系统层：计划、复盘、自动化编排
 - [[09_Archive/index]] — 归档层：完成、废弃、冻结内容
 
 ## 现有稳定入口

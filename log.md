@@ -14,7 +14,7 @@ tags: [personal, log, planning]
 - 归档 `_inbox/feishu-cli-guide-2026-07-27.md` 至 `个人提升/计划/参考/飞书CLI能力全景与起步建议.md`，建立工具参考页
 - 本周当前 ISO 周：2026-W31（2026-07-27 ~ 2026-08-02），下周 W32 已生成，上周 W30 已随 W31 生成时清理（日志已记录于 2026-07-27）
 - 全局 `index.md` 无变动（未收录时效页，符合规范）
-- 搭建 PARA 骨架：新增 Projects / Areas / Resources / Permanent / MOC / Archive 六个顶层入口页，root 只保留稳定入口
+- 将 PARA 骨架改成 01/02/03/04/05/09 编号：新增 Projects / Areas / Resources / Permanent / MOC / Archive 六个顶层入口页，root 只保留稳定入口
 
 ## 2026-07-27
 - 知识库维护：清理重复 wikilink（个人信息/基本信息 ×3 → ×1）、补齐缺失的 index-日计划.md、清理空白日计划文件（2026-07-25.md）

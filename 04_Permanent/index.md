@@ -24,7 +24,7 @@ contested: false
 
 ## 下一步
 - 从资源页提炼 evergreen notes
-- 用 [[50_MOC/index]] 把概念串起来
+- [[05_MOC/index]]
 
 ## 相关入口
 - [[index]]

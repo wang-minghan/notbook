@@ -28,10 +28,10 @@ contested: false
 - [[@模板/index-模板]]
 
 ## 建议新建的主题 MOC
-- [[50_MOC/个人成长 MOC]]
-- [[50_MOC/工作系统 MOC]]
-- [[50_MOC/阅读 MOC]]
+- [[05_MOC/个人成长 MOC]]
+- [[05_MOC/工作系统 MOC]]
+- [[05_MOC/阅读 MOC]]
 
 ## 相关入口
 - [[index]]
-- [[40_Permanent/index]]
+- [[04_Permanent/index]]

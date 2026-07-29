@@ -21,5 +21,5 @@ contested: false
 - [[工作任务/面试准备/面试提问内容整理]]
 
 ## 相关入口
-- [[50_MOC/index]]
+- [[05_MOC/index]]
 - [[index]]

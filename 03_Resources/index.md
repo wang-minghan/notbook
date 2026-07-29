@@ -28,4 +28,4 @@ contested: false
 
 ## 相关入口
 - [[index]]
-- [[40_Permanent/index]]
+- [[04_Permanent/index]]

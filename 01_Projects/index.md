@@ -27,4 +27,4 @@ contested: false
 
 ## 相关入口
 - [[index]]
-- [[50_MOC/index]]
+- [[05_MOC/index]]

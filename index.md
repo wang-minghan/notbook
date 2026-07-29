@@ -21,12 +21,12 @@ contested: false
 
 ## 骨架
 - [[_inbox/README]] — 捕获层：未归类速记
-- [[10_Projects/index]] — 项目层：有明确目标和截止日期的工作
-- [[20_Areas/index]] — 责任层：长期稳定的生活/工作责任
-- [[30_Resources/index]] — 资料层：书、工具、方法、参考
-- [[40_Permanent/index]] — 永久笔记层：原子化 evergreen notes
-- [[50_MOC/index]] — 导航层：主题地图 / 入口页
-- [[90_Archive/index]] — 归档层：完成、废弃、冻结内容
+- [[01_Projects/index]] — 项目层：有明确目标和截止日期的工作
+- [[02_Areas/index]] — 责任层：长期稳定的生活/工作责任
+- [[03_Resources/index]] — 资料层：书、工具、方法、参考
+- [[04_Permanent/index]] — 永久笔记层：原子化 evergreen notes
+- [[05_MOC/index]] — 导航层：主题地图 / 入口页
+- [[09_Archive/index]] — 归档层：完成、废弃、冻结内容
 
 ## 现有稳定入口
 - [[个人信息/基本信息]]

@@ -19,5 +19,5 @@ contested: false
 - [[个人提升/读书/index]]
 
 ## 相关入口
-- [[50_MOC/index]]
+- [[05_MOC/index]]
 - [[index]]

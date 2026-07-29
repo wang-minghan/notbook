@@ -21,5 +21,5 @@ contested: false
 - [[个人提升/健康/运动身体信息]]
 
 ## 相关入口
-- [[50_MOC/index]]
+- [[05_MOC/index]]
 - [[index]]

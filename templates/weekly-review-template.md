@@ -171,5 +171,5 @@ week: "{{date:YYYY-WW}}"
 ---
 
 > **生成时间**：`{{date:YYYY-MM-DD HH:mm}}`  
-> **生成器**：`weekly-review` cron (周一 7:00)  
+> **生成器**：`weekly-review` cron (周日 15:00)  
 > **数据窗口**：上周一 00:00 ~ 周日 23:59

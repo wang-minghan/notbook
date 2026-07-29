@@ -114,7 +114,8 @@ weekday: "{{date:dddd}}"
 
 | 目标 | 状态 | 时间 | 备注 |
 |------|------|------|------|
-| 飞书日历 | ⏳ 待同步 | | `daily-feishu-sync` 12:00/19:00 |
+| 飞书日历 | ⏳ 待同步 | | `daily-feishu-sync` 12:00/19:00/21:10 |
 | 飞书云文档 | ⏳ 待生成 | | `daily-feishu-sync` 生成 `📅 日计划 YYYY-MM-DD` |
 | 微信晨间简报 | ✅ 已推送 | 06:30 | `daily-morning-briefing` |
 | 微信晚间复盘 | ⏳ 待推送 | 21:00 | `daily-evening-meal-sync` |
+| 晚间复盘后增量同步 | ⏳ 待同步 | 21:10 | `daily-feishu-sync` |

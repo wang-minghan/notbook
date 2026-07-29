@@ -1,0 +1,30 @@
+---
+title: 责任索引
+created: 2026-07-29
+updated: 2026-07-29
+type: overview
+scope: section
+tags:
+  - areas
+  - overview
+  - para
+confidence: high
+contested: false
+---
+
+# 责任索引
+
+> 这里收长期稳定、没有明确截止日期但必须持续维护的东西。
+
+## 现有 area
+- [[个人信息/基本信息]] — 身份与家庭主记录
+- [[个人提升/index-计划]] — 个人成长、训练、读书、周/日计划总入口
+- [[工作任务/index-工作任务]] — 工作责任总入口
+
+## 分类原则
+- area 是长期责任，不是项目
+- area 下可以挂资源、项目、MOC
+- 如果能完成，就不是 area
+
+## 相关入口
+- [[index]]

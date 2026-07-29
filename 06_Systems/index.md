@@ -29,6 +29,5 @@ contested: false
 
 ## 相关入口
 - [[index]]
-- [[个人提升/index-计划]]
-- [[个人提升/index-日计划]]
-- [[个人提升/周计划/index-周计划]]
+- [[06_Systems/计划系统]]
+- [[06_Systems/复盘系统]]

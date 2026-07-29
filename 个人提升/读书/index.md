@@ -6,7 +6,7 @@ type: overview
 scope: section
 tags: [personal, reading, overview]
 sources:
-  - [[个人提升/index-计划]]
+  - [[06_Systems/计划系统]]
 confidence: high
 contested: false
 ---
@@ -25,5 +25,5 @@ contested: false
 - 不排网络小说，不拿消遣文本冒充阅读成长
 
 ## 相关页面
-- [[个人提升/index-计划]]
+- [[06_Systems/计划系统]]
 - [[index]]

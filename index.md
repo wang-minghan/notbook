@@ -10,7 +10,7 @@ tags:
   - para
 sources:
   - [[log]]
-  - [[个人提升/index-计划]]
+  - [[06_Systems/计划系统]]
 confidence: high
 contested: false
 ---
@@ -32,7 +32,8 @@ contested: false
 ## 现有稳定入口
 - [[个人信息/基本信息]]
 - [[工作任务/index-工作任务]]
-- [[个人提升/index-计划]]
+- [[06_Systems/计划系统]]
+- [[06_Systems/复盘系统]]
 - [[个人提升/读书/index]]
 - [[@模板/index-模板]]
 

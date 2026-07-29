@@ -22,7 +22,7 @@ contested: false
 - 用于把 permanent notes / resources / projects 串起来
 
 ## 现有入口页
-- [[个人提升/index-计划]]
+- [[06_Systems/计划系统]]
 - [[个人提升/读书/index]]
 - [[工作任务/index-工作任务]]
 - [[@模板/index-模板]]

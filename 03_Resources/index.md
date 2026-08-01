@@ -1,7 +1,7 @@
 ---
 title: 资料索引
 created: 2026-07-29
-updated: 2026-07-29
+updated: 2026-08-01
 type: overview
 scope: section
 tags:
@@ -17,9 +17,9 @@ contested: false
 > 这里放可反复查阅的外部知识、方法、工具、模板、参考资料。
 
 ## 现有资料
-- [[个人提升/读书/index]] — 读书与知识吸收入口
-- [[个人提升/工具参考/index-工具参考]] — 工具与 CLI 参考
-- [[@模板/index-模板]] — 可复用模板
+- [[03_Resources/读书]] — 读书与知识吸收入口
+- [[03_Resources/工具参考]] — 工具与 CLI 参考
+- [[03_Resources/模板]] — 可复用模板
 
 ## 分类原则
 - 资源是“参考”，不是最终结论

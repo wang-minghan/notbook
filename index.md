@@ -1,7 +1,7 @@
 ---
 title: AI 知识库索引
 created: 2026-06-27
-updated: 2026-07-29
+updated: 2026-08-01
 type: overview
 scope: global
 tags:
@@ -31,11 +31,13 @@ contested: false
 
 ## 现有稳定入口
 - [[个人信息/基本信息]]
-- [[工作任务/index-工作任务]]
+- [[02_Areas/鑫犇电子有限公司]]
+- [[02_Areas/工作任务]]
 - [[06_Systems/计划系统]]
 - [[06_Systems/复盘系统]]
-- [[个人提升/读书/index]]
-- [[@模板/index-模板]]
+- [[03_Resources/读书]]
+- [[03_Resources/工具参考]]
+- [[03_Resources/模板]]
 
 ## 维护规则
 - 目录只负责粗分区，wikilink 才负责语义关系。

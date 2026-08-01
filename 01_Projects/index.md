@@ -1,7 +1,7 @@
 ---
 title: 项目索引
 created: 2026-07-29
-updated: 2026-07-29
+updated: 2026-08-01
 type: overview
 scope: section
 tags:
@@ -23,7 +23,7 @@ contested: false
 
 ## 可挂接的现有内容
 - [[工作任务/面试准备/面试提问内容整理]] — 面试准备主库
-- [[工作任务/index-工作任务]] — 工作任务总入口
+- [[02_Areas/工作任务]] — 工作任务总入口
 
 ## 相关入口
 - [[index]]

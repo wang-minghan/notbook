@@ -1,7 +1,7 @@
 ---
 title: MOC 索引
 created: 2026-07-29
-updated: 2026-07-29
+updated: 2026-08-01
 type: overview
 scope: section
 tags:
@@ -23,9 +23,9 @@ contested: false
 
 ## 现有入口页
 - [[06_Systems/计划系统]]
-- [[个人提升/读书/index]]
-- [[工作任务/index-工作任务]]
-- [[@模板/index-模板]]
+- [[03_Resources/读书]]
+- [[02_Areas/工作任务]]
+- [[03_Resources/模板]]
 
 ## 建议新建的主题 MOC
 - [[05_MOC/个人成长 MOC]]

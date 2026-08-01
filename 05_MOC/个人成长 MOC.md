@@ -1,7 +1,7 @@
 ---
 title: 个人成长 MOC
 created: 2026-07-29
-updated: 2026-07-29
+updated: 2026-08-01
 type: moc
 scope: section
 tags:
@@ -17,7 +17,7 @@ contested: false
 
 ## 子主题
 - [[06_Systems/计划系统]]
-- [[个人提升/读书/index]]
+- [[03_Resources/读书]]
 - [[个人提升/健康/运动身体信息]]
 
 ## 相关入口

@@ -1,7 +1,7 @@
 ---
 title: 工作系统 MOC
 created: 2026-07-29
-updated: 2026-07-29
+updated: 2026-08-01
 type: moc
 scope: section
 tags:
@@ -16,8 +16,8 @@ contested: false
 > 工作相关内容的导航页。
 
 ## 子主题
-- [[工作任务/index-工作任务]]
-- [[工作任务/工作经历/index-工作经历]]
+- [[02_Areas/工作任务]]
+- [[02_Areas/工作经历]]
 - [[工作任务/面试准备/面试提问内容整理]]
 - [[02_Areas/鑫犇电子有限公司]]
 

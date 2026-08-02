@@ -21,5 +21,5 @@ contested: false
 - [[02_Areas/个人信息/运动身体信息|运动身体信息]]
 
 ## 相关入口
-- [[05_MOC/index]]
+- [[05_MOC/MOC索引]]
 

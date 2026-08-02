@@ -21,13 +21,13 @@ contested: false
 
 ## 骨架
 - [[_inbox/README]] — 捕获层：未归类速记
-- [[01_Projects/index]] — 项目层：有明确目标和截止日期的工作
-- [[02_Areas/index]] — 责任层：长期稳定的生活/工作责任
-- [[03_Resources/index]] — 资料层：书、工具、方法、参考
-- [[04_Permanent/index]] — 永久笔记层：原子化 evergreen notes
-- [[05_MOC/index]] — 导航层：主题地图 / 入口页
-- [[06_Systems/index]] — 系统层：计划、复盘、自动化编排
-- [[09_Archive/index]] — 归档层：完成、废弃、冻结内容
+- [[01_Projects/项目索引]] — 项目层：有明确目标和截止日期的工作
+- [[02_Areas/责任索引]] — 责任层：长期稳定的生活/工作责任
+- [[03_Resources/资料索引]] — 资料层：书、工具、方法、参考
+- [[04_Permanent/永久笔记索引]] — 永久笔记层：原子化 evergreen notes
+- [[05_MOC/MOC索引]] — 导航层：主题地图 / 入口页
+- [[06_Systems/系统索引]] — 系统层：计划、复盘、自动化编排
+- [[09_Archive/归档索引]] — 归档层：完成、废弃、冻结内容
 
 ## 现有稳定入口
 - [[02_Areas/个人信息/基本信息|基本信息]]
@@ -37,7 +37,7 @@ contested: false
 - [[06_Systems/复盘系统]]
 - [[03_Resources/读书]]
 - [[03_Resources/工具参考]]
-- [[06_Systems/templates/index|模板]] — 可复用模板
+- [[06_Systems/templates/模板索引|模板]] — 可复用模板
 
 ## 维护规则
 - 目录只负责粗分区，wikilink 才负责语义关系。

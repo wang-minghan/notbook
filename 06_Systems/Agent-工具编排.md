@@ -35,5 +35,5 @@ contested: false
 - 外部系统同步规则
 
 ## 相关入口
-- [[06_Systems/index]]
+- [[06_Systems/系统索引]]
 

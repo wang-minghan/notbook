@@ -25,7 +25,7 @@ contested: false
 - [[06_Systems/计划系统]]
 - [[03_Resources/读书]]
 - [[02_Areas/工作任务]]
-- [[06_Systems/templates/index|模板]]
+- [[06_Systems/templates/模板索引|模板]]
 
 ## 建议新建的主题 MOC
 - [[05_MOC/个人成长 MOC]]
@@ -33,5 +33,5 @@ contested: false
 - [[05_MOC/阅读 MOC]]
 
 ## 相关入口
-- [[06_Systems/index|系统索引]]
-- [[04_Permanent/index]]
+- [[06_Systems/系统索引|系统索引]]
+- [[04_Permanent/永久笔记索引]]

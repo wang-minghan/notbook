@@ -22,5 +22,5 @@ contested: false
 - [[02_Areas/鑫犇电子有限公司]]
 
 ## 相关入口
-- [[05_MOC/index]]
+- [[05_MOC/MOC索引]]
 

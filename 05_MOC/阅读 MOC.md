@@ -19,5 +19,5 @@ contested: false
 - [[03_Resources/读书]]
 
 ## 相关入口
-- [[05_MOC/index]]
+- [[05_MOC/MOC索引]]
 

@@ -18,7 +18,7 @@ contested: false
 ## 子主题
 - [[06_Systems/计划系统]]
 - [[03_Resources/读书]]
-- [[02_Areas/健康/运动身体信息]]
+- [[运动身体信息]]
 
 ## 相关入口
 - [[05_MOC/index]]

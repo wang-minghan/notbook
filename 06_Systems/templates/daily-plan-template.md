@@ -8,7 +8,7 @@ weekday: "{{date:dddd}}"
 
 # {{date:YYYY-MM-DD}} {{date:dddd}} 日计划
 
-> 存储位置：`plans/weekly/YYYY-Www/YYYY-MM-DD.md`
+> 存储位置：`plans/daily/YYYY-MM-DD.md`
 
 ## 今日 3 件最重要的事
 1.

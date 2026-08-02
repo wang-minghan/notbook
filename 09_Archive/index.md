@@ -21,4 +21,4 @@ contested: false
 - 只保留需要回看的最小记录
 
 ## 相关入口
-- [[index]]
+

@@ -30,4 +30,4 @@ contested: false
 - 如果能完成，就不是 area
 
 ## 相关入口
-- [[index]]
+- [[06_Systems/index|系统索引]]

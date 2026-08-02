@@ -37,7 +37,7 @@ contested: false
 - [[06_Systems/复盘系统]]
 - [[03_Resources/读书]]
 - [[03_Resources/工具参考]]
-- [[03_Resources/模板]]
+- [[06_Systems/templates/index|模板]] — 可复用模板
 
 ## 维护规则
 - 目录只负责粗分区，wikilink 才负责语义关系。

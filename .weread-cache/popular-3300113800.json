@@ -1,0 +1,236 @@
+{
+  "bookId": "3300113800",
+  "cachedAt": 1792847408541,
+  "ttl": 7,
+  "items": [],
+  "chapters": [
+    {
+      "bookId": "3300113800",
+      "chapterUid": 1,
+      "chapterIdx": 1,
+      "title": "封面"
+    },
+    {
+      "bookId": "3300113800",
+      "chapterUid": 2,
+      "chapterIdx": 2,
+      "title": "版权信息"
+    },
+    {
+      "bookId": "3300113800",
+      "chapterUid": 3,
+      "chapterIdx": 3,
+      "title": "前言"
+    },
+    {
+      "bookId": "3300113800",
+      "chapterUid": 4,
+      "chapterIdx": 4,
+      "title": "引言 清晰思考在平凡时刻的力量"
+    },
+    {
+      "bookId": "3300113800",
+      "chapterUid": 5,
+      "chapterIdx": 5,
+      "title": "第一部分 清晰思考的大敌"
+    },
+    {
+      "bookId": "3300113800",
+      "chapterUid": 6,
+      "chapterIdx": 6,
+      "title": "没认真思考——还是根本没思考"
+    },
+    {
+      "bookId": "3300113800",
+      "chapterUid": 7,
+      "chapterIdx": 7,
+      "title": "情绪默认值"
+    },
+    {
+      "bookId": "3300113800",
+      "chapterUid": 8,
+      "chapterIdx": 8,
+      "title": "自我默认值"
+    },
+    {
+      "bookId": "3300113800",
+      "chapterUid": 9,
+      "chapterIdx": 9,
+      "title": "社会默认值"
+    },
+    {
+      "bookId": "3300113800",
+      "chapterUid": 10,
+      "chapterIdx": 10,
+      "title": "惯性默认值"
+    },
+    {
+      "bookId": "3300113800",
+      "chapterUid": 11,
+      "chapterIdx": 11,
+      "title": "从默认行为到清晰思考"
+    },
+    {
+      "bookId": "3300113800",
+      "chapterUid": 12,
+      "chapterIdx": 12,
+      "title": "第二部分 增强势能，积蓄力量"
+    },
+    {
+      "bookId": "3300113800",
+      "chapterUid": 13,
+      "chapterIdx": 13,
+      "title": "自我问责"
+    },
+    {
+      "bookId": "3300113800",
+      "chapterUid": 14,
+      "chapterIdx": 14,
+      "title": "自我认识"
+    },
+    {
+      "bookId": "3300113800",
+      "chapterUid": 15,
+      "chapterIdx": 15,
+      "title": "自我控制"
+    },
+    {
+      "bookId": "3300113800",
+      "chapterUid": 16,
+      "chapterIdx": 16,
+      "title": "自信"
+    },
+    {
+      "bookId": "3300113800",
+      "chapterUid": 17,
+      "chapterIdx": 17,
+      "title": "行动中的势能"
+    },
+    {
+      "bookId": "3300113800",
+      "chapterUid": 18,
+      "chapterIdx": 18,
+      "title": "制定标准"
+    },
+    {
+      "bookId": "3300113800",
+      "chapterUid": 19,
+      "chapterIdx": 19,
+      "title": "榜样+练习"
+    },
+    {
+      "bookId": "3300113800",
+      "chapterUid": 20,
+      "chapterIdx": 20,
+      "title": "第三部分 管控弱点"
+    },
+    {
+      "bookId": "3300113800",
+      "chapterUid": 21,
+      "chapterIdx": 21,
+      "title": "了解自身的弱点"
+    },
+    {
+      "bookId": "3300113800",
+      "chapterUid": 22,
+      "chapterIdx": 22,
+      "title": "用保障措施保护自己"
+    },
+    {
+      "bookId": "3300113800",
+      "chapterUid": 23,
+      "chapterIdx": 23,
+      "title": "如何处理错误"
+    },
+    {
+      "bookId": "3300113800",
+      "chapterUid": 24,
+      "chapterIdx": 24,
+      "title": "第四部分 决策：在行动中清晰思考"
+    },
+    {
+      "bookId": "3300113800",
+      "chapterUid": 25,
+      "chapterIdx": 25,
+      "title": "决策=判断某个选项是最好的选择"
+    },
+    {
+      "bookId": "3300113800",
+      "chapterUid": 26,
+      "chapterIdx": 26,
+      "title": "界定问题"
+    },
+    {
+      "bookId": "3300113800",
+      "chapterUid": 27,
+      "chapterIdx": 27,
+      "title": "探索可能的解决方案"
+    },
+    {
+      "bookId": "3300113800",
+      "chapterUid": 28,
+      "chapterIdx": 28,
+      "title": "评估各个选项"
+    },
+    {
+      "bookId": "3300113800",
+      "chapterUid": 29,
+      "chapterIdx": 29,
+      "title": "放手去做！"
+    },
+    {
+      "bookId": "3300113800",
+      "chapterUid": 30,
+      "chapterIdx": 30,
+      "title": "安全系数"
+    },
+    {
+      "bookId": "3300113800",
+      "chapterUid": 31,
+      "chapterIdx": 31,
+      "title": "从决策中学习"
+    },
+    {
+      "bookId": "3300113800",
+      "chapterUid": 32,
+      "chapterIdx": 32,
+      "title": "第五部分 想要得到重要的东西"
+    },
+    {
+      "bookId": "3300113800",
+      "chapterUid": 33,
+      "chapterIdx": 33,
+      "title": "《圣诞颂歌》的教益"
+    },
+    {
+      "bookId": "3300113800",
+      "chapterUid": 34,
+      "chapterIdx": 34,
+      "title": "幸福专家"
+    },
+    {
+      "bookId": "3300113800",
+      "chapterUid": 35,
+      "chapterIdx": 35,
+      "title": "记得你终将死去"
+    },
+    {
+      "bookId": "3300113800",
+      "chapterUid": 36,
+      "chapterIdx": 36,
+      "title": "来自死亡的人生教训"
+    },
+    {
+      "bookId": "3300113800",
+      "chapterUid": 37,
+      "chapterIdx": 37,
+      "title": "结论：清晰思考的价值"
+    },
+    {
+      "bookId": "3300113800",
+      "chapterUid": 38,
+      "chapterIdx": 38,
+      "title": "致谢"
+    }
+  ]
+}

@@ -1,0 +1,296 @@
+{
+  "bookId": "921568",
+  "cachedAt": 1792847407247,
+  "ttl": 7,
+  "items": [],
+  "chapters": [
+    {
+      "bookId": "921568",
+      "chapterUid": 1,
+      "chapterIdx": 1,
+      "title": "封面"
+    },
+    {
+      "bookId": "921568",
+      "chapterUid": 51,
+      "chapterIdx": 2,
+      "title": "版权信息"
+    },
+    {
+      "bookId": "921568",
+      "chapterUid": 52,
+      "chapterIdx": 3,
+      "title": "引言"
+    },
+    {
+      "bookId": "921568",
+      "chapterUid": 53,
+      "chapterIdx": 4,
+      "title": "献词"
+    },
+    {
+      "bookId": "921568",
+      "chapterUid": 54,
+      "chapterIdx": 5,
+      "title": "中文版序"
+    },
+    {
+      "bookId": "921568",
+      "chapterUid": 55,
+      "chapterIdx": 6,
+      "title": "导言"
+    },
+    {
+      "bookId": "921568",
+      "chapterUid": 56,
+      "chapterIdx": 7,
+      "title": "第一部分 我的历程"
+    },
+    {
+      "bookId": "921568",
+      "chapterUid": 57,
+      "chapterIdx": 8,
+      "title": "1 我的探险召唤 （1949—1967年）"
+    },
+    {
+      "bookId": "921568",
+      "chapterUid": 58,
+      "chapterIdx": 9,
+      "title": "2 跨越门槛 （1967—1979年）"
+    },
+    {
+      "bookId": "921568",
+      "chapterUid": 59,
+      "chapterIdx": 10,
+      "title": "3 我的低谷 （1979—1982年）"
+    },
+    {
+      "bookId": "921568",
+      "chapterUid": 60,
+      "chapterIdx": 11,
+      "title": "4 我的试炼之路 （1983—1994年）"
+    },
+    {
+      "bookId": "921568",
+      "chapterUid": 61,
+      "chapterIdx": 12,
+      "title": "5 终极恩惠 （1995—2010年）"
+    },
+    {
+      "bookId": "921568",
+      "chapterUid": 62,
+      "chapterIdx": 13,
+      "title": "6 回报恩惠 （2011—2015年）"
+    },
+    {
+      "bookId": "921568",
+      "chapterUid": 63,
+      "chapterIdx": 14,
+      "title": "7 最后的一年和最大的挑战 （2016—2017年）"
+    },
+    {
+      "bookId": "921568",
+      "chapterUid": 64,
+      "chapterIdx": 15,
+      "title": "8 从更高的层面回顾"
+    },
+    {
+      "bookId": "921568",
+      "chapterUid": 65,
+      "chapterIdx": 16,
+      "title": "第二部分 生活原则"
+    },
+    {
+      "bookId": "921568",
+      "chapterUid": 66,
+      "chapterIdx": 17,
+      "title": "2 用五步流程实现 你的人生愿望"
+    },
+    {
+      "bookId": "921568",
+      "chapterUid": 67,
+      "chapterIdx": 18,
+      "title": "3 做到头脑极度开放"
+    },
+    {
+      "bookId": "921568",
+      "chapterUid": 68,
+      "chapterIdx": 19,
+      "title": "4 理解人与人大不相同"
+    },
+    {
+      "bookId": "921568",
+      "chapterUid": 69,
+      "chapterIdx": 20,
+      "title": "5 学习如何有效决策"
+    },
+    {
+      "bookId": "921568",
+      "chapterUid": 70,
+      "chapterIdx": 21,
+      "title": "生活原则总结"
+    },
+    {
+      "bookId": "921568",
+      "chapterUid": 71,
+      "chapterIdx": 22,
+      "title": "生活原则概要与列表"
+    },
+    {
+      "bookId": "921568",
+      "chapterUid": 72,
+      "chapterIdx": 23,
+      "title": "第三部分 工作原则"
+    },
+    {
+      "bookId": "921568",
+      "chapterUid": 73,
+      "chapterIdx": 24,
+      "title": "打造良好的文化……"
+    },
+    {
+      "bookId": "921568",
+      "chapterUid": 74,
+      "chapterIdx": 25,
+      "title": "1 相信极度求真和极度透明"
+    },
+    {
+      "bookId": "921568",
+      "chapterUid": 75,
+      "chapterIdx": 26,
+      "title": "2 做有意义的工作，发展有意义的人际关系"
+    },
+    {
+      "bookId": "921568",
+      "chapterUid": 76,
+      "chapterIdx": 27,
+      "title": "3 打造允许犯错，但不容忍罔顾教训、 一错再错的文化"
+    },
+    {
+      "bookId": "921568",
+      "chapterUid": 77,
+      "chapterIdx": 28,
+      "title": "4 求取共识并坚持"
+    },
+    {
+      "bookId": "921568",
+      "chapterUid": 78,
+      "chapterIdx": 29,
+      "title": "5 做决策时要从 观点的可信度出发"
+    },
+    {
+      "bookId": "921568",
+      "chapterUid": 79,
+      "chapterIdx": 30,
+      "title": "6 知道如何超越分歧"
+    },
+    {
+      "bookId": "921568",
+      "chapterUid": 80,
+      "chapterIdx": 31,
+      "title": "用对人……"
+    },
+    {
+      "bookId": "921568",
+      "chapterUid": 81,
+      "chapterIdx": 32,
+      "title": "7 比做什么事更重要的是 找对做事的人"
+    },
+    {
+      "bookId": "921568",
+      "chapterUid": 82,
+      "chapterIdx": 33,
+      "title": "8 要用对人， 因为用人不当的代价高昂"
+    },
+    {
+      "bookId": "921568",
+      "chapterUid": 83,
+      "chapterIdx": 34,
+      "title": "9 持续培训、测试、 评估和调配员工"
+    },
+    {
+      "bookId": "921568",
+      "chapterUid": 84,
+      "chapterIdx": 35,
+      "title": "建造并进化你的机器……"
+    },
+    {
+      "bookId": "921568",
+      "chapterUid": 85,
+      "chapterIdx": 36,
+      "title": "10 像操作一部机器那样 进行管理以实现目标"
+    },
+    {
+      "bookId": "921568",
+      "chapterUid": 86,
+      "chapterIdx": 37,
+      "title": "11 发现问题，不容忍问题"
+    },
+    {
+      "bookId": "921568",
+      "chapterUid": 87,
+      "chapterIdx": 38,
+      "title": "12 诊断问题，探究根源"
+    },
+    {
+      "bookId": "921568",
+      "chapterUid": 88,
+      "chapterIdx": 39,
+      "title": "13 改进机器，解决问题"
+    },
+    {
+      "bookId": "921568",
+      "chapterUid": 89,
+      "chapterIdx": 40,
+      "title": "14 按既定计划行事"
+    },
+    {
+      "bookId": "921568",
+      "chapterUid": 90,
+      "chapterIdx": 41,
+      "title": "15 运用工具和行为准则 指导工作"
+    },
+    {
+      "bookId": "921568",
+      "chapterUid": 91,
+      "chapterIdx": 42,
+      "title": "16 千万别忽视了公司治理"
+    },
+    {
+      "bookId": "921568",
+      "chapterUid": 92,
+      "chapterIdx": 43,
+      "title": "将工作原则融会贯通"
+    },
+    {
+      "bookId": "921568",
+      "chapterUid": 93,
+      "chapterIdx": 44,
+      "title": "结语"
+    },
+    {
+      "bookId": "921568",
+      "chapterUid": 94,
+      "chapterIdx": 45,
+      "title": "附录 桥水为创意择优所用的工具和行为准则"
+    },
+    {
+      "bookId": "921568",
+      "chapterUid": 95,
+      "chapterIdx": 46,
+      "title": "参考文献"
+    },
+    {
+      "bookId": "921568",
+      "chapterUid": 96,
+      "chapterIdx": 47,
+      "title": "致谢"
+    },
+    {
+      "bookId": "921568",
+      "chapterUid": 97,
+      "chapterIdx": 48,
+      "title": "审校后记"
+    }
+  ]
+}

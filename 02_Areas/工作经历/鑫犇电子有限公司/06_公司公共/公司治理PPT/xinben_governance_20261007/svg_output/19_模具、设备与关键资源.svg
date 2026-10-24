@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="4" orient="auto"><path d="M0,0 L9,4 L0,8 z" fill="#8091A5"/></marker><filter id="shadow"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#AAB7C6" flood-opacity=".22"/></filter></defs>
+<rect width="1280" height="720" fill="#F7F9FC"/><rect width="1280" height="8" fill="#2F6BFF"/>
+<text x="60" y="68" font-family="Microsoft YaHei,Arial,sans-serif" font-size="14" font-weight="700" fill="#1C9C8C">19 / GOVERNANCE</text><text x="60" y="112" font-family="Microsoft YaHei,Arial,sans-serif" font-size="40" font-weight="700" fill="#1F2D3D">模具、设备与关键资源</text><text x="60" y="145" font-family="Microsoft YaHei,Arial,sans-serif" font-size="19" fill="#526173">治理层规定状态、责任、批准和履历，不规定维修动作</text><line x1="60" y1="166" x2="1220" y2="166" stroke="#D7E0EA"/>
+<g id="obj_19_resource_lifecycle">
+ <rect x="60" y="205" width="690" height="370" rx="22" fill="#FFFFFF" stroke="#D7E0EA" filter="url(#shadow)"/>
+ <text x="95" y="245" font-family="Microsoft YaHei,Arial" font-size="17" font-weight="700" fill="#526173">关键资源状态闭环</text>
+ <path d="M175 350 C175 285 245 270 310 270 H540 C625 270 680 315 680 370 C680 430 625 475 540 475 H310 C245 475 175 435 175 390" fill="none" stroke="#8091A5" stroke-width="4" marker-end="url(#arrow)"/>
+ <g filter="url(#shadow)"><rect x="105" y="330" width="170" height="82" rx="16" fill="#EAF0FF" stroke="#2F6BFF" stroke-width="2"/><text x="190" y="365" text-anchor="middle" font-family="Microsoft YaHei,Arial" font-size="20" font-weight="700" fill="#1F2D3D">登记建档</text><text x="190" y="388" text-anchor="middle" font-family="Microsoft YaHei,Arial" font-size="12" fill="#526173">编号 / 责任人</text></g>
+ <g filter="url(#shadow)"><rect x="285" y="250" width="170" height="82" rx="16" fill="#EAF7F4" stroke="#1C9C8C" stroke-width="2"/><text x="370" y="285" text-anchor="middle" font-family="Microsoft YaHei,Arial" font-size="20" font-weight="700" fill="#1F2D3D">状态评估</text><text x="370" y="308" text-anchor="middle" font-family="Microsoft YaHei,Arial" font-size="12" fill="#526173">可用 / 待修 / 封存</text></g>
+ <g filter="url(#shadow)"><rect x="480" y="250" width="170" height="82" rx="16" fill="#FFF2E7" stroke="#C56A25" stroke-width="2"/><text x="565" y="285" text-anchor="middle" font-family="Microsoft YaHei,Arial" font-size="20" font-weight="700" fill="#1F2D3D">批准使用</text><text x="565" y="308" text-anchor="middle" font-family="Microsoft YaHei,Arial" font-size="12" fill="#526173">责任 / 条件 / 期限</text></g>
+ <g filter="url(#shadow)"><rect x="400" y="430" width="190" height="82" rx="16" fill="#FFF7DF" stroke="#D79A2B" stroke-width="2"/><text x="495" y="465" text-anchor="middle" font-family="Microsoft YaHei,Arial" font-size="20" font-weight="700" fill="#1F2D3D">履历更新</text><text x="495" y="488" text-anchor="middle" font-family="Microsoft YaHei,Arial" font-size="12" fill="#526173">维修 / 点检 / 变更证据</text></g>
+ <text x="95" y="545" font-family="Microsoft YaHei,Arial" font-size="15" fill="#526173">治理字段：目的｜责任｜输入｜输出｜记录｜控制点</text>
+ <rect x="795" y="205" width="425" height="370" rx="22" fill="#1F2D3D"/>
+ <image href="../images/resource_mold_hero.png" x="810" y="220" width="395" height="270" preserveAspectRatio="xMidYMid slice"/>
+  <rect x="810" y="220" width="395" height="270" fill="#1F2D3D" opacity="0.04"/>
+ <text x="835" y="525" font-family="Microsoft YaHei,Arial" font-size="22" font-weight="700" fill="#FFFFFF">模具不是“设备清单”</text><text x="835" y="552" font-family="Microsoft YaHei,Arial" font-size="15" fill="#9AA9BA">而是有状态、有责任、有批准、有履历的关键资源</text>
+</g>
+<text x="60" y="690" font-family="Microsoft YaHei,Arial" font-size="14" fill="#8190A0">鑫犇电子有限公司｜公司治理与管理方法</text><text x="1220" y="690" text-anchor="end" font-family="Microsoft YaHei,Arial" font-size="14" fill="#8190A0">19</text>
+</svg>

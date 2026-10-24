@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<defs>
+ <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#6B7A90" /></marker>
+ <marker id="arrowRed" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#D95C5C" /></marker>
+ <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur in="SourceAlpha" stdDeviation="3" /><feOffset dy="2" /><feComponentTransfer><feFuncA type="linear" slope="0.12" /></feComponentTransfer><feMerge><feMergeNode /><feMergeNode in="SourceGraphic" /></feMerge></filter>
+</defs>
+<rect width="1280" height="720" fill="#F7F9FC" /><rect width="1280" height="8" fill="#2F6BFF" />
+<g id="header">
+ <text x="60" y="62" font-family="Microsoft YaHei,Arial,sans-serif" font-size="14" font-weight="700" fill="#1C9C8C">16 / GOVERNANCE · SEGREGATION OF DUTIES</text>
+ <text x="60" y="108" font-family="Microsoft YaHei,Arial,sans-serif" font-size="38" font-weight="700" fill="#1F2D3D">采购到付款：职责分离，资料相互核对</text>
+ <text x="60" y="140" font-family="Microsoft YaHei,Arial,sans-serif" font-size="17" fill="#526173">采购申请、下单、收货、对账和付款不由同一角色单独完成</text>
+ <path fill="#FFF2E7" d="M1070,48 H1180 A20,20 0 0 1 1200,68 V68 A20,20 0 0 1 1180,88 H1070 A20,20 0 0 1 1050,68 V68 A20,20 0 0 1 1070,48 Z" /><text x="1125" y="74" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" font-size="14" font-weight="700" fill="#C56A25">职责分离示例</text>
+</g>
+<line x1="60" y1="166" x2="1220" y2="166" stroke="#D7E0EA" />
+<g id="lane-labels">
+ <path fill="#EAF0FF" d="M72,190 H198 A12,12 0 0 1 210,202 V260 A12,12 0 0 1 198,272 H72 A12,12 0 0 1 60,260 V202 A12,12 0 0 1 72,190 Z" /><text x="135" y="224" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" font-size="15" font-weight="700" fill="#2F6BFF">需求部门</text><text x="135" y="249" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" font-size="12" fill="#526173">提出与验收</text>
+ <path fill="#EAF7F4" d="M72,272 H198 A12,12 0 0 1 210,284 V342 A12,12 0 0 1 198,354 H72 A12,12 0 0 1 60,342 V284 A12,12 0 0 1 72,272 Z" /><text x="135" y="306" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" font-size="15" font-weight="700" fill="#1C9C8C">采购 / 营运部</text><text x="135" y="331" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" font-size="12" fill="#526173">询价与下单</text>
+ <path fill="#FFF2E7" d="M72,354 H198 A12,12 0 0 1 210,366 V424 A12,12 0 0 1 198,436 H72 A12,12 0 0 1 60,424 V366 A12,12 0 0 1 72,354 Z" /><text x="135" y="388" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" font-size="15" font-weight="700" fill="#C56A25">仓储 / 收货</text><text x="135" y="413" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" font-size="12" fill="#526173">数量与状态</text>
+ <path fill="#F2ECFF" d="M72,436 H198 A12,12 0 0 1 210,448 V506 A12,12 0 0 1 198,518 H72 A12,12 0 0 1 60,506 V448 A12,12 0 0 1 72,436 Z" /><text x="135" y="470" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" font-size="15" font-weight="700" fill="#7657B8">财务 / 授权人</text><text x="135" y="495" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" font-size="12" fill="#526173">核对与付款</text>
+</g>
+<g id="lanes">
+ <rect x="230" y="190" width="970" height="82" fill="#FBFCFE" stroke="#E1E7F0" /><rect x="230" y="272" width="970" height="82" fill="#F8FCFB" stroke="#E1E7F0" /><rect x="230" y="354" width="970" height="82" fill="#FFFBF7" stroke="#E1E7F0" /><rect x="230" y="436" width="970" height="82" fill="#FBF9FF" stroke="#E1E7F0" />
+ <line x1="230" y1="190" x2="230" y2="518" stroke="#D5DDE8" stroke-width="2" />
+</g>
+<g id="connectors" fill="none" stroke="#6B7A90" stroke-width="2.5" marker-end="url(#arrow)">
+ <path d="M355 231 H390 V313 H420" /><path d="M555 313 H590 V395 H620" /><path d="M755 395 H790 V477 H820" /><path d="M955 477 H990 V231 H1020" />
+</g>
+<g id="steps">
+ <g id="request" filter="url(#shadow)"><path fill="#FFFFFF" stroke="#2F6BFF" stroke-width="2" d="M260,207 H345 A10,10 0 0 1 355,217 V245 A10,10 0 0 1 345,255 H260 A10,10 0 0 1 250,245 V217 A10,10 0 0 1 260,207 Z" /><text x="302" y="228" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" font-size="13" font-weight="700" fill="#1F2D3D">采购申请</text><text x="302" y="246" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" font-size="11" fill="#526173">需求与规格</text></g>
+ <g id="order" filter="url(#shadow)"><path fill="#FFFFFF" stroke="#1C9C8C" stroke-width="2" d="M430,289 H545 A10,10 0 0 1 555,299 V327 A10,10 0 0 1 545,337 H430 A10,10 0 0 1 420,327 V299 A10,10 0 0 1 430,289 Z" /><text x="487" y="310" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" font-size="13" font-weight="700" fill="#1F2D3D">询价 / 下单</text><text x="487" y="328" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" font-size="11" fill="#526173">供应商与价格</text></g>
+ <g id="receipt" filter="url(#shadow)"><path fill="#FFFFFF" stroke="#C56A25" stroke-width="2" d="M630,371 H745 A10,10 0 0 1 755,381 V409 A10,10 0 0 1 745,419 H630 A10,10 0 0 1 620,409 V381 A10,10 0 0 1 630,371 Z" /><text x="687" y="392" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" font-size="13" font-weight="700" fill="#1F2D3D">收货 / 入库</text><text x="687" y="410" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" font-size="11" fill="#526173">数量与状态</text></g>
+ <g id="payment" filter="url(#shadow)"><path fill="#FFF7DF" stroke="#D79A2B" stroke-width="2" d="M830,453 H945 A10,10 0 0 1 955,463 V491 A10,10 0 0 1 945,501 H830 A10,10 0 0 1 820,491 V463 A10,10 0 0 1 830,453 Z" /><text x="887" y="474" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" font-size="13" font-weight="700" fill="#805B12">付款审批</text><text x="887" y="492" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" font-size="11" fill="#805B12">按授权执行</text></g>
+ <g id="close" filter="url(#shadow)"><path fill="#EAF7F4" stroke="#1C9C8C" stroke-width="2" d="M1030,207 H1145 A10,10 0 0 1 1155,217 V245 A10,10 0 0 1 1145,255 H1030 A10,10 0 0 1 1020,245 V217 A10,10 0 0 1 1030,207 Z" /><text x="1087" y="228" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" font-size="13" font-weight="700" fill="#1F2D3D">对账 / 关闭</text><text x="1087" y="246" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" font-size="11" fill="#526173">资料归档</text></g>
+</g>
+<g id="control">
+ <path d="M687 419 V548 H445 V548" fill="none" stroke="#D95C5C" stroke-width="2.5" stroke-dasharray="7 5" marker-end="url(#arrowRed)" /><text x="500" y="568" font-family="Microsoft YaHei,Arial,sans-serif" font-size="12" font-weight="700" fill="#D95C5C">数量 / 质量 / 价格不一致：暂停付款并退回核对</text>
+ <path fill="#FFFFFF" stroke="#DCE4EE" d="M74,600 H1186 A14,14 0 0 1 1200,614 V644 A14,14 0 0 1 1186,658 H74 A14,14 0 0 1 60,644 V614 A14,14 0 0 1 74,600 Z" /><text x="86" y="625" font-family="Microsoft YaHei,Arial,sans-serif" font-size="13" font-weight="700" fill="#526173">至少形成三类相互核对资料</text>
+ <path fill="#EAF0FF" d="M371,612 H519 A16,16 0 0 1 535,628 V628 A16,16 0 0 1 519,644 H371 A16,16 0 0 1 355,628 V628 A16,16 0 0 1 371,612 Z" /><text x="445" y="633" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" font-size="12" font-weight="700" fill="#2F6BFF">申请 / 订单资料</text>
+ <path fill="#FFF2E7" d="M571,612 H719 A16,16 0 0 1 735,628 V628 A16,16 0 0 1 719,644 H571 A16,16 0 0 1 555,628 V628 A16,16 0 0 1 571,612 Z" /><text x="645" y="633" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" font-size="12" font-weight="700" fill="#C56A25">收货 / 入库资料</text>
+ <path fill="#F2ECFF" d="M771,612 H919 A16,16 0 0 1 935,628 V628 A16,16 0 0 1 919,644 H771 A16,16 0 0 1 755,628 V628 A16,16 0 0 1 771,612 Z" /><text x="845" y="633" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" font-size="12" font-weight="700" fill="#7657B8">发票 / 付款资料</text>
+</g>
+<text x="60" y="692" font-family="Microsoft YaHei,Arial,sans-serif" font-size="12" fill="#8A97A8">图例：实线＝正常路径　红色虚线＝异常退回　橙色/紫色＝受控节点；具体金额与审批权限以正式授权文件为准</text>
+</svg>

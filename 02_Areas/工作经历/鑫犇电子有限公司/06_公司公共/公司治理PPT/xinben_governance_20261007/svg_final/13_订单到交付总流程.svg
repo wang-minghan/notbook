@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<defs>
+  <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur in="SourceAlpha" stdDeviation="3" /><feOffset dy="2" /><feComponentTransfer><feFuncA type="linear" slope="0.12" /></feComponentTransfer><feMerge><feMergeNode /><feMergeNode in="SourceGraphic" /></feMerge></filter>
+  <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#6B7A90" /></marker>
+  <marker id="arrowRed" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#D95C5C" /></marker>
+</defs>
+<rect width="1280" height="720" fill="#F7F9FC" />
+<rect width="1280" height="8" fill="#2F6BFF" />
+<g id="header">
+ <text x="60" y="58" font-family="Microsoft YaHei,Arial,sans-serif" font-size="14" font-weight="700" fill="#1C9C8C">PROCESS GOVERNANCE / 01</text>
+ <text x="60" y="102" font-family="Microsoft YaHei,Arial,sans-serif" font-size="34" font-weight="700" fill="#1F2D3D">订单到交付总流程：把客户承诺变成可交付计划</text>
+ <text x="60" y="133" font-family="Microsoft YaHei,Arial,sans-serif" font-size="16" fill="#526173">流程重点不是“谁来做”，而是每个承诺都有确认、授权、记录和关闭证据</text>
+ <path fill="#EAF7F4" d="M1061,48 H1179 A21,21 0 0 1 1200,69 V69 A21,21 0 0 1 1179,90 H1061 A21,21 0 0 1 1040,69 V69 A21,21 0 0 1 1061,48 Z" /><text x="1120" y="75" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" font-size="14" font-weight="700" fill="#1C9C8C">治理流程示例</text>
+</g>
+<g id="lane-labels">
+ <path fill="#EAF0FF" d="M70,178 H170 A10,10 0 0 1 180,188 V222 A10,10 0 0 1 170,232 H70 A10,10 0 0 1 60,222 V188 A10,10 0 0 1 70,178 Z" /><text x="120" y="211" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" font-size="15" font-weight="700" fill="#2F6BFF">客户 / 业务</text>
+ <path fill="#EAF7F4" d="M70,232 H170 A10,10 0 0 1 180,242 V276 A10,10 0 0 1 170,286 H70 A10,10 0 0 1 60,276 V242 A10,10 0 0 1 70,232 Z" /><text x="120" y="265" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" font-size="15" font-weight="700" fill="#1C9C8C">营运部</text>
+ <path fill="#F2ECFF" d="M70,286 H170 A10,10 0 0 1 180,296 V330 A10,10 0 0 1 170,340 H70 A10,10 0 0 1 60,330 V296 A10,10 0 0 1 70,286 Z" /><text x="120" y="319" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" font-size="15" font-weight="700" fill="#7657B8">生产 / 品质</text>
+ <path fill="#FFF2E7" d="M70,340 H170 A10,10 0 0 1 180,350 V384 A10,10 0 0 1 170,394 H70 A10,10 0 0 1 60,384 V350 A10,10 0 0 1 70,340 Z" /><text x="120" y="373" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" font-size="15" font-weight="700" fill="#C56A25">采购 / 仓储</text>
+ <path fill="#FFF7DF" d="M70,394 H170 A10,10 0 0 1 180,404 V438 A10,10 0 0 1 170,448 H70 A10,10 0 0 1 60,438 V404 A10,10 0 0 1 70,394 Z" /><text x="120" y="427" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" font-size="15" font-weight="700" fill="#A87519">授权管理层</text>
+</g>
+<g id="lanes">
+ <rect x="195" y="178" width="1005" height="54" fill="#FBFCFE" stroke="#E1E7F0" />
+ <rect x="195" y="232" width="1005" height="54" fill="#F8FCFB" stroke="#E1E7F0" />
+ <rect x="195" y="286" width="1005" height="54" fill="#FBF9FF" stroke="#E1E7F0" />
+ <rect x="195" y="340" width="1005" height="54" fill="#FFFBF7" stroke="#E1E7F0" />
+ <rect x="195" y="394" width="1005" height="54" fill="#FFFDF5" stroke="#E1E7F0" />
+ <line x1="195" y1="178" x2="195" y2="448" stroke="#D5DDE8" stroke-width="2" />
+</g>
+<g id="connectors" fill="none" stroke="#6B7A90" stroke-width="2.5" marker-end="url(#arrow)">
+ <path d="M300 205 H330 V259 H350" />
+ <path d="M460 259 H490 V313 H510" />
+ <path d="M620 313 H650 V367 H670" />
+ <path d="M780 367 H810 V421 H830" />
+ <path d="M940 421 H970 V313 H1000" />
+ <path d="M1110 313 H1140 V205 H1170" />
+</g>
+<g id="steps">
+ <g filter="url(#shadow)" id="obj_13_订单到交付总流程_1"><path fill="#FFFFFF" stroke="#2F6BFF" stroke-width="2" d="M219,187 H291 A9,9 0 0 1 300,196 V214 A9,9 0 0 1 291,223 H219 A9,9 0 0 1 210,214 V196 A9,9 0 0 1 219,187 Z" /><text x="255" y="210" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" font-size="14" font-weight="700" fill="#1F2D3D">需求进入</text></g>
+ <g filter="url(#shadow)" id="obj_13_订单到交付总流程_2"><path fill="#FFFFFF" stroke="#1C9C8C" stroke-width="2" d="M359,241 H451 A9,9 0 0 1 460,250 V268 A9,9 0 0 1 451,277 H359 A9,9 0 0 1 350,268 V250 A9,9 0 0 1 359,241 Z" /><text x="405" y="264" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" font-size="14" font-weight="700" fill="#1F2D3D">信息完整性检查</text></g>
+ <g filter="url(#shadow)" id="obj_13_订单到交付总流程_3"><path fill="#FFFFFF" stroke="#7657B8" stroke-width="2" d="M519,295 H611 A9,9 0 0 1 620,304 V322 A9,9 0 0 1 611,331 H519 A9,9 0 0 1 510,322 V304 A9,9 0 0 1 519,295 Z" /><text x="565" y="318" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" font-size="14" font-weight="700" fill="#1F2D3D">跨部门评审</text></g>
+ <g filter="url(#shadow)" id="obj_13_订单到交付总流程_4"><path fill="#FFFFFF" stroke="#C56A25" stroke-width="2" d="M679,349 H771 A9,9 0 0 1 780,358 V376 A9,9 0 0 1 771,385 H679 A9,9 0 0 1 670,376 V358 A9,9 0 0 1 679,349 Z" /><text x="725" y="372" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" font-size="14" font-weight="700" fill="#1F2D3D">资源确认</text></g>
+ <g filter="url(#shadow)" id="obj_13_订单到交付总流程_5"><path fill="#FFF7DF" stroke="#D79A2B" stroke-width="2" d="M839,403 H931 A9,9 0 0 1 940,412 V430 A9,9 0 0 1 931,439 H839 A9,9 0 0 1 830,430 V412 A9,9 0 0 1 839,403 Z" /><text x="885" y="426" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" font-size="14" font-weight="700" fill="#805B12">承诺批准</text></g>
+ <g filter="url(#shadow)" id="obj_13_订单到交付总流程_6"><path fill="#FFFFFF" stroke="#7657B8" stroke-width="2" d="M1009,295 H1101 A9,9 0 0 1 1110,304 V322 A9,9 0 0 1 1101,331 H1009 A9,9 0 0 1 1000,322 V304 A9,9 0 0 1 1009,295 Z" /><text x="1055" y="318" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" font-size="14" font-weight="700" fill="#1F2D3D">执行与交付</text></g>
+ <g filter="url(#shadow)" id="obj_13_订单到交付总流程_7"><path fill="#EAF7F4" stroke="#1C9C8C" stroke-width="2" d="M1179,187 H1191 A9,9 0 0 1 1200,196 V214 A9,9 0 0 1 1191,223 H1179 A9,9 0 0 1 1170,214 V196 A9,9 0 0 1 1179,187 Z" /><text x="1185" y="210" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" font-size="18" font-weight="700" fill="#1C9C8C">✓</text></g>
+</g>
+<g id="decision">
+ <path d="M885 470 L950 505 L885 540 L820 505 Z" fill="#FFF7DF" stroke="#D79A2B" stroke-width="2" filter="url(#shadow)" />
+ <text x="885" y="501" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" font-size="14" font-weight="700" fill="#805B12">条件满足？</text><text x="885" y="518" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" font-size="11" fill="#A87519">质量 / 交期 / 资源</text>
+ <path d="M885 439 V470" fill="none" stroke="#6B7A90" stroke-width="2.5" marker-end="url(#arrow)" />
+ <path d="M950 505 H1060 V470 H1055 V439" fill="none" stroke="#6B7A90" stroke-width="2.5" marker-end="url(#arrow)" />
+ <text x="978" y="497" font-family="Microsoft YaHei,Arial,sans-serif" font-size="12" font-weight="700" fill="#1C9C8C">是</text>
+ <path d="M820 505 H745 V540 H625 V505 H595" fill="none" stroke="#D95C5C" stroke-width="2.5" stroke-dasharray="7 5" marker-end="url(#arrowRed)" />
+ <text x="750" y="558" font-family="Microsoft YaHei,Arial,sans-serif" font-size="12" font-weight="700" fill="#D95C5C">否：形成风险清单并升级</text>
+</g>
+<g id="control-rail">
+ <path fill="#FFFFFF" stroke="#DCE4EE" d="M74,590 H1186 A14,14 0 0 1 1200,604 V646 A14,14 0 0 1 1186,660 H74 A14,14 0 0 1 60,646 V604 A14,14 0 0 1 74,590 Z" />
+ <text x="88" y="618" font-family="Microsoft YaHei,Arial,sans-serif" font-size="13" font-weight="700" fill="#526173">每一步都留下什么</text>
+ <path fill="#EAF0FF" d="M267,603 H383 A17,17 0 0 1 400,620 V620 A17,17 0 0 1 383,637 H267 A17,17 0 0 1 250,620 V620 A17,17 0 0 1 267,603 Z" /><text x="325" y="625" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" font-size="13" font-weight="700" fill="#2F6BFF">订单 / 需求记录</text>
+ <path fill="#EAF7F4" d="M437,603 H553 A17,17 0 0 1 570,620 V620 A17,17 0 0 1 553,637 H437 A17,17 0 0 1 420,620 V620 A17,17 0 0 1 437,603 Z" /><text x="495" y="625" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" font-size="13" font-weight="700" fill="#1C9C8C">评审结论</text>
+ <path fill="#F2ECFF" d="M607,603 H723 A17,17 0 0 1 740,620 V620 A17,17 0 0 1 723,637 H607 A17,17 0 0 1 590,620 V620 A17,17 0 0 1 607,603 Z" /><text x="665" y="625" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" font-size="13" font-weight="700" fill="#7657B8">受控版本 / 任务</text>
+ <path fill="#FFF2E7" d="M777,603 H893 A17,17 0 0 1 910,620 V620 A17,17 0 0 1 893,637 H777 A17,17 0 0 1 760,620 V620 A17,17 0 0 1 777,603 Z" /><text x="835" y="625" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" font-size="13" font-weight="700" fill="#C56A25">交付证据</text>
+ <path fill="#FFF7DF" d="M947,603 H1063 A17,17 0 0 1 1080,620 V620 A17,17 0 0 1 1063,637 H947 A17,17 0 0 1 930,620 V620 A17,17 0 0 1 947,603 Z" /><text x="1005" y="625" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" font-size="13" font-weight="700" fill="#A87519">关闭 / 复盘</text>
+</g>
+<text x="60" y="690" font-family="Microsoft YaHei,Arial,sans-serif" font-size="12" fill="#8A97A8">图例：实线＝正常路径　虚线＝异常升级　橙色＝授权节点　底部＝管理证据链</text>
+</svg>

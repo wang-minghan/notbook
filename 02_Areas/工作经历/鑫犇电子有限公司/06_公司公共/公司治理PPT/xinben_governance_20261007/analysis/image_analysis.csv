@@ -1,0 +1,4 @@
+No,Filename,Width,Height,AspectRatio,PixelAspectRatio,RatioSource,UsageCount,DisplayRatioVariants,AssetKind,SvgRenderable,PptxNativeSupported,SizeKB,Category,ImageArea_SxS,TextArea_SxS
+1,FULL_DIE_CONCEPT_DEMO_ISOMETRIC.png,1500,900,1.67,1.67,pixel,1,,bitmap,True,True,21.3,Wide landscape,812x487,328x600
+2,FULL_DIE_CONCEPT_DEMO_OPEN_SECTION.png,1500,850,1.76,1.76,pixel,1,,bitmap,True,True,14.6,Wide landscape,812x460,328x600
+3,Mold_Base_3VIEW.png,1200,820,1.46,1.46,pixel,1,,bitmap,True,True,33.0,Standard landscape,812x555,328x600

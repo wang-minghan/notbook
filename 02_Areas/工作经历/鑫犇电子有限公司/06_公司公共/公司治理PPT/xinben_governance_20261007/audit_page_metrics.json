@@ -1,0 +1,362 @@
+[
+  {
+    "file": "01_公司治理与部门协同管理体系.svg",
+    "images": 1,
+    "paths": 0,
+    "lines": 1,
+    "rects": 2,
+    "groups": 0,
+    "diamonds": 0,
+    "arrows": 0
+  },
+  {
+    "file": "02_文件定位与适用范围.svg",
+    "images": 1,
+    "paths": 0,
+    "lines": 4,
+    "rects": 7,
+    "groups": 0,
+    "diamonds": 0,
+    "arrows": 0
+  },
+  {
+    "file": "03_管理体系三层架构.svg",
+    "images": 0,
+    "paths": 3,
+    "lines": 1,
+    "rects": 6,
+    "groups": 3,
+    "diamonds": 0,
+    "arrows": 2
+  },
+  {
+    "file": "04_管理原则.svg",
+    "images": 0,
+    "paths": 0,
+    "lines": 1,
+    "rects": 14,
+    "groups": 0,
+    "diamonds": 0,
+    "arrows": 0
+  },
+  {
+    "file": "05_制度文件层级.svg",
+    "images": 0,
+    "paths": 2,
+    "lines": 1,
+    "rects": 6,
+    "groups": 0,
+    "diamonds": 0,
+    "arrows": 1
+  },
+  {
+    "file": "06_组织架构与决策边界.svg",
+    "images": 0,
+    "paths": 2,
+    "lines": 1,
+    "rects": 8,
+    "groups": 5,
+    "diamonds": 0,
+    "arrows": 1
+  },
+  {
+    "file": "07_决策与经营职责.svg",
+    "images": 0,
+    "paths": 0,
+    "lines": 1,
+    "rects": 4,
+    "groups": 0,
+    "diamonds": 0,
+    "arrows": 0
+  },
+  {
+    "file": "08_部门职责地图.svg",
+    "images": 0,
+    "paths": 0,
+    "lines": 1,
+    "rects": 14,
+    "groups": 0,
+    "diamonds": 0,
+    "arrows": 0
+  },
+  {
+    "file": "09_岗位责任与替代机制.svg",
+    "images": 0,
+    "paths": 0,
+    "lines": 1,
+    "rects": 14,
+    "groups": 0,
+    "diamonds": 0,
+    "arrows": 0
+  },
+  {
+    "file": "10_RACI责任规则.svg",
+    "images": 0,
+    "paths": 0,
+    "lines": 10,
+    "rects": 9,
+    "groups": 3,
+    "diamonds": 0,
+    "arrows": 0
+  },
+  {
+    "file": "11_授权审批矩阵.svg",
+    "images": 0,
+    "paths": 0,
+    "lines": 1,
+    "rects": 29,
+    "groups": 2,
+    "diamonds": 0,
+    "arrows": 0
+  },
+  {
+    "file": "12_越权与职责冲突处理.svg",
+    "images": 0,
+    "paths": 8,
+    "lines": 1,
+    "rects": 8,
+    "groups": 6,
+    "diamonds": 0,
+    "arrows": 6
+  },
+  {
+    "file": "13_订单到交付总流程.svg",
+    "images": 0,
+    "paths": 12,
+    "lines": 1,
+    "rects": 26,
+    "groups": 14,
+    "diamonds": 0,
+    "arrows": 4
+  },
+  {
+    "file": "14_订单与变更控制.svg",
+    "images": 0,
+    "paths": 9,
+    "lines": 1,
+    "rects": 8,
+    "groups": 6,
+    "diamonds": 0,
+    "arrows": 7
+  },
+  {
+    "file": "15_生产计划与任务下达.svg",
+    "images": 0,
+    "paths": 8,
+    "lines": 1,
+    "rects": 7,
+    "groups": 6,
+    "diamonds": 0,
+    "arrows": 5
+  },
+  {
+    "file": "16_采购到付款.svg",
+    "images": 0,
+    "paths": 7,
+    "lines": 2,
+    "rects": 20,
+    "groups": 11,
+    "diamonds": 0,
+    "arrows": 2
+  },
+  {
+    "file": "17_质量异常与放行.svg",
+    "images": 0,
+    "paths": 5,
+    "lines": 1,
+    "rects": 9,
+    "groups": 5,
+    "diamonds": 0,
+    "arrows": 2
+  },
+  {
+    "file": "18_客诉与纠正措施.svg",
+    "images": 0,
+    "paths": 5,
+    "lines": 1,
+    "rects": 8,
+    "groups": 1,
+    "diamonds": 0,
+    "arrows": 2
+  },
+  {
+    "file": "19_模具、设备与关键资源.svg",
+    "images": 1,
+    "paths": 2,
+    "lines": 1,
+    "rects": 9,
+    "groups": 5,
+    "diamonds": 0,
+    "arrows": 1
+  },
+  {
+    "file": "20_跨部门交接标准.svg",
+    "images": 0,
+    "paths": 5,
+    "lines": 1,
+    "rects": 11,
+    "groups": 0,
+    "diamonds": 0,
+    "arrows": 3
+  },
+  {
+    "file": "21_文件编制与版本控制.svg",
+    "images": 0,
+    "paths": 3,
+    "lines": 1,
+    "rects": 9,
+    "groups": 1,
+    "diamonds": 0,
+    "arrows": 2
+  },
+  {
+    "file": "22_记录与档案生命周期.svg",
+    "images": 0,
+    "paths": 2,
+    "lines": 2,
+    "rects": 6,
+    "groups": 1,
+    "diamonds": 0,
+    "arrows": 2
+  },
+  {
+    "file": "23_人员能力与岗位授权.svg",
+    "images": 0,
+    "paths": 5,
+    "lines": 1,
+    "rects": 9,
+    "groups": 1,
+    "diamonds": 0,
+    "arrows": 3
+  },
+  {
+    "file": "24_客户资料与信息权限.svg",
+    "images": 0,
+    "paths": 8,
+    "lines": 1,
+    "rects": 8,
+    "groups": 0,
+    "diamonds": 0,
+    "arrows": 5
+  },
+  {
+    "file": "25_经营会议与管理闭环.svg",
+    "images": 0,
+    "paths": 9,
+    "lines": 1,
+    "rects": 7,
+    "groups": 1,
+    "diamonds": 0,
+    "arrows": 7
+  },
+  {
+    "file": "26_管理指标看板.svg",
+    "images": 0,
+    "paths": 0,
+    "lines": 1,
+    "rects": 8,
+    "groups": 7,
+    "diamonds": 0,
+    "arrows": 0
+  },
+  {
+    "file": "27_风险登记与升级.svg",
+    "images": 0,
+    "paths": 3,
+    "lines": 1,
+    "rects": 13,
+    "groups": 1,
+    "diamonds": 0,
+    "arrows": 1
+  },
+  {
+    "file": "28_安全、环保与应急.svg",
+    "images": 0,
+    "paths": 4,
+    "lines": 1,
+    "rects": 8,
+    "groups": 1,
+    "diamonds": 0,
+    "arrows": 2
+  },
+  {
+    "file": "29_内部检查与管理评审.svg",
+    "images": 0,
+    "paths": 3,
+    "lines": 1,
+    "rects": 7,
+    "groups": 1,
+    "diamonds": 0,
+    "arrows": 2
+  },
+  {
+    "file": "30_不符合项与整改关闭.svg",
+    "images": 0,
+    "paths": 4,
+    "lines": 1,
+    "rects": 8,
+    "groups": 1,
+    "diamonds": 0,
+    "arrows": 2
+  },
+  {
+    "file": "31_PDCA持续改进.svg",
+    "images": 0,
+    "paths": 2,
+    "lines": 1,
+    "rects": 7,
+    "groups": 4,
+    "diamonds": 0,
+    "arrows": 1
+  },
+  {
+    "file": "32_部门协同RACI示例.svg",
+    "images": 0,
+    "paths": 0,
+    "lines": 13,
+    "rects": 22,
+    "groups": 3,
+    "diamonds": 0,
+    "arrows": 0
+  },
+  {
+    "file": "33_管理体系证据链.svg",
+    "images": 0,
+    "paths": 3,
+    "lines": 1,
+    "rects": 8,
+    "groups": 1,
+    "diamonds": 0,
+    "arrows": 2
+  },
+  {
+    "file": "34_90天落地路线.svg",
+    "images": 0,
+    "paths": 1,
+    "lines": 2,
+    "rects": 9,
+    "groups": 3,
+    "diamonds": 0,
+    "arrows": 1
+  },
+  {
+    "file": "35_待确认事项清单.svg",
+    "images": 0,
+    "paths": 0,
+    "lines": 1,
+    "rects": 14,
+    "groups": 0,
+    "diamonds": 0,
+    "arrows": 0
+  },
+  {
+    "file": "36_附件与另册文件.svg",
+    "images": 0,
+    "paths": 2,
+    "lines": 1,
+    "rects": 4,
+    "groups": 0,
+    "diamonds": 0,
+    "arrows": 1
+  }
+]

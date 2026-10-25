@@ -7,6 +7,7 @@ scope: global
 tags: [resume, interview, FDE, AI, RAG, Agent, AsiaInfo]
 sources:
   - [[02_Areas/工作经历/亚信科技（中国）有限公司]]
+  - [[03_Resources/读书/读书笔记/FDE（前沿部署工程师）-读书提炼]]
   - [[01_Projects/面试准备/面试提问内容整理]]
 confidence: medium
 contested: true

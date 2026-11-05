@@ -1,4 +1,4 @@
-# PPT Master spec_lock — 鑫犇治理体系 V3
+# PPT Master spec_lock — 鑫犇治理体系
 
 ## Locked identity
 - canvas: 1280x720

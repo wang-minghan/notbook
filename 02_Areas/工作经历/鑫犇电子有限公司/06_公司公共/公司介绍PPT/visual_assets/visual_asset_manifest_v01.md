@@ -19,7 +19,7 @@
 
 ### 公司治理章节主视觉
 
-- 文件：`06_公司公共/公司治理PPT/xinben_governance_20261007/images/governance_hero_v01.jpg`
+- 文件：`06_公司公共/公司治理PPT/images/governance_hero_v01.jpg`
 - 用途：治理体系/质量管理章节页候选
 - 构图要求：右侧结构化闭环视觉、左侧标题区、深蓝石墨背景、青色与琥珀色点缀
 - 来源：UUAPI 生图

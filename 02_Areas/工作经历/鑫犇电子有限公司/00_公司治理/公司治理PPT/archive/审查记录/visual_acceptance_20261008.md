@@ -28,6 +28,6 @@
 
 ## 交付
 
-`exports/xinben_governance_20261008_165330.pptx`
+`exports/鑫犇电子公司治理与部门协同管理体系.pptx`
 
 预览：`.preview/`；关键修复页拼版：`.preview/repaired_contact.jpg`

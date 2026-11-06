@@ -10,7 +10,7 @@
 
 ### 公司介绍封面主视觉
 
-- 文件：`06_公司公共/公司介绍PPT/visual_assets/company_hero_v01.jpg`
+- 文件：`06_公司公共/公司介绍PPT/visual_assets/company_hero.jpg`
 - 用途：公司介绍封面候选
 - 构图要求：右侧制造主体、左侧文字安全区、深石墨/深蓝工业摄影感
 - 来源：UUAPI 生图

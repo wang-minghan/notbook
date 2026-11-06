@@ -36,7 +36,7 @@ for i,sl in enumerate(p.slides,1):
  box=sl.shapes.add_textbox(Inches(9.35),Inches(.27),Inches(3.35),Inches(.27))
  tf=box.text_frame;tf.margin_top=0;tf.margin_bottom=0
  r=tf.paragraphs[0].add_run();r.text='内部审阅草案 · 事实未冻结';r.font.name='Microsoft YaHei';r.font.size=Pt(10);r.font.color.rgb=RGBColor.from_string('B07813' if i not in (1,12) else 'F6C453')
- sl.notes_slide.notes_text_frame.text=f'第{i:02d}页｜内部审阅草案，不得作为已批准宣传资料。\n依据：company_intro_fact_base_v01.md、page_contracts_v01.md。\n未确认事项以页面待确认/待补为准；组织线索不等于产能证明。AI封面仅为概念视觉；现场照片不得用AI替代。'
+ sl.notes_slide.notes_text_frame.text=f'第{i:02d}页｜内部审阅草案，不得作为已批准宣传资料。\n依据：company_intro_fact_base.md、page_contracts.md。\n未确认事项以页面待确认/待补为准；组织线索不等于产能证明。AI封面仅为概念视觉；现场照片不得用AI替代。'
 p.save(str(OUT))
 q=Presentation(str(OUT))
 assert len(q.slides)==12

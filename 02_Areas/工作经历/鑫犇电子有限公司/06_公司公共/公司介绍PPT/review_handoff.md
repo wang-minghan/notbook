@@ -5,7 +5,7 @@
 - 渲染：build/qa_v03_review/slide_01.jpg 至 slide_12.jpg
 - 数值排序联系表：build/qa_v03_review/contact_sheet_numeric.jpg
 - 结构核验：build/qa_v03_review/verification.json
-- 定点修复脚本：prepare_review_v03.py（输入 v02，不重建整套设计）
+- 定点修复脚本：prepare_review.py（输入 v02，不重建整套设计）
 - v01、v02 与治理 PPT 基线未覆盖。
 
 ## 本轮真实执行

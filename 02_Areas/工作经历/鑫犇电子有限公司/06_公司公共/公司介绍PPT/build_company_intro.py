@@ -29,7 +29,7 @@ def arrow(sl,x1,y1,x2,y2,color='cyan'):
 
 def build():
     prs=Presentation();prs.slide_width=Inches(13.333);prs.slide_height=Inches(7.5)
-    hero=ROOT/'visual_assets'/'company_hero_v01.jpg'
+    hero=ROOT/'visual_assets'/'company_hero.jpg'
     sl=base(prs,True);sl.shapes.add_picture(str(hero),Inches(6.55),0,width=Inches(6.78),height=Inches(7.5));text(sl,.65,.45,5.4,.3,'XINBEN ELECTRONICS',11,'cyan',True);text(sl,.65,1.0,5.5,.8,'鑫犇电子有限公司',30,'white',True);text(sl,.65,1.9,5.3,.5,'精密金属零件与冲压制造能力介绍',20,'white',True);text(sl,.65,3.0,5.2,1.0,'面向产品、工程、制造与品质协同的\n制造能力底稿',23,'white',True);text(sl,.65,6.42,5.4,.28,'AI 生成概念视觉，不代表真实工厂或设备',10,'amber');foot(sl,'对外介绍草案｜正式公司名称与定位待确认',True)
     sl=base(prs);head(sl,'02 / OVERVIEW','我们是谁','公司能力应从四条互相咬合的线理解，而不是单一产品或单一工序。')
     for x,y,t,b,c in [(.75,2.0,'产品','机壳、磁性/结构件、制动片及配套零件','blue'),(3.85,2.0,'工程','图纸版本、材料、模具与工程准备','purple'),(.75,4.25,'制造','冲压、清洗、生产与关键资源协同','teal'),(3.85,4.25,'品质','尺寸、外观、表面处理、单重与异常闭环','amber')]: card(sl,x,y,2.75,1.75,t,b,c)

@@ -1,0 +1,494 @@
+{
+  "bookId": "31251430",
+  "cachedAt": 1793938645438,
+  "ttl": 7,
+  "items": [],
+  "chapters": [
+    {
+      "bookId": "31251430",
+      "chapterUid": 1,
+      "chapterIdx": 1,
+      "title": "封面"
+    },
+    {
+      "bookId": "31251430",
+      "chapterUid": 2,
+      "chapterIdx": 2,
+      "title": "书名页"
+    },
+    {
+      "bookId": "31251430",
+      "chapterUid": 3,
+      "chapterIdx": 3,
+      "title": "版权页"
+    },
+    {
+      "bookId": "31251430",
+      "chapterUid": 4,
+      "chapterIdx": 4,
+      "title": "前言"
+    },
+    {
+      "bookId": "31251430",
+      "chapterUid": 5,
+      "chapterIdx": 5,
+      "title": "第1章 概述"
+    },
+    {
+      "bookId": "31251430",
+      "chapterUid": 6,
+      "chapterIdx": 6,
+      "title": "1.1 多工位级进模在工业生产中的地位"
+    },
+    {
+      "bookId": "31251430",
+      "chapterUid": 7,
+      "chapterIdx": 7,
+      "title": "1.2 多工位级进模的实质和特点"
+    },
+    {
+      "bookId": "31251430",
+      "chapterUid": 8,
+      "chapterIdx": 8,
+      "title": "1.3 多工位级进模应用的必要条件"
+    },
+    {
+      "bookId": "31251430",
+      "chapterUid": 9,
+      "chapterIdx": 9,
+      "title": "1.4 多工位级进模的应用"
+    },
+    {
+      "bookId": "31251430",
+      "chapterUid": 10,
+      "chapterIdx": 10,
+      "title": "1.5 多工位级进模的组成及分类"
+    },
+    {
+      "bookId": "31251430",
+      "chapterUid": 11,
+      "chapterIdx": 11,
+      "title": "第2章 冲压变形的基本原理"
+    },
+    {
+      "bookId": "31251430",
+      "chapterUid": 12,
+      "chapterIdx": 12,
+      "title": "2.2 冲压应力应变状态"
+    },
+    {
+      "bookId": "31251430",
+      "chapterUid": 13,
+      "chapterIdx": 13,
+      "title": "2.3 冲压成形中的变形趋向性"
+    },
+    {
+      "bookId": "31251430",
+      "chapterUid": 14,
+      "chapterIdx": 14,
+      "title": "2.4 变形趋向性的控制及其运用"
+    },
+    {
+      "bookId": "31251430",
+      "chapterUid": 15,
+      "chapterIdx": 15,
+      "title": "第3章 多工位级进模设计步骤和注意事项"
+    },
+    {
+      "bookId": "31251430",
+      "chapterUid": 16,
+      "chapterIdx": 16,
+      "title": "3.2 多工位级进模设计注意事项"
+    },
+    {
+      "bookId": "31251430",
+      "chapterUid": 17,
+      "chapterIdx": 17,
+      "title": "第4章 多工位级进模设计一般资料"
+    },
+    {
+      "bookId": "31251430",
+      "chapterUid": 18,
+      "chapterIdx": 18,
+      "title": "4.2 冲裁工艺"
+    },
+    {
+      "bookId": "31251430",
+      "chapterUid": 19,
+      "chapterIdx": 19,
+      "title": "4.3 弯曲工艺"
+    },
+    {
+      "bookId": "31251430",
+      "chapterUid": 20,
+      "chapterIdx": 20,
+      "title": "4.4 拉深工艺"
+    },
+    {
+      "bookId": "31251430",
+      "chapterUid": 21,
+      "chapterIdx": 21,
+      "title": "4.5 成形工艺"
+    },
+    {
+      "bookId": "31251430",
+      "chapterUid": 22,
+      "chapterIdx": 22,
+      "title": "4.6 压力中心计算"
+    },
+    {
+      "bookId": "31251430",
+      "chapterUid": 23,
+      "chapterIdx": 23,
+      "title": "第5章 多工位级进模的排样设计"
+    },
+    {
+      "bookId": "31251430",
+      "chapterUid": 24,
+      "chapterIdx": 24,
+      "title": "5.1 排样图设计原则"
+    },
+    {
+      "bookId": "31251430",
+      "chapterUid": 25,
+      "chapterIdx": 25,
+      "title": "5.2 排样图设计时应考虑的因素"
+    },
+    {
+      "bookId": "31251430",
+      "chapterUid": 26,
+      "chapterIdx": 26,
+      "title": "5.3 排样设计技巧"
+    },
+    {
+      "bookId": "31251430",
+      "chapterUid": 27,
+      "chapterIdx": 27,
+      "title": "5.4 载体设计"
+    },
+    {
+      "bookId": "31251430",
+      "chapterUid": 28,
+      "chapterIdx": 28,
+      "title": "5.5 分段冲切废料设计"
+    },
+    {
+      "bookId": "31251430",
+      "chapterUid": 29,
+      "chapterIdx": 29,
+      "title": "5.6 空工位设计"
+    },
+    {
+      "bookId": "31251430",
+      "chapterUid": 30,
+      "chapterIdx": 30,
+      "title": "5.7 步距精度及步距尺寸的确定"
+    },
+    {
+      "bookId": "31251430",
+      "chapterUid": 31,
+      "chapterIdx": 31,
+      "title": "5.8 排样图设计步骤"
+    },
+    {
+      "bookId": "31251430",
+      "chapterUid": 32,
+      "chapterIdx": 32,
+      "title": "5.9 多工位连续拉深排样设计"
+    },
+    {
+      "bookId": "31251430",
+      "chapterUid": 33,
+      "chapterIdx": 33,
+      "title": "第6章 多工位级进模主要零部件设计"
+    },
+    {
+      "bookId": "31251430",
+      "chapterUid": 34,
+      "chapterIdx": 34,
+      "title": "6.2 带料（条料）导料、浮料装置设计"
+    },
+    {
+      "bookId": "31251430",
+      "chapterUid": 35,
+      "chapterIdx": 35,
+      "title": "6.3 带料（条料）定距机构设计"
+    },
+    {
+      "bookId": "31251430",
+      "chapterUid": 36,
+      "chapterIdx": 36,
+      "title": "6.4 凸、凹模设计"
+    },
+    {
+      "bookId": "31251430",
+      "chapterUid": 37,
+      "chapterIdx": 37,
+      "title": "6.5 固定板、垫板设计"
+    },
+    {
+      "bookId": "31251430",
+      "chapterUid": 38,
+      "chapterIdx": 38,
+      "title": "6.6 防止废料回跳或堵料"
+    },
+    {
+      "bookId": "31251430",
+      "chapterUid": 39,
+      "chapterIdx": 39,
+      "title": "6.7 卸料装置设计"
+    },
+    {
+      "bookId": "31251430",
+      "chapterUid": 40,
+      "chapterIdx": 40,
+      "title": "6.8 顶出装置"
+    },
+    {
+      "bookId": "31251430",
+      "chapterUid": 41,
+      "chapterIdx": 41,
+      "title": "6.9 斜楔、滑块、侧向冲压与倒冲机构"
+    },
+    {
+      "bookId": "31251430",
+      "chapterUid": 42,
+      "chapterIdx": 42,
+      "title": "6.10 微调机构设计"
+    },
+    {
+      "bookId": "31251430",
+      "chapterUid": 43,
+      "chapterIdx": 43,
+      "title": "6.11 限位装置"
+    },
+    {
+      "bookId": "31251430",
+      "chapterUid": 44,
+      "chapterIdx": 44,
+      "title": "6.12 模柄"
+    },
+    {
+      "bookId": "31251430",
+      "chapterUid": 45,
+      "chapterIdx": 45,
+      "title": "6.13 螺钉与销钉"
+    },
+    {
+      "bookId": "31251430",
+      "chapterUid": 46,
+      "chapterIdx": 46,
+      "title": "第7章 多工位级进模的结构精解"
+    },
+    {
+      "bookId": "31251430",
+      "chapterUid": 47,
+      "chapterIdx": 47,
+      "title": "7.1 多工位级进模的基本结构"
+    },
+    {
+      "bookId": "31251430",
+      "chapterUid": 48,
+      "chapterIdx": 48,
+      "title": "7.2 多工位级进模的典型结构"
+    },
+    {
+      "bookId": "31251430",
+      "chapterUid": 49,
+      "chapterIdx": 49,
+      "title": "7.3 纯冲裁多工位级进模"
+    },
+    {
+      "bookId": "31251430",
+      "chapterUid": 50,
+      "chapterIdx": 50,
+      "title": "7.4 冲裁、弯曲多工位级进模"
+    },
+    {
+      "bookId": "31251430",
+      "chapterUid": 51,
+      "chapterIdx": 51,
+      "title": "7.5 冲裁、拉深多工位级进模"
+    },
+    {
+      "bookId": "31251430",
+      "chapterUid": 52,
+      "chapterIdx": 52,
+      "title": "7.6 冲裁、成形多工位级进模"
+    },
+    {
+      "bookId": "31251430",
+      "chapterUid": 53,
+      "chapterIdx": 53,
+      "title": "第8章 多工位级进模的自动监测与安全保护"
+    },
+    {
+      "bookId": "31251430",
+      "chapterUid": 54,
+      "chapterIdx": 54,
+      "title": "8.1 传感器的种类"
+    },
+    {
+      "bookId": "31251430",
+      "chapterUid": 55,
+      "chapterIdx": 55,
+      "title": "8.2 自动检测保护装置设计与应用时应注意的问题"
+    },
+    {
+      "bookId": "31251430",
+      "chapterUid": 56,
+      "chapterIdx": 56,
+      "title": "8.3 自动检测保护装置的应用"
+    },
+    {
+      "bookId": "31251430",
+      "chapterUid": 57,
+      "chapterIdx": 57,
+      "title": "第9章 高速压力机"
+    },
+    {
+      "bookId": "31251430",
+      "chapterUid": 58,
+      "chapterIdx": 58,
+      "title": "9.1 高速压力机的特点"
+    },
+    {
+      "bookId": "31251430",
+      "chapterUid": 59,
+      "chapterIdx": 59,
+      "title": "9.2 高速压力机的分类及选用"
+    },
+    {
+      "bookId": "31251430",
+      "chapterUid": 60,
+      "chapterIdx": 60,
+      "title": "9.3 高速压力机的技术参数"
+    },
+    {
+      "bookId": "31251430",
+      "chapterUid": 61,
+      "chapterIdx": 61,
+      "title": "第10章 多工位级进模排样设计实例"
+    },
+    {
+      "bookId": "31251430",
+      "chapterUid": 62,
+      "chapterIdx": 62,
+      "title": "10.2 冲裁、弯曲工艺排样设计"
+    },
+    {
+      "bookId": "31251430",
+      "chapterUid": 63,
+      "chapterIdx": 63,
+      "title": "10.3 冲裁、拉深工艺排样设计"
+    },
+    {
+      "bookId": "31251430",
+      "chapterUid": 64,
+      "chapterIdx": 64,
+      "title": "10.4 冲裁、成形工艺排样设计"
+    },
+    {
+      "bookId": "31251430",
+      "chapterUid": 65,
+      "chapterIdx": 65,
+      "title": "第11章 多工位级进模结构设计实例"
+    },
+    {
+      "bookId": "31251430",
+      "chapterUid": 66,
+      "chapterIdx": 66,
+      "title": "11.2 弯曲级进模"
+    },
+    {
+      "bookId": "31251430",
+      "chapterUid": 67,
+      "chapterIdx": 67,
+      "title": "11.3 拉深级进模"
+    },
+    {
+      "bookId": "31251430",
+      "chapterUid": 68,
+      "chapterIdx": 68,
+      "title": "11.4 成形级进模"
+    },
+    {
+      "bookId": "31251430",
+      "chapterUid": 69,
+      "chapterIdx": 69,
+      "title": "第12章 多工位级进模设计图解"
+    },
+    {
+      "bookId": "31251430",
+      "chapterUid": 70,
+      "chapterIdx": 70,
+      "title": "12.2 管子卡箍多工位级进模"
+    },
+    {
+      "bookId": "31251430",
+      "chapterUid": 71,
+      "chapterIdx": 71,
+      "title": "12.3 A侧管连续拉深多工位级进模"
+    },
+    {
+      "bookId": "31251430",
+      "chapterUid": 72,
+      "chapterIdx": 72,
+      "title": "附录"
+    },
+    {
+      "bookId": "31251430",
+      "chapterUid": 73,
+      "chapterIdx": 73,
+      "title": "附录B 多工位级进模常用冲压材料力学性能指标、种类、用途及化学成分"
+    },
+    {
+      "bookId": "31251430",
+      "chapterUid": 74,
+      "chapterIdx": 74,
+      "title": "附录C 国内外常用金属材料对照"
+    },
+    {
+      "bookId": "31251430",
+      "chapterUid": 75,
+      "chapterIdx": 75,
+      "title": "附录D 冲压件的尺寸、角度公差、形状和位置未注公差（GB/T 13914、13915、13916—2002）、未注公差尺寸的极限偏差（GB/T 15055—2007）"
+    },
+    {
+      "bookId": "31251430",
+      "chapterUid": 76,
+      "chapterIdx": 76,
+      "title": "附录E 常用材料密度对照"
+    },
+    {
+      "bookId": "31251430",
+      "chapterUid": 77,
+      "chapterIdx": 77,
+      "title": "附录F 常用冲模材料及热处理要求"
+    },
+    {
+      "bookId": "31251430",
+      "chapterUid": 78,
+      "chapterIdx": 78,
+      "title": "附录G 冲模零件的精度、公差配合及表面粗糙度"
+    },
+    {
+      "bookId": "31251430",
+      "chapterUid": 79,
+      "chapterIdx": 79,
+      "title": "附录H 常用英制粗牙螺纹UNC攻螺纹前用的钻孔径对照"
+    },
+    {
+      "bookId": "31251430",
+      "chapterUid": 80,
+      "chapterIdx": 80,
+      "title": "附录I 各种硬度值对照"
+    },
+    {
+      "bookId": "31251430",
+      "chapterUid": 81,
+      "chapterIdx": 81,
+      "title": "参考文献"
+    }
+  ]
+}

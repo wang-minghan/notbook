@@ -1,6 +1,6 @@
 {
   "bookId": "3300222399",
-  "cachedAt": 1792847406017,
+  "cachedAt": 1793938643400,
   "ttl": 7,
   "items": [
     {
@@ -33,7 +33,7 @@
       "chapterTitle": "1 FDE到底是什么",
       "range": "1270-1333",
       "markText": "前沿部署工程师就是指被科技公司派往客户的现场，在客户的实际环境中把技术产品进行改造、搭建和调试直至可以正常使用的一线技术人员。",
-      "totalCount": 588
+      "totalCount": 636
     },
     {
       "bookmarkId": "3300222399-3-1994-2033",
@@ -41,7 +41,7 @@
       "chapterTitle": "1 FDE到底是什么",
       "range": "1994-2033",
       "markText": "FDE是「懂技术的人」和「有问题的人」之间的那座桥，而且这座桥是自己会施工的。",
-      "totalCount": 504
+      "totalCount": 528
     },
     {
       "bookmarkId": "3300222399-3-2377-2427",
@@ -49,7 +49,7 @@
       "chapterTitle": "1 FDE到底是什么",
       "range": "2377-2427",
       "markText": "FDE的价值就在于帮助客户自己提出问题，在很多情况下，客户最初想要的是什么，并不是最终要解决的问题。",
-      "totalCount": 288
+      "totalCount": 312
     },
     {
       "bookmarkId": "3300222399-3-980-1014",
@@ -57,7 +57,7 @@
       "chapterTitle": "1 FDE到底是什么",
       "range": "980-1014",
       "markText": "问题在于产品和你家之间隔着一万个具体的、琐碎的、说明书上没写的障碍。",
-      "totalCount": 143
+      "totalCount": 176
     },
     {
       "bookmarkId": "3300222399-3-1655-1718",
@@ -65,7 +65,7 @@
       "chapterTitle": "1 FDE到底是什么",
       "range": "1655-1718",
       "markText": "但FDE的「部署」远不止安装，它包括理解客户的业务、打通杂乱的数据、绕过老旧的系统、说服犹豫的员工，直到技术产生看得见的效果。",
-      "totalCount": 126
+      "totalCount": 162
     },
     {
       "bookmarkId": "3300222399-3-1499-1558",
@@ -73,7 +73,7 @@
       "chapterTitle": "1 FDE到底是什么",
       "range": "1499-1558",
       "markText": "「前线」就是客户的办公室、工厂、医院、银行——技术真正要发挥作用的地方。FDE不坐在总部写代码，而是常年泡在客户那里。",
-      "totalCount": 72
+      "totalCount": 96
     },
     {
       "bookmarkId": "3300222399-3-2243-2270",
@@ -89,7 +89,7 @@
       "chapterTitle": "1 FDE到底是什么",
       "range": "1815-1853",
       "markText": "FDE自己动手写代码。他们不是画PPT讲方案的人，而是当场把方案做出来的人。",
-      "totalCount": 30
+      "totalCount": 40
     },
     {
       "bookmarkId": "3300222399-4-2710-2780",
@@ -97,7 +97,7 @@
       "chapterTitle": "2 它从哪里来：Palantir的「发明」",
       "range": "2710-2780",
       "markText": "外界最难以理解的这套“人肉密集”打法，其实是公司最大的壁垒——因为竞争对手可以复制产品，但是复制不出几百名工程师在客户现场泡出来的行业认知。",
-      "totalCount": 338
+      "totalCount": 377
     },
     {
       "bookmarkId": "3300222399-4-2012-2110",
@@ -105,7 +105,7 @@
       "chapterTitle": "2 它从哪里来：Palantir的「发明」",
       "range": "2012-2110",
       "markText": "客户说“给我做一个聊天机器人”，普通的乙方就会做出一个聊天机器人；优秀的FDE则会先问一句“你想解决什么样的问题”，之后可能会发现客户真正想要的是一个可以自动处理报销单的系统——而并非聊天机器人。",
-      "totalCount": 182
+      "totalCount": 195
     },
     {
       "bookmarkId": "3300222399-4-2301-2390",
@@ -113,7 +113,15 @@
       "chapterTitle": "2 它从哪里来：Palantir的「发明」",
       "range": "2301-2390",
       "markText": "硅谷信奉的经典教条是「做产品，不做项目」：好的软件公司应该写一份代码卖给一万个客户，而不是给每个客户单独定制——后者被贬称为「咨询公司」「人力外包」，利润低、不性感、无法规模化。",
-      "totalCount": 154
+      "totalCount": 182
+    },
+    {
+      "bookmarkId": "3300222399-4-2955-3000",
+      "chapterUid": 4,
+      "chapterTitle": "2 它从哪里来：Palantir的「发明」",
+      "range": "2955-3000",
+      "markText": "也许“先当保姆、再做平台”并不是一个愚蠢的方法，在复杂的行业中找到出路或许才是正确的选择。",
+      "totalCount": 112
     },
     {
       "bookmarkId": "3300222399-4-2485-2544",
@@ -124,20 +132,20 @@
       "totalCount": 85
     },
     {
-      "bookmarkId": "3300222399-4-2955-3000",
-      "chapterUid": 4,
-      "chapterTitle": "2 它从哪里来：Palantir的「发明」",
-      "range": "2955-3000",
-      "markText": "也许“先当保姆、再做平台”并不是一个愚蠢的方法，在复杂的行业中找到出路或许才是正确的选择。",
-      "totalCount": 70
-    },
-    {
       "bookmarkId": "3300222399-4-2833-2862",
       "chapterUid": 4,
       "chapterTitle": "2 它从哪里来：Palantir的「发明」",
       "range": "2833-2862",
       "markText": "驻场工程师前期所做的定制工作，在后期变成了大量的标准化平台",
       "totalCount": 50
+    },
+    {
+      "bookmarkId": "3300222399-4-966-1012",
+      "chapterUid": 4,
+      "chapterTitle": "2 它从哪里来：Palantir的「发明」",
+      "range": "966-1012",
+      "markText": "客户无法向外界透露数据的样子，不能让别人远程登录系统，也不愿意公开自己想要解决的问题是什么。",
+      "totalCount": 42
     },
     {
       "bookmarkId": "3300222399-4-809-850",
@@ -148,20 +156,12 @@
       "totalCount": 36
     },
     {
-      "bookmarkId": "3300222399-4-966-1012",
-      "chapterUid": 4,
-      "chapterTitle": "2 它从哪里来：Palantir的「发明」",
-      "range": "966-1012",
-      "markText": "客户无法向外界透露数据的样子，不能让别人远程登录系统，也不愿意公开自己想要解决的问题是什么。",
-      "totalCount": 28
-    },
-    {
       "bookmarkId": "3300222399-5-3019-3045",
       "chapterUid": 5,
       "chapterTitle": "3 为什么现在突然爆火",
       "range": "3019-3045",
       "markText": "AI的能力过剩了，而把能力转化为价值的人手严重不足。",
-      "totalCount": 480
+      "totalCount": 570
     },
     {
       "bookmarkId": "3300222399-5-1747-1835",
@@ -169,15 +169,7 @@
       "chapterTitle": "3 为什么现在突然爆火",
       "range": "1747-1835",
       "markText": "MIT的报告指出：成功者不追逐炫酷的演示，而是把AI深度嵌入具体工作流程，并且依赖既懂技术又懂业务领域的合作伙伴。",
-      "totalCount": 165
-    },
-    {
-      "bookmarkId": "3300222399-5-1026-1120",
-      "chapterUid": 5,
-      "chapterTitle": "3 为什么现在突然爆火",
-      "range": "1026-1120",
-      "markText": "从惊艳的演示到可以天天使用的工具之间就存在着一个很大的鸿沟，数据杂乱无章、系统陈旧落后、流程烦琐复杂、员工抵触情绪严重。报告把这样的情况叫作“学习鸿沟”，即不是AI不行，而是组织不会使用。",
-      "totalCount": 140
+      "totalCount": 180
     },
     {
       "bookmarkId": "3300222399-5-845-876",
@@ -185,7 +177,15 @@
       "chapterTitle": "3 为什么现在突然爆火",
       "range": "845-876",
       "markText": "大约95%的企业生成式AI试点项目，没有产生可衡量的利润影响。",
-      "totalCount": 112
+      "totalCount": 168
+    },
+    {
+      "bookmarkId": "3300222399-5-1026-1120",
+      "chapterUid": 5,
+      "chapterTitle": "3 为什么现在突然爆火",
+      "range": "1026-1120",
+      "markText": "从惊艳的演示到可以天天使用的工具之间就存在着一个很大的鸿沟，数据杂乱无章、系统陈旧落后、流程烦琐复杂、员工抵触情绪严重。报告把这样的情况叫作“学习鸿沟”，即不是AI不行，而是组织不会使用。",
+      "totalCount": 160
     },
     {
       "bookmarkId": "3300222399-5-3411-3460",
@@ -193,15 +193,7 @@
       "chapterTitle": "3 为什么现在突然爆火",
       "range": "3411-3460",
       "markText": "如果一个企业的主要流程是由一家AI公司的FDE搭建起来的话，那么更换供应商的成本就会变得非常高昂。",
-      "totalCount": 91
-    },
-    {
-      "bookmarkId": "3300222399-5-2096-2157",
-      "chapterUid": 5,
-      "chapterTitle": "3 为什么现在突然爆火",
-      "range": "2096-2157",
-      "markText": "既能够和业务沟通交流又可以动手修改系统而且一直待在现场的人。企业内部培养出这样的人很难，所以FDE的价格也就因此被抬高了。",
-      "totalCount": 70
+      "totalCount": 104
     },
     {
       "bookmarkId": "3300222399-5-1948-2014",
@@ -209,7 +201,15 @@
       "chapterTitle": "3 为什么现在突然爆火",
       "range": "1948-2014",
       "markText": "不急于一下子改变整个公司的所有事情，而是选择一个痛苦到不能再痛苦的地方入手，比如客服工单自动分类、合同条款初步审核、财报数据校验等；",
-      "totalCount": 64
+      "totalCount": 80
+    },
+    {
+      "bookmarkId": "3300222399-5-2096-2157",
+      "chapterUid": 5,
+      "chapterTitle": "3 为什么现在突然爆火",
+      "range": "2096-2157",
+      "markText": "既能够和业务沟通交流又可以动手修改系统而且一直待在现场的人。企业内部培养出这样的人很难，所以FDE的价格也就因此被抬高了。",
+      "totalCount": 80
     },
     {
       "bookmarkId": "3300222399-5-2678-2741",
@@ -234,6 +234,14 @@
       "range": "3380-3397",
       "markText": "相当于让最苛刻的客户免费做产品经理",
       "totalCount": 33
+    },
+    {
+      "bookmarkId": "3300222399-5-888-923",
+      "chapterUid": 5,
+      "chapterTitle": "3 为什么现在突然爆火",
+      "range": "888-923",
+      "markText": "企业在生成式AI上投入了估计300亿到400亿美元，绝大多数打了水漂。",
+      "totalCount": 32
     },
     {
       "bookmarkId": "3300222399-6-2518-2588",
@@ -297,7 +305,7 @@
       "chapterTitle": "5 做FDE需要什么本事",
       "range": "645-722",
       "markText": "翻遍各大公司的FDE招聘要求，会发现他们都在找同一种形状的人——业内俗称「T型人才」：那一竖，是至少一门扎实的技术深度；那一横，是宽得出奇的杂学和软技能。",
-      "totalCount": 252
+      "totalCount": 324
     },
     {
       "bookmarkId": "3300222399-7-2046-2091",
@@ -305,7 +313,7 @@
       "chapterTitle": "5 做FDE需要什么本事",
       "range": "2046-2091",
       "markText": "业内把这种素质叫「radical ownership」——彻底的主人翁精神：问题到我为止。",
-      "totalCount": 221
+      "totalCount": 255
     },
     {
       "bookmarkId": "3300222399-7-2931-2964",
@@ -324,6 +332,14 @@
       "totalCount": 136
     },
     {
+      "bookmarkId": "3300222399-7-2488-2528",
+      "chapterUid": 7,
+      "chapterTitle": "5 做FDE需要什么本事",
+      "range": "2488-2528",
+      "markText": "等到他开始行动的时候，方案不一定是最完美的，但是每一项都得到了别人的认可和支持。",
+      "totalCount": 66
+    },
+    {
       "bookmarkId": "3300222399-7-2636-2692",
       "chapterUid": 7,
       "chapterTitle": "5 做FDE需要什么本事",
@@ -332,12 +348,28 @@
       "totalCount": 56
     },
     {
-      "bookmarkId": "3300222399-7-2488-2528",
+      "bookmarkId": "3300222399-7-1266-1356",
       "chapterUid": 7,
       "chapterTitle": "5 做FDE需要什么本事",
-      "range": "2488-2528",
-      "markText": "等到他开始行动的时候，方案不一定是最完美的，但是每一项都得到了别人的认可和支持。",
-      "totalCount": 55
+      "range": "1266-1356",
+      "markText": "在这样的条件下仍然能够快速稳定地完成任务，并不需要算法题解的能力，而需要的是全方位的工程能力——前后端都可以接触、数据库和云计算服务都要会用、碰到陌生技术马上学习并应用到工作中去。",
+      "totalCount": 39
+    },
+    {
+      "bookmarkId": "3300222399-7-2597-2635",
+      "chapterUid": 7,
+      "chapterTitle": "5 做FDE需要什么本事",
+      "range": "2597-2635",
+      "markText": "在越来越接近现实的地方，技术成为进入门槛，而成功则依靠对人的理解和组织的能力",
+      "totalCount": 36
+    },
+    {
+      "bookmarkId": "3300222399-7-2234-2259",
+      "chapterUid": 7,
+      "chapterTitle": "5 做FDE需要什么本事",
+      "range": "2234-2259",
+      "markText": "团队里最优秀的FDE，并不是技术测试分数最高的人。",
+      "totalCount": 33
     },
     {
       "bookmarkId": "3300222399-7-1721-1769",
@@ -356,20 +388,12 @@
       "totalCount": 30
     },
     {
-      "bookmarkId": "3300222399-7-2597-2636",
-      "chapterUid": 7,
-      "chapterTitle": "5 做FDE需要什么本事",
-      "range": "2597-2636",
-      "markText": "在越来越接近现实的地方，技术成为进入门槛，而成功则依靠对人的理解和组织的能力。",
-      "totalCount": 22
-    },
-    {
       "bookmarkId": "3300222399-8-2683-2724",
       "chapterUid": 8,
       "chapterTitle": "6 钱景与前景：数字说话",
       "range": "2683-2724",
       "markText": "一份工作的价值，并不只体现在在职期间赚取了多少收入，而是在离职之后还能带走些什么。",
-      "totalCount": 196
+      "totalCount": 224
     },
     {
       "bookmarkId": "3300222399-8-1178-1250",
@@ -393,7 +417,15 @@
       "chapterTitle": "6 钱景与前景：数字说话",
       "range": "2313-2349",
       "markText": "因此单个客户所需要的驻场人员数量就会减少——这个职业本身也有可能会消亡。",
-      "totalCount": 68
+      "totalCount": 85
+    },
+    {
+      "bookmarkId": "3300222399-9-2950-2983",
+      "chapterUid": 9,
+      "chapterTitle": "7 光环背后的另一面",
+      "range": "2950-2983",
+      "markText": "工具在变，但「有人得对结果负责」这一点，短期内看不到被替代的迹象。",
+      "totalCount": 204
     },
     {
       "bookmarkId": "3300222399-9-1062-1087",
@@ -404,19 +436,19 @@
       "totalCount": 198
     },
     {
-      "bookmarkId": "3300222399-9-2950-2983",
-      "chapterUid": 9,
-      "chapterTitle": "7 光环背后的另一面",
-      "range": "2950-2983",
-      "markText": "工具在变，但「有人得对结果负责」这一点，短期内看不到被替代的迹象。",
-      "totalCount": 187
-    },
-    {
       "bookmarkId": "3300222399-9-1643-1675",
       "chapterUid": 9,
       "chapterTitle": "7 光环背后的另一面",
       "range": "1643-1675",
       "markText": "习惯了短反馈循环的人，需要认真掂量自己能不能忍受这种漫长的中场。",
+      "totalCount": 112
+    },
+    {
+      "bookmarkId": "3300222399-9-800-848",
+      "chapterUid": 9,
+      "chapterTitle": "7 光环背后的另一面",
+      "range": "800-848",
+      "markText": "这个职业对单身的年轻人是冒险，对需要接送孩子的中年人可能是折磨。入行前请诚实评估自己的生活阶段。",
       "totalCount": 96
     },
     {
@@ -426,14 +458,6 @@
       "range": "2516-2552",
       "markText": "判断一个热门职业值不值得投入，别看名字的热度，看它解决的问题会不会消失。",
       "totalCount": 96
-    },
-    {
-      "bookmarkId": "3300222399-9-800-848",
-      "chapterUid": 9,
-      "chapterTitle": "7 光环背后的另一面",
-      "range": "800-848",
-      "markText": "这个职业对单身的年轻人是冒险，对需要接送孩子的中年人可能是折磨。入行前请诚实评估自己的生活阶段。",
-      "totalCount": 80
     },
     {
       "bookmarkId": "3300222399-9-2793-2875",
@@ -474,6 +498,230 @@
       "range": "2924-2949",
       "markText": "未来的FDE会更像「带着一队AI干活的现场指挥官」",
       "totalCount": 36
+    },
+    {
+      "bookmarkId": "3300222399-9-2153-2250",
+      "chapterUid": 9,
+      "chapterTitle": "7 光环背后的另一面",
+      "range": "2153-2250",
+      "markText": "售前工程师的工作就是把产品展示给客户并促成交易，签完合同之后就基本可以离开了；解决方案架构师主要负责画图、制定方案，但是很少会去编写实际的代码；交付实施工程师按照图纸进行施工，有一定的操作空间；",
+      "totalCount": 28
+    },
+    {
+      "bookmarkId": "3300222399-10-2223-2302",
+      "chapterUid": 10,
+      "chapterTitle": "8 想入行怎么办：一份务实的路线图",
+      "range": "2223-2302",
+      "markText": "给你一个从没接触过的行业和一堆听不懂的黑话，你的第一反应是兴奋还是烦躁？一件事同时被两方指责时，你能不能不带情绪地拆解问题？连续出差一个月，你的生活会不会崩？",
+      "totalCount": 165
+    },
+    {
+      "bookmarkId": "3300222399-10-611-690",
+      "chapterUid": 10,
+      "chapterTitle": "8 想入行怎么办：一份务实的路线图",
+      "range": "611-690",
+      "markText": "FDE主要针对的是已经有几年工作经验的人进行职业转换，并不是应届毕业生的主要就业渠道——大多数岗位的要求是三年以上的工作经验，在国内的大公司一般要求五年以上。",
+      "totalCount": 36
+    },
+    {
+      "bookmarkId": "3300222399-10-1155-1183",
+      "chapterUid": 10,
+      "chapterTitle": "8 想入行怎么办：一份务实的路线图",
+      "range": "1155-1183",
+      "markText": "用Python和大模型API做两三个解决真实问题的小项目",
+      "totalCount": 32
+    },
+    {
+      "bookmarkId": "3300222399-10-977-1030",
+      "chapterUid": 10,
+      "chapterTitle": "8 想入行怎么办：一份务实的路线图",
+      "range": "977-1030",
+      "markText": "重点是提示词工程、RAG（检索增强生成）和智能体（Agent）搭建，这三样是2026年FDE面试的必考题。",
+      "totalCount": 30
+    },
+    {
+      "bookmarkId": "3300222399-10-1929-2020",
+      "chapterUid": 10,
+      "chapterTitle": "8 想入行怎么办：一份务实的路线图",
+      "range": "1929-2020",
+      "markText": "第二关是系统与方案设计，但题目往往刻意「脏」——给你一个信息不全、约束混乱的业务场景，看你怎么追问、怎么取舍。第三关是场景模拟，比如「客户的高管在会上质疑你的方案不安全，现场回应」，",
+      "totalCount": 26
+    },
+    {
+      "bookmarkId": "3300222399-10-868-891",
+      "chapterUid": 10,
+      "chapterTitle": "8 想入行怎么办：一份务实的路线图",
+      "range": "868-891",
+      "markText": "你缺的不是技术，而是「面向客户」的经验和证据。",
+      "totalCount": 20
+    },
+    {
+      "bookmarkId": "3300222399-11-2453-2563",
+      "chapterUid": 11,
+      "chapterTitle": "9 就算不当FDE，它也能教你的事",
+      "range": "2453-2563",
+      "markText": "FDE的学习方式很特别：不是先学完再上场，而是为了解决眼前的问题，当天学当天用。行话叫「just-in-time learning」，即时学习。",
+      "totalCount": 480
+    },
+    {
+      "bookmarkId": "3300222399-11-2260-2335",
+      "chapterUid": 11,
+      "chapterTitle": "9 就算不当FDE，它也能教你的事",
+      "range": "2260-2335",
+      "markText": "当AI逐渐接管边界清晰的执行类任务后，人的价值恰恰集中在那些边界模糊、需要有人站出来兜底的地带。「这不归我管」在过去是自我保护，在未来可能是自我淘汰。",
+      "totalCount": 195
+    },
+    {
+      "bookmarkId": "3300222399-11-1654-1774",
+      "chapterUid": 11,
+      "chapterTitle": "9 就算不当FDE，它也能教你的事",
+      "range": "1654-1774",
+      "markText": "FDE能力模型里最值钱的部分，是「翻译」——在两个互相听不懂的世界之间搭桥。这给普通人指了一条务实的路：不必成为两个领域的顶尖，只要在两个领域都到「能对话」的程度，你就是稀缺的。",
+      "totalCount": 180
+    },
+    {
+      "bookmarkId": "3300222399-11-2062-2111",
+      "chapterUid": 11,
+      "chapterTitle": "9 就算不当FDE，它也能教你的事",
+      "range": "2062-2111",
+      "markText": "FDE文化里最反直觉的一条是「彻底的主人翁精神」：问题到我为止，不管它名义上归谁管。",
+      "totalCount": 176
+    },
+    {
+      "bookmarkId": "3300222399-11-2872-2907",
+      "chapterUid": 11,
+      "chapterTitle": "9 就算不当FDE，它也能教你的事",
+      "range": "2872-2907",
+      "markText": "知识只有挂在真实问题上才长得牢，这是被这个高薪职业反复验证的朴素道理。",
+      "totalCount": 168
+    },
+    {
+      "bookmarkId": "3300222399-11-1446-1529",
+      "chapterUid": 11,
+      "chapterTitle": "9 就算不当FDE，它也能教你的事",
+      "range": "1446-1529",
+      "markText": "答案可以外包给AI，对现场的觉察外包不了。",
+      "totalCount": 153
+    },
+    {
+      "bookmarkId": "3300222399-11-1068-1166",
+      "chapterUid": 11,
+      "chapterTitle": "9 就算不当FDE，它也能教你的事",
+      "range": "1068-1166",
+      "markText": "这些「答案」正变得廉价。而发现真问题、定义好问题的能力，AI暂时替代不了，因为真问题藏在现场，藏在数据不会记录的抱怨、绕路和小动作里。",
+      "totalCount": 128
+    },
+    {
+      "bookmarkId": "3300222399-11-3017-3091",
+      "chapterUid": 11,
+      "chapterTitle": "9 就算不当FDE，它也能教你的事",
+      "range": "3017-3091",
+      "markText": "回看技术史，每一波浪潮里赚到大钱的，除了发明技术的人，还有一大批把技术安装到世界上的人",
+      "totalCount": 98
+    },
+    {
+      "bookmarkId": "3300222399-11-3293-3331",
+      "chapterUid": 11,
+      "chapterTitle": "9 就算不当FDE，它也能教你的事",
+      "range": "3293-3331",
+      "markText": "在自己的岗位上做那个「把新工具真正用起来的人」，就是这个时代给普通人留的位置",
+      "totalCount": 96
+    },
+    {
+      "bookmarkId": "3300222399-11-901-987",
+      "chapterUid": 11,
+      "chapterTitle": "9 就算不当FDE，它也能教你的事",
+      "range": "901-987",
+      "markText": "FDE高薪的本质，不是他们的代码写得比总部同事好，而是他们站的位置好——站在问题实际发生的地方。",
+      "totalCount": 90
+    },
+    {
+      "bookmarkId": "3300222399-11-1893-1948",
+      "chapterUid": 11,
+      "chapterTitle": "9 就算不当FDE，它也能教你的事",
+      "range": "1893-1948",
+      "markText": "选一个你已有的领域，再嫁接一层新工具的理解——这比推倒重来转行现实得多，也是普通人在AI时代最划算的自我投资。",
+      "totalCount": 70
+    },
+    {
+      "bookmarkId": "3300222399-11-669-760",
+      "chapterUid": 11,
+      "chapterTitle": "9 就算不当FDE，它也能教你的事",
+      "range": "669-760",
+      "markText": "在AI能力快速普及的年代，市场到底愿意为什么样的人付高价？",
+      "totalCount": 56
+    },
+    {
+      "bookmarkId": "3300222399-11-581-606",
+      "chapterUid": 11,
+      "chapterTitle": "9 就算不当FDE，它也能教你的事",
+      "range": "581-606",
+      "markText": "这本书的绝大多数读者不会成为FDE。",
+      "totalCount": 48
+    },
+    {
+      "bookmarkId": "3300222399-11-2680-2864",
+      "chapterUid": 11,
+      "chapterTitle": "9 就算不当FDE，它也能教你的事",
+      "range": "2680-2864",
+      "markText": "找一个你真实生活中的问题——哪怕是「帮家里小店做个记账表」「把旅行攻略自动整理成行程」——然后带着问题去学，缺什么补什么",
+      "totalCount": 36
+    },
+    {
+      "bookmarkId": "3300222399-11-1314-1382",
+      "chapterUid": 11,
+      "chapterTitle": "9 就算不当FDE，它也能教你的事",
+      "range": "1314-1382",
+      "markText": "这条启示在家庭生活里同样成立。辅导孩子作业时，「现场」不是错题本，而是观察孩子卡壳的那一瞬间——是没读懂题，还是概念没通，还是单纯困了？",
+      "totalCount": 30
+    },
+    {
+      "bookmarkId": "3300222399-11-2150-2260",
+      "chapterUid": 11,
+      "chapterTitle": "9 就算不当FDE，它也能教你的事",
+      "range": "2150-2260",
+      "markText": "在一个组织里，愿意跨过职责边界把事情搞定的人，短期看是吃亏的——干了别人的活。但长期看，他们积累了两样别人没有的东西：对全局的理解，和「这人能托付事」的声誉。",
+      "totalCount": 22
+    },
+    {
+      "bookmarkId": "3300222399-12-929-949",
+      "chapterUid": 12,
+      "chapterTitle": "结语",
+      "range": "929-949",
+      "markText": "浪潮不会等人，但浪潮里永远缺会架桥的人。",
+      "totalCount": 150
+    },
+    {
+      "bookmarkId": "3300222399-12-695-766",
+      "chapterUid": 12,
+      "chapterTitle": "结语",
+      "range": "695-766",
+      "markText": "FDE的走红，标志着AI行业的重心正在从「造出更聪明的模型」转向「让模型在真实世界里干活」——而后者，恰恰是有人味儿的、普通人可以参与的部分。",
+      "totalCount": 135
+    },
+    {
+      "bookmarkId": "3300222399-12-864-906",
+      "chapterUid": 12,
+      "chapterTitle": "结语",
+      "range": "864-906",
+      "markText": "离问题近一点，把两个世界translate一下，多管一件「闲事」，带着真问题去学习。",
+      "totalCount": 54
+    },
+    {
+      "bookmarkId": "3300222399-17-1966-1987",
+      "chapterUid": 17,
+      "chapterTitle": "附录一 快问快答",
+      "range": "1966-1987",
+      "markText": "一手信息永远胜过二手解读，包括胜过这本书。",
+      "totalCount": 96
+    },
+    {
+      "bookmarkId": "3300222399-17-778-803",
+      "chapterUid": 17,
+      "chapterTitle": "附录一 快问快答",
+      "range": "778-803",
+      "markText": "程序员的年龄焦虑，本质是「纯执行技能会贬值」的焦虑",
+      "totalCount": 28
     }
   ],
   "chapters": [

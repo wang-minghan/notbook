@@ -1,0 +1,22 @@
+- generic [ref=e5]:
+  - generic [ref=e7]:
+    - generic [ref=e8]:
+      - link "微信读书书城" [ref=e9] [cursor=pointer]:
+        - /url: /
+      - generic [ref=e10]: 多工位级进模设计实用手册
+      - link [ref=e13] [cursor=pointer]:
+        - /url: /web/shelf
+    - generic [ref=e17]:
+      - link "首页" [ref=e18] [cursor=pointer]:
+        - /url: /
+      - link "我的书架" [ref=e20] [cursor=pointer]:
+        - /url: /web/shelf
+      - generic [ref=e23] [cursor=pointer]
+  - generic [ref=e42]:
+    - button "目录" [ref=e44] [cursor=pointer]
+    - button [ref=e47] [cursor=pointer]
+    - button [ref=e51] [cursor=pointer]
+    - button [ref=e54] [cursor=pointer]
+    - button [ref=e57] [cursor=pointer]
+    - button [ref=e63] [cursor=pointer]
+    - button [ref=e66] [cursor=pointer]

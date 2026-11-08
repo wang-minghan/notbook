@@ -123,3 +123,20 @@
 [ 3561623ms] [LOG] Hash module initialized successfully @ https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:0
 [ 3561624ms] [LOG] {version: 1.0.5, headless: Object, basic: Object, suspiciousAction: Array(0)} @ https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:0
 [ 3561625ms] [LOG] {version: 1.0.5, headless: Object, basic: Object, suspiciousAction: Array(0)} @ https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:0
+[ 5193715ms] [LOG] Hash module initialized successfully @ https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:0
+[ 5193716ms] [LOG] {version: 1.0.5, headless: Object, basic: Object, suspiciousAction: Array(0)} @ https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:0
+[ 5193880ms] [LOG] Hash module initialized successfully @ https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:0
+[ 5193880ms] [LOG] Hash module initialized successfully @ https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:0
+[ 5193882ms] [LOG] {version: 1.0.5, headless: Object, basic: Object, suspiciousAction: Array(0)} @ https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:0
+[ 5193883ms] [LOG] {version: 1.0.5, headless: Object, basic: Object, suspiciousAction: Array(0)} @ https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:0
+[ 5201910ms] Uncaught Error: Malformed UTF-8 data
+    at stringify (https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:1:172551)
+    at toString (https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:1:169853)
+    at _0x26b59a.decryption (https://cdn.weread.qq.com/web/wrwebnjlogic/js/utils.2f050835.js:1:31282)
+    at preRender (https://cdn.weread.qq.com/web/wrwebnjlogic/js/9.625560b7.js:1:763531)
+    at layout (https://cdn.weread.qq.com/web/wrwebnjlogic/js/9.625560b7.js:1:781585)
+    at _0x11c20b.<computed>.methods.resizeToReCollect._0x49dce5.debounce.trailing (https://cdn.weread.qq.com/web/wrwebnjlogic/js/9.625560b7.js:1:812854)
+    at _0x1c5140 (https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:1:361525)
+    at _0x239df4 (https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:1:362090)
+    at _0x1a9a5c (https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:1:361800)
+    at _0x5a3bd0 (https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:1:1428462)

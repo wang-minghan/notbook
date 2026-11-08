@@ -13,7 +13,6 @@ readingDate: 2026-10-24
 finishedDate: 2026-11-06
 isbn:
 lastReadDate: 2026-11-06
-
 ---
 # 元数据
 > [!abstract] 半小时讲透AI时代的新职业：FDE（轻科技）

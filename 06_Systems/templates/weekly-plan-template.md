@@ -1,6 +1,8 @@
 ---
-title: "周计划 {{date:YYYY-WW}}"
-tags: [weekly, plan]
+title: 周计划 {{date:YYYY-WW}}
+tags:
+  - weekly
+  - plan
 date: "{{date:YYYY-MM-DD}}"
 week: "{{date:YYYY-WW}}"
 ---

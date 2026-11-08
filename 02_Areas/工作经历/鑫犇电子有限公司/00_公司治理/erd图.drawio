@@ -1,0 +1,212 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="第 1 页" id="UZrdhPnm8QM8UdAwTFyk">
+    <mxGraphModel dx="2046" dy="1140" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <UserObject label="" mermaidData="{&#xa;  &quot;data&quot;: &quot;erDiagram\n    产品 ||--o{ 产品物料关系 : 使用\n    物料 ||--o{ 产品物料关系 : 被引用\n    产品 ||--o{ 模具 : 对应\n    产品 ||--o{ 生产执行记录 : 生产\n    设备 ||--o{ 生产执行记录 : 执行\n    模具 ||--o{ 生产执行记录 : 使用\n\n    产品 {\n        string 产品编码 PK\n    }\n    物料 {\n        string 物料编码 PK\n    }\n    设备 {\n        string 设备编号 PK\n    }\n    模具 {\n        string 模具编号 PK\n    }\n    产品物料关系 {\n        string 产品编码 PK\n    }\n    生产执行记录 {\n        string 执行记录编号 PK\n    }&quot;,&#xa;  &quot;config&quot;: null,&#xa;  &quot;version&quot;: &quot;12&quot;&#xa;}" id="lNx4viEU1H6kxRpwUA7T-1">
+          <mxCell connectable="0" parent="1" style="group;transparentBounds=1;editIcon=1;lockedGroup=0;groupPadding=10;labelBackgroundColor=none;rounded=0;" vertex="1">
+            <mxGeometry as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="产品" mermaidId="n:产品" mermaidBaseStyle="shape=table;startSize=39.75;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=1;fontSize=16;fontFamily=Recursive;strokeWidth=2;align=center;resizeLast=1;html=1;fillColor=#FDF4FF;strokeColor=#E879F9;fontColor=#28253D;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;" mermaidBaseValue="产品" id="lNx4viEU1H6kxRpwUA7T-2">
+          <mxCell parent="lNx4viEU1H6kxRpwUA7T-1" style="shape=table;startSize=39.75;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=1;fontSize=14;fontFamily=Recursive;strokeWidth=2;align=center;resizeLast=1;html=1;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;labelBackgroundColor=none;rounded=0;" vertex="1">
+            <mxGeometry height="80" width="190" x="480" y="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="lNx4viEU1H6kxRpwUA7T-3" parent="lNx4viEU1H6kxRpwUA7T-2" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=1;strokeWidth=2;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;labelBackgroundColor=none;rounded=0;" vertex="1">
+          <mxGeometry height="40" width="190" y="39" as="geometry" />
+        </mxCell>
+        <mxCell id="lNx4viEU1H6kxRpwUA7T-4" parent="lNx4viEU1H6kxRpwUA7T-3" style="shape=partialRectangle;connectable=0;fillColor=none;strokeWidth=2;fontFamily=Recursive;top=1;left=1;bottom=1;right=1;align=left;spacingLeft=8;overflow=hidden;fontSize=14;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;labelBackgroundColor=none;rounded=0;" value="string" vertex="1">
+          <mxGeometry height="40" width="67" as="geometry">
+            <mxRectangle height="40" width="67" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lNx4viEU1H6kxRpwUA7T-5" parent="lNx4viEU1H6kxRpwUA7T-3" style="shape=partialRectangle;connectable=0;fillColor=none;strokeWidth=2;fontFamily=Recursive;top=1;left=1;bottom=1;right=1;align=left;spacingLeft=8;overflow=hidden;fontSize=14;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;labelBackgroundColor=none;rounded=0;" value="产品编码" vertex="1">
+          <mxGeometry height="40" width="81" x="67" as="geometry">
+            <mxRectangle height="40" width="81" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lNx4viEU1H6kxRpwUA7T-6" parent="lNx4viEU1H6kxRpwUA7T-3" style="shape=partialRectangle;connectable=0;fillColor=none;strokeWidth=2;fontFamily=Recursive;top=1;left=1;bottom=1;right=1;align=left;spacingLeft=8;overflow=hidden;fontSize=14;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;labelBackgroundColor=none;rounded=0;" value="PK" vertex="1">
+          <mxGeometry height="40" width="42" x="148" as="geometry">
+            <mxRectangle height="40" width="42" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="产品物料关系" mermaidId="n:产品物料关系" mermaidBaseStyle="shape=table;startSize=39.75;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=1;fontSize=16;fontFamily=Recursive;strokeWidth=2;align=center;resizeLast=1;html=1;fillColor=#F0FDFA;strokeColor=#2DD4BF;fontColor=#28253D;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;" mermaidBaseValue="产品物料关系" id="lNx4viEU1H6kxRpwUA7T-7">
+          <mxCell parent="lNx4viEU1H6kxRpwUA7T-1" style="shape=table;startSize=39.75;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=1;fontSize=14;fontFamily=Recursive;strokeWidth=2;align=center;resizeLast=1;html=1;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;labelBackgroundColor=none;rounded=0;" vertex="1">
+            <mxGeometry height="80" width="190" x="260" y="211" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="lNx4viEU1H6kxRpwUA7T-8" parent="lNx4viEU1H6kxRpwUA7T-7" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=1;strokeWidth=2;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;labelBackgroundColor=none;rounded=0;" vertex="1">
+          <mxGeometry height="40" width="190" y="39" as="geometry" />
+        </mxCell>
+        <mxCell id="lNx4viEU1H6kxRpwUA7T-9" parent="lNx4viEU1H6kxRpwUA7T-8" style="shape=partialRectangle;connectable=0;fillColor=none;strokeWidth=2;fontFamily=Recursive;top=1;left=1;bottom=1;right=1;align=left;spacingLeft=8;overflow=hidden;fontSize=14;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;labelBackgroundColor=none;rounded=0;" value="string" vertex="1">
+          <mxGeometry height="40" width="67" as="geometry">
+            <mxRectangle height="40" width="67" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lNx4viEU1H6kxRpwUA7T-10" parent="lNx4viEU1H6kxRpwUA7T-8" style="shape=partialRectangle;connectable=0;fillColor=none;strokeWidth=2;fontFamily=Recursive;top=1;left=1;bottom=1;right=1;align=left;spacingLeft=8;overflow=hidden;fontSize=14;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;labelBackgroundColor=none;rounded=0;" value="产品编码" vertex="1">
+          <mxGeometry height="40" width="81" x="67" as="geometry">
+            <mxRectangle height="40" width="81" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lNx4viEU1H6kxRpwUA7T-11" parent="lNx4viEU1H6kxRpwUA7T-8" style="shape=partialRectangle;connectable=0;fillColor=none;strokeWidth=2;fontFamily=Recursive;top=1;left=1;bottom=1;right=1;align=left;spacingLeft=8;overflow=hidden;fontSize=14;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;labelBackgroundColor=none;rounded=0;" value="PK" vertex="1">
+          <mxGeometry height="40" width="42" x="148" as="geometry">
+            <mxRectangle height="40" width="42" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="物料" mermaidId="n:物料" mermaidBaseStyle="shape=table;startSize=39.75;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=1;fontSize=16;fontFamily=Recursive;strokeWidth=2;align=center;resizeLast=1;html=1;fillColor=#FFF7ED;strokeColor=#FB923C;fontColor=#28253D;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;" mermaidBaseValue="物料" id="lNx4viEU1H6kxRpwUA7T-12">
+          <mxCell parent="lNx4viEU1H6kxRpwUA7T-1" style="shape=table;startSize=39.75;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=1;fontSize=14;fontFamily=Recursive;strokeWidth=2;align=center;resizeLast=1;html=1;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;labelBackgroundColor=none;rounded=0;" vertex="1">
+            <mxGeometry height="80" width="190" x="232" y="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="lNx4viEU1H6kxRpwUA7T-13" parent="lNx4viEU1H6kxRpwUA7T-12" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=1;strokeWidth=2;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;labelBackgroundColor=none;rounded=0;" vertex="1">
+          <mxGeometry height="40" width="190" y="39" as="geometry" />
+        </mxCell>
+        <mxCell id="lNx4viEU1H6kxRpwUA7T-14" parent="lNx4viEU1H6kxRpwUA7T-13" style="shape=partialRectangle;connectable=0;fillColor=none;strokeWidth=2;fontFamily=Recursive;top=1;left=1;bottom=1;right=1;align=left;spacingLeft=8;overflow=hidden;fontSize=14;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;labelBackgroundColor=none;rounded=0;" value="string" vertex="1">
+          <mxGeometry height="40" width="67" as="geometry">
+            <mxRectangle height="40" width="67" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lNx4viEU1H6kxRpwUA7T-15" parent="lNx4viEU1H6kxRpwUA7T-13" style="shape=partialRectangle;connectable=0;fillColor=none;strokeWidth=2;fontFamily=Recursive;top=1;left=1;bottom=1;right=1;align=left;spacingLeft=8;overflow=hidden;fontSize=14;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;labelBackgroundColor=none;rounded=0;" value="物料编码" vertex="1">
+          <mxGeometry height="40" width="81" x="67" as="geometry">
+            <mxRectangle height="40" width="81" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lNx4viEU1H6kxRpwUA7T-16" parent="lNx4viEU1H6kxRpwUA7T-13" style="shape=partialRectangle;connectable=0;fillColor=none;strokeWidth=2;fontFamily=Recursive;top=1;left=1;bottom=1;right=1;align=left;spacingLeft=8;overflow=hidden;fontSize=14;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;labelBackgroundColor=none;rounded=0;" value="PK" vertex="1">
+          <mxGeometry height="40" width="42" x="148" as="geometry">
+            <mxRectangle height="40" width="42" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="模具" mermaidId="n:模具" mermaidBaseStyle="shape=table;startSize=39.75;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=1;fontSize=16;fontFamily=Recursive;strokeWidth=2;align=center;resizeLast=1;html=1;fillColor=#ECFEFF;strokeColor=#22D3EE;fontColor=#28253D;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;" mermaidBaseValue="模具" id="lNx4viEU1H6kxRpwUA7T-17">
+          <mxCell parent="lNx4viEU1H6kxRpwUA7T-1" style="shape=table;startSize=39.75;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=1;fontSize=14;fontFamily=Recursive;strokeWidth=2;align=center;resizeLast=1;html=1;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;labelBackgroundColor=none;rounded=0;" vertex="1">
+            <mxGeometry height="80" width="190" x="490" y="211" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="lNx4viEU1H6kxRpwUA7T-18" parent="lNx4viEU1H6kxRpwUA7T-17" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=1;strokeWidth=2;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;labelBackgroundColor=none;rounded=0;" vertex="1">
+          <mxGeometry height="40" width="190" y="39" as="geometry" />
+        </mxCell>
+        <mxCell id="lNx4viEU1H6kxRpwUA7T-19" parent="lNx4viEU1H6kxRpwUA7T-18" style="shape=partialRectangle;connectable=0;fillColor=none;strokeWidth=2;fontFamily=Recursive;top=1;left=1;bottom=1;right=1;align=left;spacingLeft=8;overflow=hidden;fontSize=14;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;labelBackgroundColor=none;rounded=0;" value="string" vertex="1">
+          <mxGeometry height="40" width="67" as="geometry">
+            <mxRectangle height="40" width="67" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lNx4viEU1H6kxRpwUA7T-20" parent="lNx4viEU1H6kxRpwUA7T-18" style="shape=partialRectangle;connectable=0;fillColor=none;strokeWidth=2;fontFamily=Recursive;top=1;left=1;bottom=1;right=1;align=left;spacingLeft=8;overflow=hidden;fontSize=14;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;labelBackgroundColor=none;rounded=0;" value="模具编号" vertex="1">
+          <mxGeometry height="40" width="81" x="67" as="geometry">
+            <mxRectangle height="40" width="81" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lNx4viEU1H6kxRpwUA7T-21" parent="lNx4viEU1H6kxRpwUA7T-18" style="shape=partialRectangle;connectable=0;fillColor=none;strokeWidth=2;fontFamily=Recursive;top=1;left=1;bottom=1;right=1;align=left;spacingLeft=8;overflow=hidden;fontSize=14;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;labelBackgroundColor=none;rounded=0;" value="PK" vertex="1">
+          <mxGeometry height="40" width="42" x="148" as="geometry">
+            <mxRectangle height="40" width="42" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="生产执行记录" mermaidId="n:生产执行记录" mermaidBaseStyle="shape=table;startSize=39.75;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=1;fontSize=16;fontFamily=Recursive;strokeWidth=2;align=center;resizeLast=1;html=1;fillColor=#F0FDF4;strokeColor=#4ADE80;fontColor=#28253D;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;" mermaidBaseValue="生产执行记录" id="lNx4viEU1H6kxRpwUA7T-22">
+          <mxCell parent="lNx4viEU1H6kxRpwUA7T-1" style="shape=table;startSize=39.75;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=1;fontSize=14;fontFamily=Recursive;strokeWidth=2;align=center;resizeLast=1;html=1;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;labelBackgroundColor=none;rounded=0;" vertex="1">
+            <mxGeometry height="80" width="218" x="476" y="481" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="lNx4viEU1H6kxRpwUA7T-23" parent="lNx4viEU1H6kxRpwUA7T-22" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=1;strokeWidth=2;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;labelBackgroundColor=none;rounded=0;" vertex="1">
+          <mxGeometry height="40" width="218" y="39" as="geometry" />
+        </mxCell>
+        <mxCell id="lNx4viEU1H6kxRpwUA7T-24" parent="lNx4viEU1H6kxRpwUA7T-23" style="shape=partialRectangle;connectable=0;fillColor=none;strokeWidth=2;fontFamily=Recursive;top=1;left=1;bottom=1;right=1;align=left;spacingLeft=8;overflow=hidden;fontSize=14;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;labelBackgroundColor=none;rounded=0;" value="string" vertex="1">
+          <mxGeometry height="40" width="67" as="geometry">
+            <mxRectangle height="40" width="67" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lNx4viEU1H6kxRpwUA7T-25" parent="lNx4viEU1H6kxRpwUA7T-23" style="shape=partialRectangle;connectable=0;fillColor=none;strokeWidth=2;fontFamily=Recursive;top=1;left=1;bottom=1;right=1;align=left;spacingLeft=8;overflow=hidden;fontSize=14;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;labelBackgroundColor=none;rounded=0;" value="执行记录编号" vertex="1">
+          <mxGeometry height="40" width="109" x="67" as="geometry">
+            <mxRectangle height="40" width="109" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lNx4viEU1H6kxRpwUA7T-26" parent="lNx4viEU1H6kxRpwUA7T-23" style="shape=partialRectangle;connectable=0;fillColor=none;strokeWidth=2;fontFamily=Recursive;top=1;left=1;bottom=1;right=1;align=left;spacingLeft=8;overflow=hidden;fontSize=14;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;labelBackgroundColor=none;rounded=0;" value="PK" vertex="1">
+          <mxGeometry height="40" width="42" x="176" as="geometry">
+            <mxRectangle height="40" width="42" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="设备" mermaidId="n:设备" mermaidBaseStyle="shape=table;startSize=39.75;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=1;fontSize=16;fontFamily=Recursive;strokeWidth=2;align=center;resizeLast=1;html=1;fillColor=#F5F3FF;strokeColor=#A78BFA;fontColor=#28253D;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;" mermaidBaseValue="设备" id="lNx4viEU1H6kxRpwUA7T-27">
+          <mxCell parent="lNx4viEU1H6kxRpwUA7T-1" style="shape=table;startSize=39.75;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=1;fontSize=14;fontFamily=Recursive;strokeWidth=2;align=center;resizeLast=1;html=1;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;labelBackgroundColor=none;rounded=0;" vertex="1">
+            <mxGeometry height="80" width="190" x="30" y="211" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="lNx4viEU1H6kxRpwUA7T-28" parent="lNx4viEU1H6kxRpwUA7T-27" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=1;strokeWidth=2;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;labelBackgroundColor=none;rounded=0;" vertex="1">
+          <mxGeometry height="40" width="190" y="39" as="geometry" />
+        </mxCell>
+        <mxCell id="lNx4viEU1H6kxRpwUA7T-29" parent="lNx4viEU1H6kxRpwUA7T-28" style="shape=partialRectangle;connectable=0;fillColor=none;strokeWidth=2;fontFamily=Recursive;top=1;left=1;bottom=1;right=1;align=left;spacingLeft=8;overflow=hidden;fontSize=14;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;labelBackgroundColor=none;rounded=0;" value="string" vertex="1">
+          <mxGeometry height="40" width="67" as="geometry">
+            <mxRectangle height="40" width="67" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lNx4viEU1H6kxRpwUA7T-30" parent="lNx4viEU1H6kxRpwUA7T-28" style="shape=partialRectangle;connectable=0;fillColor=none;strokeWidth=2;fontFamily=Recursive;top=1;left=1;bottom=1;right=1;align=left;spacingLeft=8;overflow=hidden;fontSize=14;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;labelBackgroundColor=none;rounded=0;" value="设备编号" vertex="1">
+          <mxGeometry height="40" width="81" x="67" as="geometry">
+            <mxRectangle height="40" width="81" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lNx4viEU1H6kxRpwUA7T-31" parent="lNx4viEU1H6kxRpwUA7T-28" style="shape=partialRectangle;connectable=0;fillColor=none;strokeWidth=2;fontFamily=Recursive;top=1;left=1;bottom=1;right=1;align=left;spacingLeft=8;overflow=hidden;fontSize=14;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;labelBackgroundColor=none;rounded=0;" value="PK" vertex="1">
+          <mxGeometry height="40" width="42" x="148" as="geometry">
+            <mxRectangle height="40" width="42" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="使用" mermaidId="e:产品-&gt;产品物料关系#0" mermaidBaseStyle="edgeStyle=orthogonalEdgeStyle;rounded=1;curved=0;startArrow=ERmandOne;startSize=14;endArrow=ERzeroToMany;endSize=14;jumpStyle=arc;jumpSize=12;strokeColor=#000000;strokeWidth=2;html=1;fontSize=14;labelBackgroundColor=#FFFFFF;fontFamily=Recursive;fontColor=#28253D;exitX=0.28;exitY=0.99;entryX=0.65;entryY=0;" mermaidBaseValue="使用" id="lNx4viEU1H6kxRpwUA7T-32">
+          <mxCell edge="1" parent="lNx4viEU1H6kxRpwUA7T-1" source="lNx4viEU1H6kxRpwUA7T-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;curved=0;startArrow=ERmandOne;startSize=14;endArrow=ERzeroToMany;endSize=14;jumpStyle=arc;jumpSize=12;strokeWidth=2;html=1;fontSize=14;labelBackgroundColor=none;fontFamily=Recursive;fontColor=default;entryX=0.65;entryY=0;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;">
+            <mxGeometry relative="1" x="0.5262" as="geometry">
+              <Array as="points">
+                <mxPoint x="520" y="160" />
+                <mxPoint x="383.5" y="160" />
+              </Array>
+              <mxPoint x="520" y="90" as="sourcePoint" />
+              <mxPoint x="383.5" y="211" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="被引用" mermaidId="e:物料-&gt;产品物料关系#0" mermaidBaseStyle="edgeStyle=orthogonalEdgeStyle;rounded=1;curved=0;startArrow=ERmandOne;startSize=14;endArrow=ERzeroToMany;endSize=14;jumpStyle=arc;jumpSize=12;strokeColor=#000000;strokeWidth=2;html=1;fontSize=14;labelBackgroundColor=#FFFFFF;fontFamily=Recursive;fontColor=#28253D;exitX=0.5;exitY=0.99;entryX=0.35;entryY=0;" mermaidBaseValue="被引用" id="lNx4viEU1H6kxRpwUA7T-33">
+          <mxCell edge="1" parent="lNx4viEU1H6kxRpwUA7T-1" source="lNx4viEU1H6kxRpwUA7T-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;curved=0;startArrow=ERmandOne;startSize=14;endArrow=ERzeroToMany;endSize=14;jumpStyle=arc;jumpSize=12;strokeWidth=2;html=1;fontSize=14;labelBackgroundColor=none;fontFamily=Recursive;fontColor=default;exitX=0.5;exitY=0.99;entryX=0.35;entryY=0;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" target="lNx4viEU1H6kxRpwUA7T-7">
+            <mxGeometry relative="1" x="0.00990099009900991" as="geometry">
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="对应" mermaidId="e:产品-&gt;模具#0" mermaidBaseStyle="edgeStyle=orthogonalEdgeStyle;rounded=1;curved=0;startArrow=ERmandOne;startSize=14;endArrow=ERzeroToMany;endSize=14;jumpStyle=arc;jumpSize=12;strokeColor=#000000;strokeWidth=2;html=1;fontSize=14;labelBackgroundColor=#FFFFFF;fontFamily=Recursive;fontColor=#28253D;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;" mermaidBaseValue="对应" id="lNx4viEU1H6kxRpwUA7T-34">
+          <mxCell edge="1" parent="lNx4viEU1H6kxRpwUA7T-1" source="lNx4viEU1H6kxRpwUA7T-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;curved=0;startArrow=ERmandOne;startSize=14;endArrow=ERzeroToMany;endSize=14;jumpStyle=arc;jumpSize=12;strokeWidth=2;html=1;fontSize=14;labelBackgroundColor=none;fontFamily=Recursive;fontColor=default;exitX=0.518;exitY=0.996;entryX=0.468;entryY=-0.006;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;entryDx=0;entryDy=0;entryPerimeter=0;exitDx=0;exitDy=0;exitPerimeter=0;" target="lNx4viEU1H6kxRpwUA7T-17">
+            <mxGeometry relative="1" x="0.4701" y="60" as="geometry">
+              <mxPoint as="offset" />
+              <mxPoint x="578.4999999999998" y="100" as="sourcePoint" />
+              <mxPoint x="592.5" y="201" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="生产" mermaidId="e:产品-&gt;生产执行记录#0" mermaidBaseStyle="edgeStyle=orthogonalEdgeStyle;rounded=1;curved=0;startArrow=ERmandOne;startSize=14;endArrow=ERzeroToMany;endSize=14;jumpStyle=arc;jumpSize=12;strokeColor=#000000;strokeWidth=2;html=1;fontSize=14;labelBackgroundColor=#FFFFFF;fontFamily=Recursive;fontColor=#28253D;exitX=0.72;exitY=0.99;entryX=0.73;entryY=0;" mermaidBaseValue="生产" id="lNx4viEU1H6kxRpwUA7T-35">
+          <mxCell edge="1" parent="lNx4viEU1H6kxRpwUA7T-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;curved=0;startArrow=ERmandOne;startSize=14;endArrow=ERzeroToMany;endSize=14;jumpStyle=arc;jumpSize=12;strokeWidth=2;html=1;fontSize=14;labelBackgroundColor=none;fontFamily=Recursive;fontColor=default;entryX=0.73;entryY=0;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;">
+            <mxGeometry relative="1" x="-0.0506" as="geometry">
+              <Array as="points">
+                <mxPoint x="640" y="160" />
+                <mxPoint x="741" y="160" />
+                <mxPoint x="741" y="371" />
+                <mxPoint x="642.1" y="371" />
+              </Array>
+              <mxPoint x="640" y="110" as="sourcePoint" />
+              <mxPoint x="642.1399999999999" y="481" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="执行" mermaidId="e:设备-&gt;生产执行记录#0" mermaidBaseStyle="edgeStyle=orthogonalEdgeStyle;rounded=1;curved=0;startArrow=ERmandOne;startSize=14;endArrow=ERzeroToMany;endSize=14;jumpStyle=arc;jumpSize=12;strokeColor=#000000;strokeWidth=2;html=1;fontSize=14;labelBackgroundColor=#FFFFFF;fontFamily=Recursive;fontColor=#28253D;exitX=0.5;exitY=0.99;entryX=0.27;entryY=0;" mermaidBaseValue="执行" id="lNx4viEU1H6kxRpwUA7T-36">
+          <mxCell edge="1" parent="lNx4viEU1H6kxRpwUA7T-1" source="lNx4viEU1H6kxRpwUA7T-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;curved=0;startArrow=ERmandOne;startSize=14;endArrow=ERzeroToMany;endSize=14;jumpStyle=arc;jumpSize=12;strokeWidth=2;html=1;fontSize=14;labelBackgroundColor=none;fontFamily=Recursive;fontColor=default;exitX=0.5;exitY=0.99;entryX=0.27;entryY=0;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" target="lNx4viEU1H6kxRpwUA7T-22">
+            <mxGeometry relative="1" x="-0.8" as="geometry">
+              <Array as="points">
+                <mxPoint x="125" y="371" />
+                <mxPoint x="534.9" y="371" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="使用" mermaidId="e:模具-&gt;生产执行记录#0" mermaidBaseStyle="edgeStyle=orthogonalEdgeStyle;rounded=1;curved=0;startArrow=ERmandOne;startSize=14;endArrow=ERzeroToMany;endSize=14;jumpStyle=arc;jumpSize=12;strokeColor=#000000;strokeWidth=2;html=1;fontSize=14;labelBackgroundColor=#FFFFFF;fontFamily=Recursive;fontColor=#28253D;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;" mermaidBaseValue="使用" id="lNx4viEU1H6kxRpwUA7T-37">
+          <mxCell edge="1" parent="lNx4viEU1H6kxRpwUA7T-1" source="lNx4viEU1H6kxRpwUA7T-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;curved=0;startArrow=ERmandOne;startSize=14;endArrow=ERzeroToMany;endSize=14;jumpStyle=arc;jumpSize=12;strokeWidth=2;html=1;fontSize=14;labelBackgroundColor=none;fontFamily=Recursive;fontColor=default;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" target="lNx4viEU1H6kxRpwUA7T-22">
+            <mxGeometry relative="1" x="0.00990099009900991" as="geometry">
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

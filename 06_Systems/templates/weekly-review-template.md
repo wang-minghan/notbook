@@ -1,6 +1,8 @@
 ---
-title: "周复盘 {{date:YYYY-WW}}"
-tags: [weekly, review]
+title: 周复盘 {{date:YYYY-WW}}
+tags:
+  - weekly
+  - review
 date: "{{date:YYYY-MM-DD}}"
 week: "{{date:YYYY-WW}}"
 ---

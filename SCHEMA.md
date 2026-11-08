@@ -4,7 +4,10 @@ created: 2026-08-03
 updated: 2026-08-03
 type: schema
 scope: global
-tags: [knowledge-base, schema, governance]
+tags:
+  - knowledge-base
+  - schema
+  - governance
 confidence: high
 contested: false
 ---

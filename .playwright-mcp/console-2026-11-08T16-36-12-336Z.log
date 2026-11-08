@@ -1,0 +1,74 @@
+[     945ms] [LOG] [jsBridge Debug]:  jsBridge no type bindReady BaseAdapter @ https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:0
+[    1221ms] [LOG] [jsBridge Debug]:  callLib init @ https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:0
+[    1628ms] [LOG] Hash module initialized successfully @ https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:0
+[    1685ms] [LOG] Hash module initialized successfully @ https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:0
+[    1686ms] [LOG] Hash module initialized successfully @ https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:0
+[    1691ms] [LOG] Hash module initialized successfully @ https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:0
+[    1691ms] [LOG] Hash module initialized successfully @ https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:0
+[    1694ms] [LOG] Hash module initialized successfully @ https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:0
+[    1694ms] [LOG] Hash module initialized successfully @ https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:0
+[    1695ms] [LOG] Hash module initialized successfully @ https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:0
+[    1695ms] [LOG] Hash module initialized successfully @ https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:0
+[    1698ms] [LOG] Hash module initialized successfully @ https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:0
+[    1714ms] [LOG] {version: 1.0.5, headless: Object, basic: Object, suspiciousAction: Array(0)} @ https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:0
+[    1715ms] [LOG] {version: 1.0.5, headless: Object, basic: Object, suspiciousAction: Array(0)} @ https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:0
+[    1715ms] [LOG] {version: 1.0.5, headless: Object, basic: Object, suspiciousAction: Array(0)} @ https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:0
+[    1715ms] [LOG] {version: 1.0.5, headless: Object, basic: Object, suspiciousAction: Array(0)} @ https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:0
+[    1715ms] [LOG] {version: 1.0.5, headless: Object, basic: Object, suspiciousAction: Array(0)} @ https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:0
+[    1715ms] [LOG] {version: 1.0.5, headless: Object, basic: Object, suspiciousAction: Array(0)} @ https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:0
+[    1716ms] [LOG] {version: 1.0.5, headless: Object, basic: Object, suspiciousAction: Array(0)} @ https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:0
+[    1716ms] [LOG] {version: 1.0.5, headless: Object, basic: Object, suspiciousAction: Array(0)} @ https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:0
+[    1716ms] [LOG] {version: 1.0.5, headless: Object, basic: Object, suspiciousAction: Array(0)} @ https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:0
+[    1716ms] [LOG] {version: 1.0.5, headless: Object, basic: Object, suspiciousAction: Array(0)} @ https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:0
+[    1864ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://oss.weread.qq.com/hera/logkv?vid=221722242&key=78502542&value=1&itemName=Web_Enter&platform=Windows_desktop:0
+[    1864ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://oss.weread.qq.com/hera/logkv?vid=271294118&key=78502542&value=1&itemName=Web_GuestLoginEnterUV&platform=Windows_desktop:0
+[    1864ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://oss.weread.qq.com/hera/logkv?vid=221722242&key=78503344&value=1&itemName=Web_Reader_Enter&platform=Windows_desktop:0
+[    1864ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://oss.weread.qq.com/hera/logkv?vid=221722242&key=78503344&value=1&itemName=Web_ReviewEditor_Expose&platform=Windows_desktop:0
+[    2001ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://oss.weread.qq.com/river/single:0
+[    2003ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://oss.weread.qq.com/river/single:0
+[    2121ms] [LOG] JSBridge is running in web mode @ https://cdn.weread.qq.com/web/winktemplaterendersvr/_next/static/chunks/pages/_app-2bf0f2eef054d3af.js:13
+[    2122ms] [LOG] JSBridge is initialized @ https://cdn.weread.qq.com/web/winktemplaterendersvr/_next/static/chunks/pages/_app-2bf0f2eef054d3af.js:13
+[    2122ms] [LOG] JSBridge is ready @ https://cdn.weread.qq.com/web/winktemplaterendersvr/_next/static/chunks/pages/_app-2bf0f2eef054d3af.js:13
+[    2122ms] [LOG] addEventListener: OnPageExpose @ https://cdn.weread.qq.com/web/winktemplaterendersvr/_next/static/chunks/pages/_app-2bf0f2eef054d3af.js:13
+[    2122ms] [LOG] addEventListener: KeyboardDidShow @ https://cdn.weread.qq.com/web/winktemplaterendersvr/_next/static/chunks/pages/_app-2bf0f2eef054d3af.js:13
+[    2122ms] [LOG] addEventListener: KeyboardDidHide @ https://cdn.weread.qq.com/web/winktemplaterendersvr/_next/static/chunks/pages/_app-2bf0f2eef054d3af.js:13
+[    2123ms] [LOG] addEventListener: KeyboardDidShow @ https://cdn.weread.qq.com/web/winktemplaterendersvr/_next/static/chunks/pages/_app-2bf0f2eef054d3af.js:13
+[    2123ms] [LOG] addEventListener: KeyboardDidHide @ https://cdn.weread.qq.com/web/winktemplaterendersvr/_next/static/chunks/pages/_app-2bf0f2eef054d3af.js:13
+[    2123ms] [LOG] addEventListener: OnPageExpose @ https://cdn.weread.qq.com/web/winktemplaterendersvr/_next/static/chunks/pages/_app-2bf0f2eef054d3af.js:13
+[    2124ms] [LOG] addEventListener: InitAskChannel @ https://cdn.weread.qq.com/web/winktemplaterendersvr/_next/static/chunks/pages/_app-2bf0f2eef054d3af.js:13
+[    2124ms] [LOG] addEventListener: ChapterDidChange @ https://cdn.weread.qq.com/web/winktemplaterendersvr/_next/static/chunks/pages/_app-2bf0f2eef054d3af.js:13
+[    2124ms] [LOG] addEventListener: InitAskChannel @ https://cdn.weread.qq.com/web/winktemplaterendersvr/_next/static/chunks/pages/_app-2bf0f2eef054d3af.js:13
+[    2125ms] [LOG] addEventListener: OnPageExpose @ https://cdn.weread.qq.com/web/winktemplaterendersvr/_next/static/chunks/pages/_app-2bf0f2eef054d3af.js:13
+[    2125ms] [LOG] addEventListener: OnExitPanel @ https://cdn.weread.qq.com/web/winktemplaterendersvr/_next/static/chunks/pages/_app-2bf0f2eef054d3af.js:13
+[    2125ms] [LOG] addEventListener: OnPageExpose @ https://cdn.weread.qq.com/web/winktemplaterendersvr/_next/static/chunks/pages/_app-2bf0f2eef054d3af.js:13
+[    2125ms] [LOG] addEventListener: KeyboardDidShow @ https://cdn.weread.qq.com/web/winktemplaterendersvr/_next/static/chunks/pages/_app-2bf0f2eef054d3af.js:13
+[    2126ms] [LOG] addEventListener: KeyboardDidHide @ https://cdn.weread.qq.com/web/winktemplaterendersvr/_next/static/chunks/pages/_app-2bf0f2eef054d3af.js:13
+[    2127ms] [LOG] addEventListener: InitAskChannel @ https://cdn.weread.qq.com/web/winktemplaterendersvr/_next/static/chunks/pages/_app-2bf0f2eef054d3af.js:13
+[    2127ms] [LOG] addEventListener: OnPageExpose @ https://cdn.weread.qq.com/web/winktemplaterendersvr/_next/static/chunks/pages/_app-2bf0f2eef054d3af.js:13
+[    2127ms] [LOG] addEventListener: InitPluginContent @ https://cdn.weread.qq.com/web/winktemplaterendersvr/_next/static/chunks/pages/_app-2bf0f2eef054d3af.js:13
+[    2127ms] [LOG] addEventListener: AppendAskQuery @ https://cdn.weread.qq.com/web/winktemplaterendersvr/_next/static/chunks/pages/_app-2bf0f2eef054d3af.js:13
+[    2127ms] [LOG] addEventListener: AbortAskAI @ https://cdn.weread.qq.com/web/winktemplaterendersvr/_next/static/chunks/pages/_app-2bf0f2eef054d3af.js:13
+[    2127ms] [LOG] addEventListener: OnPageExpose @ https://cdn.weread.qq.com/web/winktemplaterendersvr/_next/static/chunks/pages/_app-2bf0f2eef054d3af.js:13
+[    2128ms] [LOG] addEventListener: ScrollToBottom @ https://cdn.weread.qq.com/web/winktemplaterendersvr/_next/static/chunks/pages/_app-2bf0f2eef054d3af.js:13
+[    2128ms] [LOG] MultiTurnStreamTemplate useEffect false false @ https://cdn.weread.qq.com/web/winktemplaterendersvr/_next/static/chunks/pages/_app-2bf0f2eef054d3af.js:13
+[    2128ms] [LOG] addEventListener: KeyboardDidShow @ https://cdn.weread.qq.com/web/winktemplaterendersvr/_next/static/chunks/pages/_app-2bf0f2eef054d3af.js:13
+[    2128ms] [LOG] addEventListener: KeyboardDidHide @ https://cdn.weread.qq.com/web/winktemplaterendersvr/_next/static/chunks/pages/_app-2bf0f2eef054d3af.js:13
+[    2238ms] [LOG] JSBridge is initialized @ https://cdn.weread.qq.com/web/winktemplaterendersvr/_next/static/chunks/pages/_app-2bf0f2eef054d3af.js:13
+[    2238ms] [LOG] JSBridge is ready @ https://cdn.weread.qq.com/web/winktemplaterendersvr/_next/static/chunks/pages/_app-2bf0f2eef054d3af.js:13
+[    2239ms] [LOG] appInfo updated {vid: 221722242, appversion: 1.0.0} @ https://cdn.weread.qq.com/web/winktemplaterendersvr/_next/static/chunks/pages/_app-2bf0f2eef054d3af.js:13
+[    2374ms] [LOG] Hash module initialized successfully @ https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:0
+[    2376ms] [LOG] {version: 1.0.5, headless: Object, basic: Object, suspiciousAction: Array(0)} @ https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:0
+[    3681ms] [LOG] Hash module initialized successfully @ https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:0
+[    3682ms] [LOG] Hash module initialized successfully @ https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:0
+[    3682ms] [LOG] Hash module initialized successfully @ https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:0
+[    3683ms] [LOG] Hash module initialized successfully @ https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:0
+[    3686ms] [LOG] {version: 1.0.5, headless: Object, basic: Object, suspiciousAction: Array(0)} @ https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:0
+[    3686ms] [LOG] {version: 1.0.5, headless: Object, basic: Object, suspiciousAction: Array(0)} @ https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:0
+[    3686ms] [LOG] {version: 1.0.5, headless: Object, basic: Object, suspiciousAction: Array(0)} @ https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:0
+[    3686ms] [LOG] {version: 1.0.5, headless: Object, basic: Object, suspiciousAction: Array(0)} @ https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:0
+[    4485ms] [LOG] Hash module initialized successfully @ https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:0
+[    4488ms] [LOG] {version: 1.0.5, headless: Object, basic: Object, suspiciousAction: Array(0)} @ https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:0
+[   34480ms] [LOG] Hash module initialized successfully @ https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:0
+[   34481ms] [LOG] {version: 1.0.5, headless: Object, basic: Object, suspiciousAction: Array(0)} @ https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:0
+[   64708ms] [LOG] Hash module initialized successfully @ https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:0
+[   64716ms] [LOG] {version: 1.0.5, headless: Object, basic: Object, suspiciousAction: Array(0)} @ https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:0

@@ -1,0 +1,442 @@
+- generic [active] [ref=f40e1]:
+  - navigation [ref=f40e2]:
+    - generic [ref=f40e3]:
+      - link "Logo Quicker" [ref=f40e4] [cursor=pointer]:
+        - /url: /
+        - img "Logo" [ref=f40e5]
+        - generic [ref=f40e6]: Quicker
+      - generic [ref=f40e7]:
+        - list [ref=f40e8]:
+          - listitem [ref=f40e9]:
+            - link " 主页" [ref=f40e10] [cursor=pointer]:
+              - /url: /
+              - generic [ref=f40e11]: 
+              - text: 主页
+          - listitem [ref=f40e12]:
+            - link " 下载" [ref=f40e13] [cursor=pointer]:
+              - /url: /Download
+              - generic [ref=f40e14]: 
+              - text: 下载
+          - listitem [ref=f40e15]:
+            - link " 2.0" [ref=f40e16] [cursor=pointer]:
+              - /url: /V2
+              - generic [ref=f40e17]: 
+              - text: "2.0"
+          - listitem [ref=f40e18]:
+            - link " 专业版" [ref=f40e19] [cursor=pointer]:
+              - /url: /pricing
+              - generic [ref=f40e20]: 
+              - text: 专业版
+        - list [ref=f40e21]:
+          - listitem [ref=f40e22]:
+            - generic [ref=f40e24]:
+              - textbox "搜索Quicker网站的内容" [ref=f40e25]:
+                - /placeholder: 搜索...
+              - button "" [ref=f40e27] [cursor=pointer]
+          - listitem [ref=f40e29]:
+            - link " 分享" [ref=f40e30] [cursor=pointer]:
+              - /url: /Share
+              - generic [ref=f40e31]: 
+              - text: 分享
+            - text:      
+          - listitem [ref=f40e32]:
+            - link " 文档" [ref=f40e33] [cursor=pointer]:
+              - /url: /KC
+              - generic [ref=f40e34]: 
+              - text: 文档
+            - text:       
+          - listitem [ref=f40e35]:
+            - link " 讨论" [ref=f40e36] [cursor=pointer]:
+              - /url: /QA
+              - generic [ref=f40e37]: 
+              - text: 讨论
+          - listitem [ref=f40e38]:
+            - link "" [ref=f40e39] [cursor=pointer]:
+              - /url: /Skins
+          - listitem [ref=f40e41]:
+            - link " 登录" [ref=f40e42] [cursor=pointer]:
+              - /url: /Identity/Account/Login
+              - generic [ref=f40e43]: 
+              - text: 登录
+          - listitem [ref=f40e44]:
+            - link "注册" [ref=f40e45] [cursor=pointer]:
+              - /url: /Identity/Account/Register
+  - generic [ref=f40e46]:
+    - generic [ref=f40e47]:
+      - navigation "breadcrumb" [ref=f40e48]:
+        - list [ref=f40e49]:
+          - listitem [ref=f40e50]:
+            - link "动作库" [ref=f40e51] [cursor=pointer]:
+              - /url: /Share
+          - listitem [ref=f40e52]:
+            - text: /
+            - link "所有软件" [ref=f40e53] [cursor=pointer]:
+              - /url: /Exe
+          - listitem [ref=f40e54]:
+            - text: /
+            - link "Microsoft Edge" [ref=f40e55] [cursor=pointer]:
+              - /url: /Exe/1057/Actions
+          - listitem [ref=f40e57]:
+            - text: /
+            - link "微信读书" [ref=f40e58] [cursor=pointer]:
+              - /url: /Sharedaction?code=a2981c48-f998-426c-9e9b-08d8ced0fc3a
+      - generic [ref=f40e59]:
+        - generic [ref=f40e60]:
+          - generic "点击复制" [ref=f40e61] [cursor=pointer]:
+            - img "点击复制" [ref=f40e62]
+            - generic "另类爬取微信读书正版图书" [ref=f40e63]: 微信读书
+          - generic [ref=f40e64]:
+            - heading "微信读书 公开 已发布" [level=4] [ref=f40e65]:
+              - text: 微信读书
+              - generic [ref=f40e66]:
+                - generic [ref=f40e67]: 公开
+                - link "已发布" [ref=f40e68] [cursor=pointer]:
+                  - /url: /Share/Actions/ReviewRecords?code=a2981c48-f998-426c-9e9b-08d8ced0fc3a
+            - generic [ref=f40e69]:
+              - generic [ref=f40e70]:
+                - strong [ref=f40e71]:
+                  - link "紫cm煞" [ref=f40e72] [cursor=pointer]:
+                    - /url: /User/168537/%E7%B4%ABcm%E7%85%9E
+                - generic [ref=f40e73]:
+                  - text: 更新于
+                  - link "2021-03-05 09:46" [ref=f40e74] [cursor=pointer]:
+                    - /url: /Share/Actions/Versions?code=a2981c48-f998-426c-9e9b-08d8ced0fc3a
+              - text: "|"
+              - generic [ref=f40e75]:
+                - generic [ref=f40e76]: 
+                - text: "5"
+              - text: "|"
+              - generic [ref=f40e77]:
+                - generic [ref=f40e78]: 
+                - text: "465"
+        - generic [ref=f40e81]:
+          - generic [ref=f40e82]:
+            - button " 复制到剪贴板" [ref=f40e83] [cursor=pointer]:
+              - generic [ref=f40e84]: 
+              - text: 复制到剪贴板
+            - link "预览动作定义" [ref=f40e85] [cursor=pointer]:
+              - /url: quicker:previewaction:a2981c48-f998-426c-9e9b-08d8ced0fc3a
+              - generic [ref=f40e86]: 
+          - link "如何安装动作？" [ref=f40e88] [cursor=pointer]:
+            - /url: https://getquicker.net/kc/manual/doc/install-action
+      - complementary "使用提示与风险说明" [ref=f40e89]:
+        - group [ref=f40e90]:
+          - generic [ref=f40e91] [cursor=pointer]:
+            - strong [ref=f40e92]: 使用提醒：
+            - text: 公开展示或审核通过不等于安全保证。 收起完整说明
+          - generic [ref=f40e93]:
+            - paragraph [ref=f40e94]: 本动作由发布者提供。公开展示、通过人工审核或 AI 辅助审查，不代表已完成全面安全检测，也不构成对其安全性、准确性或适用性的保证。
+            - paragraph [ref=f40e95]: 动作可能访问或修改文件、执行脚本、连接第三方服务，实际效果会受到软件版本、运行环境和参数设置的影响。 安装、更新和运行前，请阅读作者说明，确认用途、依赖及操作范围。 涉及重要数据时，请先备份并在测试环境中验证。对于删除或覆盖文件、上传敏感数据、使用管理员权限等操作，请确认后再执行。
+            - paragraph [ref=f40e96]: 可点击上方复制按钮旁的放大镜按钮，在 Quicker 中预览动作定义，查看步骤、参数和操作内容（需要安装并运行 Quicker）。预览可辅助检查，不能代替实际环境中的验证。
+            - paragraph [ref=f40e97]: 发现异常请停止使用并向作者反馈；发现疑似恶意行为或隐私泄露，请向平台举报。
+    - generic [ref=f40e98]:
+      - generic [ref=f40e99]:
+        - link "信息" [ref=f40e101] [cursor=pointer]:
+          - /url: /Sharedaction?code=a2981c48-f998-426c-9e9b-08d8ced0fc3a
+        - link "版本9" [ref=f40e103] [cursor=pointer]:
+          - /url: /Share/Actions/Versions?code=a2981c48-f998-426c-9e9b-08d8ced0fc3a
+        - link "讨论3" [ref=f40e105] [cursor=pointer]:
+          - /url: /Share/Actions/Topics?code=a2981c48-f998-426c-9e9b-08d8ced0fc3a
+        - link "统计" [ref=f40e107] [cursor=pointer]:
+          - /url: /Share/Actions/Stat?code=a2981c48-f998-426c-9e9b-08d8ced0fc3a
+        - link "审核" [ref=f40e109] [cursor=pointer]:
+          - /url: /Share/Actions/ReviewRecords?code=a2981c48-f998-426c-9e9b-08d8ced0fc3a
+      - generic [ref=f40e111]:
+        - generic [ref=f40e112]:
+          - generic [ref=f40e113]:
+            - generic [ref=f40e114]: 
+            - generic [ref=f40e116]:
+              - generic "作者" [ref=f40e117]:
+                - link "紫cm煞" [ref=f40e118] [cursor=pointer]:
+                  - /url: /User/168537/%E7%B4%ABcm%E7%85%9E
+              - link " 赞赏作者" [ref=f40e120] [cursor=pointer]:
+                - /url: /DonateAuthor?serial=168537&nickname=%E7%B4%ABcm%E7%85%9E
+                - generic [ref=f40e121]: 
+                - text: 赞赏作者
+              - generic [ref=f40e122] [cursor=pointer]:
+                - generic [ref=f40e123]: 
+                - text: 复制Ta的推荐码
+          - separator [ref=f40e124]
+          - heading "适用于" [level=5] [ref=f40e125]
+          - link "Microsoft Edge" [ref=f40e127] [cursor=pointer]:
+            - /url: /Exe/1057/Actions
+          - generic [ref=f40e129]:
+            - heading "分类(旧)" [level=5] [ref=f40e130]
+            - generic [ref=f40e131]:
+              - generic [ref=f40e132]: 
+              - text: 脚本
+            - generic [ref=f40e133]:
+              - generic [ref=f40e134]: 
+              - text: 网络服务
+          - separator [ref=f40e135]
+          - generic [ref=f40e136]:
+            - link " 点赞鼓励一下" [ref=f40e138] [cursor=pointer]:
+              - /url: javascript:void(0);
+              - generic [ref=f40e139]: 
+              - text: 点赞鼓励一下
+            - generic [ref=f40e141]:
+              - text: icki 进步哥 AviciiSkywalker Cesar 飞飞1866
+              - link "等 5 人赞了这个动作" [ref=f40e142] [cursor=pointer]:
+                - /url: /Share/VoteActionUsers?actionId=a2981c48-f998-426c-9e9b-08d8ced0fc3a
+              - text: 。
+          - separator [ref=f40e143]
+          - generic [ref=f40e144]:
+            - link " 收藏" [ref=f40e146] [cursor=pointer]:
+              - /url: /Share/ActionLists/AddToList?actionid=a2981c48-f998-426c-9e9b-08d8ced0fc3a
+              - generic [ref=f40e147]: 
+              - text: 收藏
+            - generic [ref=f40e148]:
+              - link "3 个动作单" [ref=f40e149] [cursor=pointer]:
+                - /url: /Share/ActionLists/ListsOfAction?actionId=a2981c48-f998-426c-9e9b-08d8ced0fc3a
+              - text: 收藏了此动作。
+          - separator [ref=f40e150]
+          - heading "更多信息" [level=5] [ref=f40e151]
+          - table [ref=f40e152]:
+            - rowgroup [ref=f40e153]:
+              - row [ref=f40e154]:
+                - cell "分享时间" [ref=f40e155]
+                - cell "2021-02-12 17:53" [ref=f40e156]
+              - row [ref=f40e157]:
+                - cell "最后更新" [ref=f40e158]
+                - cell "2021-03-05 09:46" [ref=f40e159]
+              - row [ref=f40e160]:
+                - cell "修订版本" [ref=f40e161]
+                - cell "8" [ref=f40e162]
+              - row [ref=f40e163]:
+                - cell "用户许可" [ref=f40e164]
+                - cell "可自己使用或修改，不可再分享" [ref=f40e165]
+              - row [ref=f40e166]:
+                - cell "Quicker版本" [ref=f40e167]
+                - cell "1.22.42" [ref=f40e168]
+              - row [ref=f40e169]:
+                - cell "动作大小" [ref=f40e170]
+                - cell "32.2 KB" [ref=f40e171]
+          - separator [ref=f40e172]
+          - generic [ref=f40e174]:
+            - generic [ref=f40e175]: 分享到
+            - generic [ref=f40e176]:
+              - link "" [ref=f40e177] [cursor=pointer]:
+                - /url: https://service.weibo.com/share/share.php?url=https%3A%2F%2Fgetquicker.net%2Fsharedaction%3Fcode%3Da2981c48-f998-426c-9e9b-08d8ced0fc3a&title=%23Quicker%E5%8A%A8%E4%BD%9C%23%E5%BE%AE%E4%BF%A1%E8%AF%BB%E4%B9%A6--%E5%8F%A6%E7%B1%BB%E7%88%AC%E5%8F%96%E5%BE%AE%E4%BF%A1%E8%AF%BB%E4%B9%A6%E6%AD%A3%E7%89%88%E5%9B%BE%E4%B9%A6%20%E4%BD%9C%E8%80%85%3A%E7%B4%ABcm%E7%85%9E&pic=https%3A%2F%2Ffiles.getquicker.net%2F_actionDemos%2Fa2981c48-f998-426c-9e9b-08d8ced0fc3a%2F%25E6%25BC%2594%25E7%25A4%25BA%25E5%258A%25A8%25E7%2594%25BB.gif
+              - link "" [ref=f40e179] [cursor=pointer]:
+                - /url: javascript:return false;
+              - link "" [ref=f40e181] [cursor=pointer]:
+                - /url: https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https%3A%2F%2Fgetquicker.net%2Fsharedaction%3Fcode%3Da2981c48-f998-426c-9e9b-08d8ced0fc3a&sharesource=qzone&title=%23Quicker%E5%8A%A8%E4%BD%9C%23%E5%BE%AE%E4%BF%A1%E8%AF%BB%E4%B9%A6&pics=https%3A%2F%2Ffiles.getquicker.net%2F_actionDemos%2Fa2981c48-f998-426c-9e9b-08d8ced0fc3a%2F%25E6%25BC%2594%25E7%25A4%25BA%25E5%258A%25A8%25E7%2594%25BB.gif&summary=%E5%8F%A6%E7%B1%BB%E7%88%AC%E5%8F%96%E5%BE%AE%E4%BF%A1%E8%AF%BB%E4%B9%A6%E6%AD%A3%E7%89%88%E5%9B%BE%E4%B9%A6
+          - separator [ref=f40e183]
+          - button " 举报恶意/危险动作" [ref=f40e186] [cursor=pointer]:
+            - generic [ref=f40e187]: 
+            - text: 举报恶意/危险动作
+        - generic [ref=f40e189]:
+          - link [ref=f40e192] [cursor=pointer]:
+            - /url: https://files.getquicker.net/_actionDemos/a2981c48-f998-426c-9e9b-08d8ced0fc3a/%E6%BC%94%E7%A4%BA%E5%8A%A8%E7%94%BB.gif
+          - generic "动作说明" [ref=f40e194]: 「另类爬取微信读书正版图书」
+          - generic [ref=f40e195]:
+            - heading "简介" [level=4] [ref=f40e197]
+            - paragraph [ref=f40e198]: 通过浏览器开发人员工具，模拟电子设备截屏
+            - generic [ref=f40e199]:
+              - paragraph [ref=f40e200]:
+                - text: 动作代码公开，所有代码均为中文，外部调用了个人动作：
+                - link "Webp压缩" [ref=f40e201] [cursor=pointer]:
+                  - /url: https://getquicker.net/Sharedaction?code=9b2f8e96-ca3c-4e52-6dc9-08d8d255ea15&fromMyShare=true
+                - text: 压缩率最高的格式。
+              - paragraph [ref=f40e202]: 也可以在程序里面禁用，最后自行统一切片及压缩。
+              - paragraph [ref=f40e203]: 缩放与布局自动适应
+              - paragraph [ref=f40e204]
+              - paragraph [ref=f40e205]
+              - paragraph [ref=f40e206]: 运行动作需要前置工作如下：
+              - paragraph [ref=f40e207]: 1）先打开微信读书网站，并用微信扫码登录
+              - paragraph [ref=f40e208]: 2） 浏览器前台窗口最大化，再打开开发人员工具（ F12按键 或 Ctrl+Shift+I ）
+              - paragraph [ref=f40e209]
+              - paragraph [ref=f40e211]: 3）控制台可以切换模拟设备，使截图更适合你自己的设备，也可以自行添加设备，建议添加设备如下：
+              - paragraph [ref=f40e212]: 指定电子设备的显示高宽像素值，宽度值高度值建议如下。
+              - paragraph [ref=f40e213]
+              - paragraph [ref=f40e215]: 可以切换设备仿真 Ctrl+Shift+M
+              - paragraph [ref=f40e216]
+              - paragraph [ref=f40e218]
+              - paragraph [ref=f40e219]: 生成的文件可以继续调用别的动作进行后续修改。
+              - paragraph [ref=f40e220]
+              - paragraph [ref=f40e221]: 如图片OCR（百度或者腾讯的高精度接口效果不错）。或者长图切割，在手机里面用漫画软件看书效果也很好。
+              - paragraph [ref=f40e222]: 主要是墨水屏设备离线阅读需求，只在WIFI下阅读及流量无限的可以忽略。
+              - paragraph [ref=f40e223]
+              - paragraph [ref=f40e224]:
+                - text: 并且
+                - link "Cesaryuan" [ref=f40e225] [cursor=pointer]:
+                  - /url: https://getquicker.net/User/18359/Cesaryuan
+                - text: 大神还专门制作了
+                - link "长图切割" [ref=f40e226] [cursor=pointer]:
+                  - /url: https://getquicker.net/Sharedaction?code=6f433b12-c7bd-426d-2dff-08d8d08b61e4
+                - text: 动作，在这里感谢并致敬。新版本在大神的启发下增加了切片操作，更多的使用quicker的模块定义。
+          - generic [ref=f40e227]:
+            - heading "最近更新" [level=4] [ref=f40e228]
+            - table [ref=f40e229]:
+              - rowgroup [ref=f40e230]:
+                - row [ref=f40e231]:
+                  - columnheader "修订版本" [ref=f40e232]
+                  - columnheader "更新时间" [ref=f40e233]
+                  - columnheader "制品" [ref=f40e234]
+                  - columnheader "审核状态" [ref=f40e235]
+                  - columnheader "更新说明" [ref=f40e236]
+                - row [ref=f40e237]:
+                  - cell "8" [ref=f40e238]
+                  - cell "2021-03-05 09:46" [ref=f40e239]
+                  - cell "V1" [ref=f40e240]:
+                    - generic "包含兼容 Quicker 1.x 的制品" [ref=f40e241]: V1
+                  - cell "当前 V1 版本" [ref=f40e242]
+                  - cell "1.优化网页翻页逻辑，截图窗口可以设置为您电子设备的默认长宽比，更适合您的设备网站显示模式。 2.提供压缩格式选择，可选Jpg或Webp或不压缩，压缩后默认删除原图。 3.适当增加容错试配时间。 4.把截图时间参数设置的很大，可以用于屏保时挂机刷微信读书阅读时长。" [ref=f40e244]: 1.优化网页翻页逻辑，截图窗口可以设置为您电子设备的默认长宽比，更适合您的设备网站显示模式。2.提供压缩格式选择，可选Jpg或Webp或不压缩，压缩后默认删除原图。3.适当增加容错试配时间。4.把截图时间参数设置的很大，可以用于屏保时挂机刷微信读书阅读时长。
+                - row [ref=f40e245]:
+                  - cell "7" [ref=f40e246]
+                  - cell "2021-03-04 14:21" [ref=f40e247]
+                  - cell "V1" [ref=f40e248]:
+                    - generic "包含兼容 Quicker 1.x 的制品" [ref=f40e249]: V1
+                  - cell [ref=f40e250]
+                  - cell "1）优化逻辑，提高稳定率。 2）解决正则匹配错误 3）修改完成提示为文本窗口 4）适用性更强" [ref=f40e251]: 1）优化逻辑，提高稳定率。2）解决正则匹配错误3）修改完成提示为文本窗口4）适用性更强
+                - row [ref=f40e252]:
+                  - cell "6" [ref=f40e253]
+                  - cell "2021-02-23 13:59" [ref=f40e254]
+                  - cell "V1" [ref=f40e255]:
+                    - generic "包含兼容 Quicker 1.x 的制品" [ref=f40e256]: V1
+                  - cell [ref=f40e257]
+                  - cell "1、更新自动调整等待时间。 2、更新自动切片处理。 3、更新自动压缩至WEBP格式。 （备注：1、找图点击适合高分屏，200%字体大小显示，如找图失败，需自行调整找图图片； 2、控制台设备仿真建议宽度改为600像素，截图后图片横向宽度为1200像素）" [ref=f40e258]: 1、更新自动调整等待时间。2、更新自动切片处理。3、更新自动压缩至WEBP格式。（备注：1、找图点击适合高分屏，200%字体大小显示，如找图失败，需自行调整找图图片； 2、控制台设备仿真建议宽度改为600像素，截图后图片横向宽度为1200像素）
+            - link "更多..." [ref=f40e260] [cursor=pointer]:
+              - /url: /Share/Actions/Versions?code=a2981c48-f998-426c-9e9b-08d8ced0fc3a
+          - generic [ref=f40e261]:
+            - heading "最近讨论" [level=4] [ref=f40e262]
+            - generic [ref=f40e264]:
+              - generic [ref=f40e265]:
+                - generic [ref=f40e266]: 
+                - generic [ref=f40e268]:
+                  - generic [ref=f40e270]:
+                    - link "出现浏览器错误" [ref=f40e272] [cursor=pointer]:
+                      - /url: /Common/Topics/ViewTopic/13906
+                    - link "1" [ref=f40e274] [cursor=pointer]:
+                      - /url: /Common/Topics/ViewTopic/13906
+                  - generic [ref=f40e276]:
+                    - generic [ref=f40e277]:
+                      - text: BUG反馈 ·
+                      - generic "浏览次数" [ref=f40e278]:
+                        - generic [ref=f40e279]: 
+                        - text: "1014"
+                    - generic [ref=f40e280]:
+                      - generic [ref=f40e281]:
+                        - link "用户2707141215..." [ref=f40e282] [cursor=pointer]:
+                          - /url: /User/252659/%E7%94%A8%E6%88%B7270714121515704
+                        - text: 2022-10-13 09:09
+                      - generic "最后回答或评论" [ref=f40e283]:
+                        - generic [ref=f40e284]: 
+                        - link "紫cm煞" [ref=f40e286] [cursor=pointer]:
+                          - /url: /User/168537/%E7%B4%ABcm%E7%85%9E
+                        - text: 2022-10-13 09:23
+              - generic [ref=f40e287]:
+                - generic [ref=f40e288]: 
+                - generic [ref=f40e290]:
+                  - generic [ref=f40e292]:
+                    - link "网页动态加载问题" [ref=f40e294] [cursor=pointer]:
+                      - /url: /Common/Topics/ViewTopic/11242
+                    - link "1" [ref=f40e296] [cursor=pointer]:
+                      - /url: /Common/Topics/ViewTopic/11242
+                  - generic [ref=f40e298]:
+                    - generic [ref=f40e299]:
+                      - text: 使用问题 ·
+                      - generic "浏览次数" [ref=f40e300]:
+                        - generic [ref=f40e301]: 
+                        - text: "1236"
+                    - generic [ref=f40e302]:
+                      - generic [ref=f40e303]:
+                        - link "Cody" [ref=f40e304] [cursor=pointer]:
+                          - /url: /User/26760/Cody
+                        - text: 2022-05-20 00:05
+                      - generic "最后回答或评论" [ref=f40e305]:
+                        - generic [ref=f40e306]: 
+                        - link "紫cm煞" [ref=f40e308] [cursor=pointer]:
+                          - /url: /User/168537/%E7%B4%ABcm%E7%85%9E
+                        - text: 2022-05-20 07:18
+            - link "更多..." [ref=f40e310] [cursor=pointer]:
+              - /url: /Share/Actions/Topics?code=a2981c48-f998-426c-9e9b-08d8ced0fc3a
+  - generic [ref=f40e312]:
+    - generic [ref=f40e313]:
+      - generic [ref=f40e314]:
+        - term [ref=f40e315]: 产品
+        - definition [ref=f40e316]:
+          - link "主页" [ref=f40e317] [cursor=pointer]:
+            - /url: /
+        - definition [ref=f40e318]:
+          - link "下载" [ref=f40e319] [cursor=pointer]:
+            - /url: /Download
+        - definition [ref=f40e320]:
+          - link "专业版" [ref=f40e321] [cursor=pointer]:
+            - /url: /pricing
+      - generic [ref=f40e322]:
+        - term [ref=f40e323]: 文档
+        - definition [ref=f40e324]:
+          - link "使用文档" [ref=f40e325] [cursor=pointer]:
+            - /url: /KC/Manual
+        - definition [ref=f40e326]:
+          - link "组合动作开发" [ref=f40e327] [cursor=pointer]:
+            - /url: /KC/Help
+        - definition [ref=f40e328]:
+          - link "知识库" [ref=f40e329] [cursor=pointer]:
+            - /url: /KC/Kb
+        - definition [ref=f40e330]:
+          - link "版本历史" [ref=f40e331] [cursor=pointer]:
+            - /url: /KC/Versions
+        - definition [ref=f40e332]:
+          - link "瓜皮学堂 " [ref=f40e333] [cursor=pointer]:
+            - /url: https://www.yuque.com/gpzy/quicker
+            - text: 瓜皮学堂
+            - generic [ref=f40e334]: 
+      - generic [ref=f40e335]:
+        - term [ref=f40e336]: 分享
+        - definition [ref=f40e337]:
+          - link "动作库" [ref=f40e338] [cursor=pointer]:
+            - /url: /Share
+        - definition [ref=f40e339]:
+          - link "子程序" [ref=f40e340] [cursor=pointer]:
+            - /url: /Share/SubPrograms
+        - definition [ref=f40e341]:
+          - link "外观" [ref=f40e342] [cursor=pointer]:
+            - /url: /Skins
+      - generic [ref=f40e343]:
+        - term [ref=f40e344]: 交流
+        - definition [ref=f40e345]:
+          - link "问答讨论区" [ref=f40e346] [cursor=pointer]:
+            - /url: /QA
+        - definition [ref=f40e347]:
+          - link "Github Issues" [ref=f40e348] [cursor=pointer]:
+            - /url: https://github.com/cuiliang/quicker/issues
+        - definition [ref=f40e349]:
+          - link " QQ群" [ref=f40e350] [cursor=pointer]:
+            - /url: https://getquicker.net/KC/Kb/Article/904
+            - generic [ref=f40e351]: 
+            - text: QQ群
+        - definition
+      - generic [ref=f40e352]:
+        - term [ref=f40e353]: 关注
+        - definition [ref=f40e354]:
+          - link " CL的微博" [ref=f40e355] [cursor=pointer]:
+            - /url: https://weibo.com/cuiliang123
+            - generic [ref=f40e356]: 
+            - text: CL的微博
+        - definition [ref=f40e357]:
+          - link "微信订阅号" [ref=f40e358] [cursor=pointer]:
+            - /url: /assets/quicker/WeiXin2022.jpg
+          - img "微信订阅号" [ref=f40e359]
+      - generic [ref=f40e360]:
+        - term [ref=f40e361]: 条款
+        - definition [ref=f40e362]:
+          - link "隐私政策" [ref=f40e363] [cursor=pointer]:
+            - /url: /Privacy
+        - definition [ref=f40e364]:
+          - generic [ref=f40e365] [cursor=pointer]:
+            - generic [ref=f40e366]: 
+            - text: 报告不良信息
+    - generic [ref=f40e368]:
+      - text: Copyright © 北京立迩合讯科技有限公司 •
+      - link "京ICP备09022189号-8" [ref=f40e369] [cursor=pointer]:
+        - /url: https://beian.miit.gov.cn
+      - text: •
+      - link "京公网安备 11010502053266号" [ref=f40e370] [cursor=pointer]:
+        - /url: http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010502053266
+      - generic [ref=f40e373]:
+        - button " 自动" [ref=f40e374] [cursor=pointer]:
+          - generic [ref=f40e375]: 
+          - generic [ref=f40e376]: 自动
+        - text:    ✓

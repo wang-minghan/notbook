@@ -1,0 +1,119 @@
+[     610ms] [LOG] [jsBridge Debug]:  jsBridge no type bindReady BaseAdapter @ https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:0
+[     754ms] [LOG] JSBridge is running in web mode @ https://cdn.weread.qq.com/web/winktemplaterendersvr/_next/static/chunks/pages/_app-2bf0f2eef054d3af.js:13
+[     754ms] [LOG] JSBridge is ready @ https://cdn.weread.qq.com/web/winktemplaterendersvr/_next/static/chunks/pages/_app-2bf0f2eef054d3af.js:13
+[     754ms] [LOG] addEventListener: OnPageExpose @ https://cdn.weread.qq.com/web/winktemplaterendersvr/_next/static/chunks/pages/_app-2bf0f2eef054d3af.js:13
+[     754ms] [LOG] addEventListener: KeyboardDidShow @ https://cdn.weread.qq.com/web/winktemplaterendersvr/_next/static/chunks/pages/_app-2bf0f2eef054d3af.js:13
+[     754ms] [LOG] addEventListener: KeyboardDidHide @ https://cdn.weread.qq.com/web/winktemplaterendersvr/_next/static/chunks/pages/_app-2bf0f2eef054d3af.js:13
+[     754ms] [LOG] addEventListener: KeyboardDidShow @ https://cdn.weread.qq.com/web/winktemplaterendersvr/_next/static/chunks/pages/_app-2bf0f2eef054d3af.js:13
+[     754ms] [LOG] addEventListener: KeyboardDidHide @ https://cdn.weread.qq.com/web/winktemplaterendersvr/_next/static/chunks/pages/_app-2bf0f2eef054d3af.js:13
+[     754ms] [LOG] addEventListener: OnPageExpose @ https://cdn.weread.qq.com/web/winktemplaterendersvr/_next/static/chunks/pages/_app-2bf0f2eef054d3af.js:13
+[     754ms] [LOG] addEventListener: InitAskChannel @ https://cdn.weread.qq.com/web/winktemplaterendersvr/_next/static/chunks/pages/_app-2bf0f2eef054d3af.js:13
+[     754ms] [LOG] addEventListener: ChapterDidChange @ https://cdn.weread.qq.com/web/winktemplaterendersvr/_next/static/chunks/pages/_app-2bf0f2eef054d3af.js:13
+[     755ms] [LOG] addEventListener: InitAskChannel @ https://cdn.weread.qq.com/web/winktemplaterendersvr/_next/static/chunks/pages/_app-2bf0f2eef054d3af.js:13
+[     755ms] [LOG] addEventListener: OnPageExpose @ https://cdn.weread.qq.com/web/winktemplaterendersvr/_next/static/chunks/pages/_app-2bf0f2eef054d3af.js:13
+[     755ms] [LOG] addEventListener: OnExitPanel @ https://cdn.weread.qq.com/web/winktemplaterendersvr/_next/static/chunks/pages/_app-2bf0f2eef054d3af.js:13
+[     755ms] [LOG] addEventListener: OnPageExpose @ https://cdn.weread.qq.com/web/winktemplaterendersvr/_next/static/chunks/pages/_app-2bf0f2eef054d3af.js:13
+[     755ms] [LOG] addEventListener: KeyboardDidShow @ https://cdn.weread.qq.com/web/winktemplaterendersvr/_next/static/chunks/pages/_app-2bf0f2eef054d3af.js:13
+[     755ms] [LOG] addEventListener: KeyboardDidHide @ https://cdn.weread.qq.com/web/winktemplaterendersvr/_next/static/chunks/pages/_app-2bf0f2eef054d3af.js:13
+[     755ms] [LOG] addEventListener: InitAskChannel @ https://cdn.weread.qq.com/web/winktemplaterendersvr/_next/static/chunks/pages/_app-2bf0f2eef054d3af.js:13
+[     755ms] [LOG] addEventListener: OnPageExpose @ https://cdn.weread.qq.com/web/winktemplaterendersvr/_next/static/chunks/pages/_app-2bf0f2eef054d3af.js:13
+[     755ms] [LOG] addEventListener: InitPluginContent @ https://cdn.weread.qq.com/web/winktemplaterendersvr/_next/static/chunks/pages/_app-2bf0f2eef054d3af.js:13
+[     755ms] [LOG] addEventListener: AppendAskQuery @ https://cdn.weread.qq.com/web/winktemplaterendersvr/_next/static/chunks/pages/_app-2bf0f2eef054d3af.js:13
+[     755ms] [LOG] addEventListener: AbortAskAI @ https://cdn.weread.qq.com/web/winktemplaterendersvr/_next/static/chunks/pages/_app-2bf0f2eef054d3af.js:13
+[     755ms] [LOG] addEventListener: OnPageExpose @ https://cdn.weread.qq.com/web/winktemplaterendersvr/_next/static/chunks/pages/_app-2bf0f2eef054d3af.js:13
+[     755ms] [LOG] addEventListener: ScrollToBottom @ https://cdn.weread.qq.com/web/winktemplaterendersvr/_next/static/chunks/pages/_app-2bf0f2eef054d3af.js:13
+[     755ms] [LOG] MultiTurnStreamTemplate useEffect false false @ https://cdn.weread.qq.com/web/winktemplaterendersvr/_next/static/chunks/pages/_app-2bf0f2eef054d3af.js:13
+[     755ms] [LOG] addEventListener: KeyboardDidShow @ https://cdn.weread.qq.com/web/winktemplaterendersvr/_next/static/chunks/pages/_app-2bf0f2eef054d3af.js:13
+[     755ms] [LOG] addEventListener: KeyboardDidHide @ https://cdn.weread.qq.com/web/winktemplaterendersvr/_next/static/chunks/pages/_app-2bf0f2eef054d3af.js:13
+[     778ms] [LOG] [jsBridge Debug]:  callLib init @ https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:0
+[     893ms] [LOG] Hash module initialized successfully @ https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:0
+[     914ms] [LOG] Hash module initialized successfully @ https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:0
+[     915ms] [LOG] Hash module initialized successfully @ https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:0
+[     916ms] [LOG] Hash module initialized successfully @ https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:0
+[     916ms] [LOG] Hash module initialized successfully @ https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:0
+[     917ms] [LOG] Hash module initialized successfully @ https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:0
+[     917ms] [LOG] Hash module initialized successfully @ https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:0
+[     917ms] [LOG] Hash module initialized successfully @ https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:0
+[     918ms] [LOG] Hash module initialized successfully @ https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:0
+[     919ms] [LOG] Hash module initialized successfully @ https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:0
+[     924ms] [LOG] {version: 1.0.5, headless: Object, basic: Object, suspiciousAction: Array(0)} @ https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:0
+[     925ms] [LOG] {version: 1.0.5, headless: Object, basic: Object, suspiciousAction: Array(0)} @ https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:0
+[     925ms] [LOG] {version: 1.0.5, headless: Object, basic: Object, suspiciousAction: Array(0)} @ https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:0
+[     925ms] [LOG] {version: 1.0.5, headless: Object, basic: Object, suspiciousAction: Array(0)} @ https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:0
+[     925ms] [LOG] {version: 1.0.5, headless: Object, basic: Object, suspiciousAction: Array(0)} @ https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:0
+[     925ms] [LOG] {version: 1.0.5, headless: Object, basic: Object, suspiciousAction: Array(0)} @ https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:0
+[     925ms] [LOG] {version: 1.0.5, headless: Object, basic: Object, suspiciousAction: Array(0)} @ https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:0
+[     925ms] [LOG] {version: 1.0.5, headless: Object, basic: Object, suspiciousAction: Array(0)} @ https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:0
+[     925ms] [LOG] {version: 1.0.5, headless: Object, basic: Object, suspiciousAction: Array(0)} @ https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:0
+[     925ms] [LOG] {version: 1.0.5, headless: Object, basic: Object, suspiciousAction: Array(0)} @ https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:0
+[    1197ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://oss.weread.qq.com/hera/logkv?vid=221722242&key=78503344&value=1&itemName=Web_ReviewEditor_Expose&platform=Windows_desktop:0
+[    1197ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://oss.weread.qq.com/river/single:0
+[    1197ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://oss.weread.qq.com/river/single:0
+[    1197ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://oss.weread.qq.com/hera/logkv?vid=221722242&key=78502542&value=1&itemName=Web_Enter&platform=Windows_desktop:0
+[    1197ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://oss.weread.qq.com/hera/logkv?vid=221722242&key=78503344&value=1&itemName=Web_Reader_Enter&platform=Windows_desktop:0
+[    1197ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://oss.weread.qq.com/hera/logkv?vid=271294118&key=78502542&value=1&itemName=Web_GuestLoginEnterUV&platform=Windows_desktop:0
+[    1230ms] [LOG] JSBridge is running in web mode @ https://cdn.weread.qq.com/web/winktemplaterendersvr/_next/static/chunks/pages/_app-2bf0f2eef054d3af.js:13
+[    1230ms] [LOG] JSBridge is initialized @ https://cdn.weread.qq.com/web/winktemplaterendersvr/_next/static/chunks/pages/_app-2bf0f2eef054d3af.js:13
+[    1230ms] [LOG] JSBridge is ready @ https://cdn.weread.qq.com/web/winktemplaterendersvr/_next/static/chunks/pages/_app-2bf0f2eef054d3af.js:13
+[    1230ms] [LOG] addEventListener: OnPageExpose @ https://cdn.weread.qq.com/web/winktemplaterendersvr/_next/static/chunks/pages/_app-2bf0f2eef054d3af.js:13
+[    1230ms] [LOG] addEventListener: KeyboardDidShow @ https://cdn.weread.qq.com/web/winktemplaterendersvr/_next/static/chunks/pages/_app-2bf0f2eef054d3af.js:13
+[    1230ms] [LOG] addEventListener: KeyboardDidHide @ https://cdn.weread.qq.com/web/winktemplaterendersvr/_next/static/chunks/pages/_app-2bf0f2eef054d3af.js:13
+[    1230ms] [LOG] addEventListener: KeyboardDidShow @ https://cdn.weread.qq.com/web/winktemplaterendersvr/_next/static/chunks/pages/_app-2bf0f2eef054d3af.js:13
+[    1230ms] [LOG] addEventListener: KeyboardDidHide @ https://cdn.weread.qq.com/web/winktemplaterendersvr/_next/static/chunks/pages/_app-2bf0f2eef054d3af.js:13
+[    1230ms] [LOG] addEventListener: OnPageExpose @ https://cdn.weread.qq.com/web/winktemplaterendersvr/_next/static/chunks/pages/_app-2bf0f2eef054d3af.js:13
+[    1230ms] [LOG] addEventListener: InitAskChannel @ https://cdn.weread.qq.com/web/winktemplaterendersvr/_next/static/chunks/pages/_app-2bf0f2eef054d3af.js:13
+[    1230ms] [LOG] addEventListener: ChapterDidChange @ https://cdn.weread.qq.com/web/winktemplaterendersvr/_next/static/chunks/pages/_app-2bf0f2eef054d3af.js:13
+[    1231ms] [LOG] addEventListener: InitAskChannel @ https://cdn.weread.qq.com/web/winktemplaterendersvr/_next/static/chunks/pages/_app-2bf0f2eef054d3af.js:13
+[    1231ms] [LOG] addEventListener: OnPageExpose @ https://cdn.weread.qq.com/web/winktemplaterendersvr/_next/static/chunks/pages/_app-2bf0f2eef054d3af.js:13
+[    1231ms] [LOG] addEventListener: OnExitPanel @ https://cdn.weread.qq.com/web/winktemplaterendersvr/_next/static/chunks/pages/_app-2bf0f2eef054d3af.js:13
+[    1231ms] [LOG] addEventListener: OnPageExpose @ https://cdn.weread.qq.com/web/winktemplaterendersvr/_next/static/chunks/pages/_app-2bf0f2eef054d3af.js:13
+[    1231ms] [LOG] addEventListener: KeyboardDidShow @ https://cdn.weread.qq.com/web/winktemplaterendersvr/_next/static/chunks/pages/_app-2bf0f2eef054d3af.js:13
+[    1231ms] [LOG] addEventListener: KeyboardDidHide @ https://cdn.weread.qq.com/web/winktemplaterendersvr/_next/static/chunks/pages/_app-2bf0f2eef054d3af.js:13
+[    1231ms] [LOG] addEventListener: InitAskChannel @ https://cdn.weread.qq.com/web/winktemplaterendersvr/_next/static/chunks/pages/_app-2bf0f2eef054d3af.js:13
+[    1231ms] [LOG] addEventListener: OnPageExpose @ https://cdn.weread.qq.com/web/winktemplaterendersvr/_next/static/chunks/pages/_app-2bf0f2eef054d3af.js:13
+[    1231ms] [LOG] addEventListener: InitPluginContent @ https://cdn.weread.qq.com/web/winktemplaterendersvr/_next/static/chunks/pages/_app-2bf0f2eef054d3af.js:13
+[    1231ms] [LOG] addEventListener: AppendAskQuery @ https://cdn.weread.qq.com/web/winktemplaterendersvr/_next/static/chunks/pages/_app-2bf0f2eef054d3af.js:13
+[    1231ms] [LOG] addEventListener: AbortAskAI @ https://cdn.weread.qq.com/web/winktemplaterendersvr/_next/static/chunks/pages/_app-2bf0f2eef054d3af.js:13
+[    1231ms] [LOG] addEventListener: OnPageExpose @ https://cdn.weread.qq.com/web/winktemplaterendersvr/_next/static/chunks/pages/_app-2bf0f2eef054d3af.js:13
+[    1231ms] [LOG] addEventListener: ScrollToBottom @ https://cdn.weread.qq.com/web/winktemplaterendersvr/_next/static/chunks/pages/_app-2bf0f2eef054d3af.js:13
+[    1231ms] [LOG] MultiTurnStreamTemplate useEffect false false @ https://cdn.weread.qq.com/web/winktemplaterendersvr/_next/static/chunks/pages/_app-2bf0f2eef054d3af.js:13
+[    1231ms] [LOG] addEventListener: KeyboardDidShow @ https://cdn.weread.qq.com/web/winktemplaterendersvr/_next/static/chunks/pages/_app-2bf0f2eef054d3af.js:13
+[    1231ms] [LOG] addEventListener: KeyboardDidHide @ https://cdn.weread.qq.com/web/winktemplaterendersvr/_next/static/chunks/pages/_app-2bf0f2eef054d3af.js:13
+[    1254ms] [LOG] Hash module initialized successfully @ https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:0
+[    1256ms] [LOG] {version: 1.0.5, headless: Object, basic: Object, suspiciousAction: Array(0)} @ https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:0
+[    1285ms] [LOG] JSBridge is initialized @ https://cdn.weread.qq.com/web/winktemplaterendersvr/_next/static/chunks/pages/_app-2bf0f2eef054d3af.js:13
+[    1285ms] [LOG] JSBridge is ready @ https://cdn.weread.qq.com/web/winktemplaterendersvr/_next/static/chunks/pages/_app-2bf0f2eef054d3af.js:13
+[    1285ms] [LOG] appInfo updated {vid: 221722242, appversion: 1.0.0} @ https://cdn.weread.qq.com/web/winktemplaterendersvr/_next/static/chunks/pages/_app-2bf0f2eef054d3af.js:13
+[    1362ms] [LOG] Hash module initialized successfully @ https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:0
+[    1363ms] [LOG] {version: 1.0.5, headless: Object, basic: Object, suspiciousAction: Array(0)} @ https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:0
+[    1463ms] [LOG] Hash module initialized successfully @ https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:0
+[    1464ms] [LOG] {version: 1.0.5, headless: Object, basic: Object, suspiciousAction: Array(0)} @ https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:0
+[    1951ms] [LOG] Hash module initialized successfully @ https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:0
+[    1951ms] [LOG] Hash module initialized successfully @ https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:0
+[    1951ms] [LOG] Hash module initialized successfully @ https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:0
+[    1951ms] [LOG] Hash module initialized successfully @ https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:0
+[    1952ms] [LOG] {version: 1.0.5, headless: Object, basic: Object, suspiciousAction: Array(0)} @ https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:0
+[    1953ms] [LOG] {version: 1.0.5, headless: Object, basic: Object, suspiciousAction: Array(0)} @ https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:0
+[    1953ms] [LOG] {version: 1.0.5, headless: Object, basic: Object, suspiciousAction: Array(0)} @ https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:0
+[    1953ms] [LOG] {version: 1.0.5, headless: Object, basic: Object, suspiciousAction: Array(0)} @ https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:0
+[    2331ms] [LOG] Hash module initialized successfully @ https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:0
+[    2332ms] [LOG] {version: 1.0.5, headless: Object, basic: Object, suspiciousAction: Array(0)} @ https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:0
+[    4374ms] [WARNING] The resource https://cdn.weread.qq.com/web/winktemplaterendersvr/_next/static/media/KaTeX_Main-Italic.8916142b.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://weread.qq.com/winktemplate/multi-turn:0
+[    4374ms] [WARNING] The resource https://cdn.weread.qq.com/web/winktemplaterendersvr/_next/static/media/KaTeX_SansSerif-Regular.ba21ed5f.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://weread.qq.com/winktemplate/multi-turn:0
+[    4374ms] [WARNING] The resource data:font/opentype;charset=utf-8;base64,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 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://weread.qq.com/winktemplate/multi-turn:0
+[   32341ms] [LOG] Hash module initialized successfully @ https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:0
+[   32342ms] [LOG] {version: 1.0.5, headless: Object, basic: Object, suspiciousAction: Array(0)} @ https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:0
+[   62427ms] [LOG] Hash module initialized successfully @ https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:0
+[   62428ms] [LOG] {version: 1.0.5, headless: Object, basic: Object, suspiciousAction: Array(0)} @ https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:0
+[   92514ms] [LOG] Hash module initialized successfully @ https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:0
+[   92514ms] [LOG] {version: 1.0.5, headless: Object, basic: Object, suspiciousAction: Array(0)} @ https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:0
+[  122586ms] [LOG] Hash module initialized successfully @ https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:0
+[  122586ms] [LOG] {version: 1.0.5, headless: Object, basic: Object, suspiciousAction: Array(0)} @ https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:0
+[ 1138305ms] [LOG] Hash module initialized successfully @ https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:0
+[ 1138305ms] [LOG] {version: 1.0.5, headless: Object, basic: Object, suspiciousAction: Array(0)} @ https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:0
+[ 1138519ms] [LOG] Hash module initialized successfully @ https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:0
+[ 1138520ms] [LOG] Hash module initialized successfully @ https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:0
+[ 1138521ms] [LOG] {version: 1.0.5, headless: Object, basic: Object, suspiciousAction: Array(0)} @ https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:0
+[ 1138521ms] [LOG] {version: 1.0.5, headless: Object, basic: Object, suspiciousAction: Array(0)} @ https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:0
+[ 1168312ms] [LOG] Hash module initialized successfully @ https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:0
+[ 1168313ms] [LOG] {version: 1.0.5, headless: Object, basic: Object, suspiciousAction: Array(0)} @ https://cdn.weread.qq.com/web/wrwebnjlogic/js/app.d51b45eb.js:0
